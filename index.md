@@ -2,6 +2,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 
 <details>
   <summary markdown='span'>Foo</summary>
+  
      <div class="tip" markdown="1">## Foo
       [foo](#)<br>
      <\div>
