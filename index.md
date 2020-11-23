@@ -4,9 +4,14 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   <summary markdown='span'>Foo</summary>
      <div class="tip" markdown="1">## Foo
       [foo](#)<br>
+     <\div>
       
 </details>
 
-<details><summary>Bar</summary>
+<details>
+  <summary>Bar</summary>
+  
+  ##Bar
+  [Bar](#)<br>
 
 </details>
