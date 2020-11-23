@@ -1,6 +1,6 @@
 This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to view articles. Thanks for stopping by.
 
-<details><summary markdown='span'>Linux
+<details><summary markdown='span'>Linux</summary>
   
   <div class="tip" markdown="1">## General
   [Baby chaos monkeys for Linux](#)<br>
@@ -29,21 +29,14 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   <div class="tip" markdown="1">## Network
   [How to monitor TCP/IP](#)<br>
   [How to monitor UDP](#)<br>
-  
-</summary>
-</details>
 
 <details><summary markdown='span'>Microservices</summary>
   
   <div class="tip" markdown="1">## Kubernetes
-  [How to monitor kubernetes with prometheus](#)<br></div>
+  [How to monitor kubernetes with prometheus](#)<br>
 
-</details>
  
-<details>
-  <summary markdown='span'>Misc</summary>
+<details><summary markdown='span'>Misc</summary>
   
   <div class="tip" markdown="1">## Computers
-  [How to set up a Lenovo T470s to dual boot](#)<br></div>
-
-</details>
+  [How to set up a Lenovo T470s to dual boot](#)<br>
