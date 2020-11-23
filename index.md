@@ -1,9 +1,10 @@
 This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to view articles. Thanks for stopping by.
 
-<details>
-  <summary>Foo</summary>
+<details><summary>Foo</summary>
   
-  <div class="tip" markdown="1">##Bar [foo](#)</div>
+  ##Bar
+  foo
+  
 </details>
 
 <details>
