@@ -11,6 +11,14 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 </details>
 
 <details>
+  <summary>Bar</summary>
+  
+  ##Foo
+  bar
+</details>
+
+
+<details>
   <summary markdown='span'>Linux</summary>
     <div class="tip" markdown="1">
       ## General
