@@ -6,10 +6,10 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   
 </details>
 
-<details>
-  <summary>Bar</summary>
-  
-  ##Bar
-  [Bar](#)<br>
+<details><summary markdown='span'>Microservices</summary>
+
+</details>
+
+<details><summary markdown='span'>Misc</summary>
 
 </details>
