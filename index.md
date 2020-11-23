@@ -3,7 +3,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 <details>
   <summary>Foo</summary>
   
-  <div class="tip" markdown="1"##Bar [foo](#)</div>
+  <div class="tip" markdown="1">##Bar [foo](#)</div>
 </details>
 
 <details>
