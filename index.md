@@ -3,12 +3,15 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 <details>
   <summary markdown='span'>foo</summary>
    <div class="tip" markdown="1">
+     
      ## Bar
      [foo]
+     
   </div>
 </details>
 
-<details><summary markdown='span'>Linux</summary>
+<details>
+  <summary markdown='span'>Linux</summary>
   <div class="tip" markdown="1">## General
   [Baby chaos monkeys for Linux](#)<br>
   
@@ -38,7 +41,8 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   [How to monitor UDP](#)
 </details>  
 
-<details><summary markdown='span'>Microservices</summary>
+<details>
+  <summary markdown='span'>Microservices</summary>
   <div class="tip" markdown="1">## Kubernetes
   [How to monitor kubernetes with prometheus](#)
 </details>
