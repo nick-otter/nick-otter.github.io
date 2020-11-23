@@ -2,7 +2,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 
 <details><summary markdown='span'>Linux</summary>
   
-  ## General
+  <div class="tip" markdown="1">## General
   [Baby chaos monkeys for Linux](#)<br>
   
   ## Boot
@@ -28,7 +28,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   
   ## Network
   [How to monitor TCP/IP](#)<br>
-  [How to monitor UDP](#)<br>
+  [How to monitor UDP](#)<br></div>
   
 </details>  
 
