@@ -27,15 +27,15 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   
   <div class="tip" markdown="1">## Network
   [How to monitor TCP/IP](#)<br>
-  [How to monitor UDP](#)<br>
+  [How to monitor UDP](#)
 </details>  
 
 <details><summary markdown='span'>Microservices</summary>
   <div class="tip" markdown="1">## Kubernetes
-  [How to monitor kubernetes with prometheus](#)<br>
+  [How to monitor kubernetes with prometheus](#)
 </details>
 
- <details><summary markdown='span'>Misc</summary> 
+<details><summary markdown='span'>Misc</summary> 
   <div class="tip" markdown="1">## Computers
-  [How to set up a Lenovo T470s to dual boot](#)<br>
+  [How to set up a Lenovo T470s to dual boot](#)
 </details>
