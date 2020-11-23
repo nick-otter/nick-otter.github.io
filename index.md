@@ -2,18 +2,18 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 
 <details>
   <summary markdown='span'>foo</summary>
-   <div class="tip" markdown="1">
-     
+   <div class="tip" markdown="1">  
      ## Bar
-     [foo]
-     
+     [foo]  
   </div>
 </details>
 
 <details>
   <summary markdown='span'>Linux</summary>
-  <div class="tip" markdown="1">## General
-  [Baby chaos monkeys for Linux](#)<br>
+    <div class="tip" markdown="1">
+      ## General
+      [Baby chaos monkeys for Linux](#)<br>
+    <\div>
   
   <div class="tip" markdown="1">## Boot
   [How to debug an emergency boot](https://github.com/nick-otter/site/blob/master/linux/kernel/how%20to%20debug%20an%20emergency%20boot.md)<br>
@@ -56,6 +56,5 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
    <div class="tip" markdown="1">
       ## Computers
       [How to set up a Lenovo T470s to dual boot](#)
-  
    </div>
 </details>
