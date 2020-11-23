@@ -1,22 +1,10 @@
 This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to view articles. Thanks for stopping by.
 
 <details>
-  <summary markdown='span'>
-    foo
-  </summary>
-    <div class="tip" markdown="1">  
-       ## Bar
-       [foo]  
-    </div>
-</details>
-
-<details>
-  <summary>Bar</summary>
+  <summary>Foo</summary>
   
-  ##Foo
-  bar
+  <div class="tip" markdown="1"##Bar [foo](#)</div>
 </details>
-
 
 <details>
   <summary markdown='span'>Linux</summary>
