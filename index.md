@@ -35,7 +35,10 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   [How to monitor kubernetes with prometheus](#)
 </details>
 
-<details><summary markdown='span'>Misc</summary> 
-  <div class="tip" markdown="1">## Computers
+<details>
+  <summary markdown='span'>Misc</summary> 
+<div class="tip" markdown="1">
+  ## Computers
   [How to set up a Lenovo T470s to dual boot](#)
+</div>
 </details>
