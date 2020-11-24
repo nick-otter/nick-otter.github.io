@@ -1,6 +1,4 @@
 name: Nick Otter 
 title: null
-markdown: kramdown
-kramdown:	
-  parse_block_html: true
+markdown: CommonMarkGhPages
 permalink: pretty
