@@ -9,13 +9,13 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 <details><summary markdown='span'>Microservices<br></summary>
 ## Kubernetes
 
-<ul>
-  {% for post in site.categories.kubernetes %}
-    {% if post.url %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a><li>
-    {% endif %}
-  {% endfor %}
-</ul>
+  <ul>
+    {% for post in site.categories.kubernetes %}
+      {% if post.url %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a><li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </details>
 
 <details><summary markdown='span'>Misc</summary>
