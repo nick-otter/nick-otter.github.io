@@ -1,5 +1,14 @@
 This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to view articles. Thanks for stopping by.
 
+Reveal site paths
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 <details><summary markdown='span'>Linux<br></summary>
 ## General
 [Baby chaos monkeys for Linux](#)<br>
