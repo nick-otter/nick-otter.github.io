@@ -16,6 +16,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
         <a href="{{ post.url }}">{{ post.title }}</a>
       {% endif %}
     {% endfor %}
+
 </p></details>
 
 <details><summary markdown='span'>Misc</summary>
