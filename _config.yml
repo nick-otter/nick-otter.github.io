@@ -1,4 +1,6 @@
 name: Nick Otter 
 title: null
-markdown: CommonMarkGhPages
+markdown: kramdown
+kramdown:
+   html_to_native:  true
 permalink: pretty
