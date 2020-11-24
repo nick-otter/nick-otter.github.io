@@ -10,7 +10,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 ## Kubernetes
 
 <ul>
-  {% for post in site.categories.kuberenetes %}
+  {% for post in site.categories.kubernetes %}
     {% if post.url %}
       <li><a href="{{ post.url }}">{{ post.title }}</a><li>
     {% endif %}
