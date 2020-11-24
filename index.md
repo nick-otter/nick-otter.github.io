@@ -2,10 +2,10 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 
 Reveal site paths
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+  {% for post in site.categories.kuberenetes %}
+    {% if post.url %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a><li>
+    {% endif %}
   {% endfor %}
 </ul>
 
