@@ -4,7 +4,7 @@ title:  "How to monitor Kubernetes with Prometheus"
 categories: microservices kubernetes
 ---
 
-# How to monitor Kubernetes with Prometheus
+<center> # How to monitor Kubernetes with Prometheus </center>
 
 | Updated |`11/2020`|
 | Kubernetes | `1.19.2`|
