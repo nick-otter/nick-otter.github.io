@@ -1,14 +1,5 @@
 This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to view articles. Thanks for stopping by.
 
-Reveal site paths
-<ul>
-  {% for post in site.categories.kuberenetes %}
-    {% if post.url %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a><li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
 <details><summary markdown='span'>Linux<br></summary>
 ## General
 [Baby chaos monkeys for Linux](#)<br>
@@ -16,6 +7,14 @@ Reveal site paths
 </details>
 
 <details><summary markdown='span'>Microservices<br></summary>
+## Kubernetes
+<ul>
+  {% for post in site.categories.kuberenetes %}
+    {% if post.url %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a><li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 </details>
 
