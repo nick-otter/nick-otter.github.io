@@ -6,11 +6,14 @@ https://github.com/dear-github/dear-github/issues/166
 
 <details open><summary>Microservices</summary><p>
 ## Kubernetes
+    
+   <ul style="list-style-type:none">
     {% for post in site.categories.kubernetes %}
       {% if post.url %}
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
+   </ul>
 
 </p></details>
 
