@@ -16,7 +16,6 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
     {% endif %}
   {% endfor %}
 </ul>
-
 </details>
 
 <details><summary markdown='span'>Misc</summary>
