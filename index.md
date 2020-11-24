@@ -6,7 +6,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   
 </details>
 
-<details open><summary markdown='span'>Microservices<br></summary>
+<details open><summary markdown='span'>Microservices<br></summary><p>
 ## Kubernetes
 
   <ul style="list-style-type:none;">
@@ -17,7 +17,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
     {% endfor %}
   </ul>
 
-</details>
+</p></details>
 
 <details><summary markdown='span'>Misc</summary>
 
