@@ -6,7 +6,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
   
 </details>
 
-<details open><summary markdown='span'>Microservices<br></summary><p>
+<details open><summary>Microservices</summary><p>
 
 ## Kubernetes
 
