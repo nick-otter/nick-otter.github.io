@@ -9,7 +9,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 <details><summary markdown='span'>Microservices<br></summary>
 ## Kubernetes
 
-  <ul>
+  <ul style="list-style-type:none;">
     {% for post in site.categories.kubernetes %}
       {% if post.url %}
         <li><a href="{{ post.url }}">{{ post.title }}</a><li>
