@@ -17,6 +17,8 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
     {% endfor %}
   </ul>
 
+</details>
+
 <details><summary markdown='span'>Misc</summary>
 
 </details>
