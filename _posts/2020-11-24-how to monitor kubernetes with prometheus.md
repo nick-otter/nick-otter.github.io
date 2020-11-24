@@ -5,11 +5,12 @@ categories: microservices kubernetes
 ---
 
 # How to monitor Kubernetes with Prometheus
-# Updated: `11/2020`<br>
-# Kubernetes: `1.19.2`<br>
-# Minikube: `1.13.1`<br>
-# Helm: `3.4.0`<br>
-# Prometheus: `kube-prometheus-stack-12.2.0`<br>
+
+| Updated |`11/2020`|
+| Kubernetes | `1.19.2`|
+| Minikube | `1.13.1`|
+| Helm | `3.4.0` |
+| Prometheus | `kube-prometheus-stack-12.2.0`|
 
 ---
 
