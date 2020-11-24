@@ -12,7 +12,7 @@ This is a DevOps blog by Nick Otter. Click each header to trigger a dropdown to 
 
     {% for post in site.categories.kubernetes %}
       {% if post.url %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a><li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
       {% endif %}
     {% endfor %}
 
