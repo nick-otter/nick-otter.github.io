@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "How to monitor Kubernetes with Prometheus"
+categories: microservices kubernetes
+---
+
 # How to monitor Kubernetes with Prometheus
 # Updated: `11/2020`<br>
 # Kubernetes: `1.19.2`<br>
