@@ -29,6 +29,16 @@ title:  "How to monitor Kubernetes with Prometheus"
 categories: microservices kubernetes
 ---
 ```
+# Categories
+
+Categories are organised <primary> <secondary> and so on. 
+  
+So
+```yaml
+categories: microservices kubernetes
+```
+Primary is `microservices` and the secondary category is `kuberenetes`.
+
 ---
 
 Thanks.
