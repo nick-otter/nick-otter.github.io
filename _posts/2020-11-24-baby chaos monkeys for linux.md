@@ -9,19 +9,19 @@ categories: linux general
 
 # Contents
 
-- ## [**Introduction**](#introduction)<br>
-- ## [**Requirements**](#requirements)<br>
-- ## [**Kernel**](#kernel)<br>
-   - ## &nbsp;&nbsp;[How to cause a kernel panic](#how-to-cause-a-kernel-panic)<br>
-- ## [**Memory**](#memory)<br>
-   - ## &nbsp;&nbsp;[How to cause a segfault](#how-to-cause-a-segfault)<br>
-- ## [**CPU**](#cpu)<br>
-   - ## &nbsp;&nbsp;[How to max out CPU as quickly as possible](#how-to-max-out-cpu-as-quickly-as-possible)<br>
-- ## [**Network**](#network)<br>
-   - ## &nbsp;&nbsp;[How to send an incorrect TCP checksum](#how-to-send-an-incorrect-TCP-checksum)<br>
-- ## [**File System**](#filesystem)<br>
-   - ## &nbsp;&nbsp;[How to corrupt a filesystem](#how-to-corrupt-a-filesystem)<br>
-   - ## &nbsp;&nbsp;[How to orphan an inode](#how-to-orphan-some-inodes)<br>
+- [**Introduction**](#introduction)<br>
+- [**Requirements**](#requirements)<br>
+- [**Kernel**](#kernel)<br>
+   - [How to cause a kernel panic](#how-to-cause-a-kernel-panic)<br>
+- [**Memory**](#memory)<br>
+   - [How to cause a segfault](#how-to-cause-a-segfault)<br>
+- [**CPU**](#cpu)<br>
+   - [How to max out CPU as quickly as possible](#how-to-max-out-cpu-as-quickly-as-possible)<br>
+- [**Network**](#network)<br>
+   - [How to send an incorrect TCP checksum](#how-to-send-an-incorrect-TCP-checksum)<br>
+- [**File System**](#filesystem)<br>
+   - [How to corrupt a filesystem](#how-to-corrupt-a-filesystem)<br>
+   - [How to orphan an inode](#how-to-orphan-some-inodes)<br>
 
 # Introduction
 
