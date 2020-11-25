@@ -10,6 +10,10 @@ To run locally, use.
 $ jekyll serve
 ```
 
+# Files
+
+* `_posts` live posts with header format `YYYY-MM-DD-title`.
+* `_config.yml` jekyll config file.
 ---
 
 Thanks.
