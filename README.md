@@ -14,6 +14,21 @@ $ jekyll serve
 
 * `_posts` live posts with header format `YYYY-MM-DD-title`.
 * `_config.yml` jekyll config file.
+* `index.md` homepage.
+
+# Jekyll front matter
+
+Each post or homepage has a `yaml` `jekyll front matter` header for organisation.
+
+E.g.
+
+```yaml
+---
+layout: post
+title:  "How to monitor Kubernetes with Prometheus"
+categories: microservices kubernetes
+---
+```
 ---
 
 Thanks.
