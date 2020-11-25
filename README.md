@@ -7,7 +7,7 @@ It is written in `jekyll kramdown` and the current theme is no theme with some a
 To run locally, use. 
 
 ```
-$ Jekyll serve
+$ jekyll serve
 ```
 
 ---
