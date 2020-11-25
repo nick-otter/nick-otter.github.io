@@ -18,8 +18,7 @@ categories: microservices kubernetes
 - [**Exposing metrics for Prometheus**](#exposing-metrics-for-prometheus)<br>
    - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
    - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
-   - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)<br>
-
+   - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)
 <br><br>
 # Introduction
 
@@ -28,7 +27,6 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 ![](https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/prometheus_kubernetes_diagram_overview.png)
 
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
-
 <br><br>
 # Requirements
 
@@ -36,7 +34,6 @@ I don't like presenting images without info. So.. take a look over the image and
 | Minikube | `1.13.1`|
 | Helm | `3.4.0` |
 | Prometheus | `kube-prometheus-stack-12.2.0`|
-
 <br><br>
 # Deploying Prometheus with Helm 
 
@@ -113,8 +110,6 @@ minikube@control-plane helpers]$ curl 127.0.0.1:9090
 <a href="/graph">Found</a>.
 ```
 Great. If there were any issues we could debug from the trace of the `port-forward` session and look at the logs of the actual pod too.
-
-
 <br><br>
 # Looking at Targets in the Web UI
 
@@ -126,8 +121,7 @@ Focusing on **`Unhealthy`** targets, we're seeing an error which helps to unders
 Get "http://172.17.0.2:10252/metrics": dial tcp 172.17.0.2:10252: connect: connection refused
 ```
 Prometheus metric discovery is a `Get` - it's a pull request. But it _isn't_ a pull request to specific pods. It is a pull request to their **`Service`** resource. It 'scrapes' services to get metrics. In this case, the service **`prometheus-kube-prometheus-kube-controller-manager`** in the namespace **`monitoring`** doesn't exist. Let's ignore this error for now.
-
-
+<br><br>
 # Exposing metrics for Prometheus
 Let's keep this short and sweet. To add services to Prometheus, this is what's required.
 
