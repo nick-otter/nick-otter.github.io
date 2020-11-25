@@ -10,7 +10,7 @@ categories: microservices kubernetes
 # Contents 
 
 - ## [**Introduction**](#introduction)<br>
-- ## [**Requirements table**](#requirements-table)<br>
+- ## [**Requirements**](#requirements)<br>
 - ## [**Deploying Prometheus with Helm**](#deploying-prometheus-with-helm)<br>
    - ## &nbsp;&nbsp; [Helm values.yaml](#helm-values.yaml)<br>
 - ## [**Exposing the web dashboards**](#exposing-the-web-dashboards)<br>
@@ -29,7 +29,7 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
 
 
-# Requirements table
+# Requirements
 
 | Kubernetes | `1.19.2` |
 | Minikube | `1.13.1`|
