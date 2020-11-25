@@ -9,16 +9,16 @@ categories: microservices kubernetes
 
 # Contents 
 
-- ## [**Introduction**](#introduction)<br>
-- ## [**Requirements**](#requirements)<br>
-- ## [**Deploying Prometheus with Helm**](#deploying-prometheus-with-helm)<br>
-   - ## &nbsp;&nbsp; [Helm values.yaml](#helm-values.yaml)<br>
-- ## [**Exposing the web dashboards**](#exposing-the-web-dashboards)<br>
-- ## [**Looking at targets in the Web UI**](#looking-at-targets-in-the-web-ui)<br>
-- ## [**Exposing metrics for Prometheus**](#exposing-metrics-for-prometheus)<br>
-   - ## &nbsp;&nbsp;[Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
-   - ## &nbsp;&nbsp;[Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
-   - ## &nbsp;&nbsp;[Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)<br>
+- [**Introduction**](#introduction)<br>
+- [**Requirements**](#requirements)<br>
+- [**Deploying Prometheus with Helm**](#deploying-prometheus-with-helm)<br>
+   - [Helm values.yaml](#helm-values.yaml)<br>
+- [**Exposing the web dashboards**](#exposing-the-web-dashboards)<br>
+- [**Looking at targets in the Web UI**](#looking-at-targets-in-the-web-ui)<br>
+- [**Exposing metrics for Prometheus**](#exposing-metrics-for-prometheus)<br>
+   - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
+   - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
+   - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)<br>
 
 # Introduction
 
