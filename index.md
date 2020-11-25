@@ -6,7 +6,8 @@ This is a DevOps blog by Nick Otter. Click the icon to trigger a dropdown to vie
 
 <details><summary></summary>
 
-## Kubernetes
+<div markdown="1">## Kubernetes
+
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.kubernetes %}
@@ -17,4 +18,4 @@ This is a DevOps blog by Nick Otter. Click the icon to trigger a dropdown to vie
    </ul>
 </div>
 
-</details>
+
