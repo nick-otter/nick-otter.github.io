@@ -37,7 +37,7 @@ So
 ```yaml
 categories: microservices kubernetes
 ```
-Primary is `microservices` and the secondary category is `kuberenetes`.
+Primary is `microservices` and the secondary category is `kubernetes`.
 
 ---
 
