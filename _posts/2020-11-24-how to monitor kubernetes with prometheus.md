@@ -19,7 +19,7 @@ categories: microservices kubernetes
    - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
    - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
    - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)<br>
-
+<br><br>
 # Introduction
 
 Let's take a look at Prometheus as a monitoring solution for a simple cluster. Here's a nice overview from [Sysdig.com](https://sysdig.com/blog/kubernetes-monitoring-prometheus/). In this article we'll figure out how to deploy Prometheus using Helm, how to expose the web dashboards to outside of the cluster, take a quick look at the Prometheus web UI and how to expose a Traefik ingress resource to be polled by Prometheus. Nice.<br>
@@ -28,7 +28,7 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
 
-
+<br><br>
 # Requirements
 
 | Kubernetes | `1.19.2` |
@@ -36,7 +36,7 @@ I don't like presenting images without info. So.. take a look over the image and
 | Helm | `3.4.0` |
 | Prometheus | `kube-prometheus-stack-12.2.0`|
 
-
+<br><br>
 # Deploying Prometheus with Helm 
 
 I used the chart [kube-prometheus-stack](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack) for this (_it's the currently maintained chart at the time of writing this_ 20112020).
@@ -55,7 +55,7 @@ prometheus-prometheus-kube-prometheus-prometheus-0     2/2     Running   1      
 prometheus-prometheus-node-exporter-x2sdt              1/1     Running   0          75m
 ```
 Hello Prometheus. Grafana has also been installed which wil be helpful for visualisation later.
-
+<br><br>
 # Helm values.yaml
 
 Custom configuration can be deployed using the **[values.yaml](https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/values.yaml)** file.
