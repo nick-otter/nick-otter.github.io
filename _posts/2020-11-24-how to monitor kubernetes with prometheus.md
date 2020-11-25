@@ -4,13 +4,14 @@ title:  "How to monitor Kubernetes with Prometheus"
 categories: microservices kubernetes
 ---
 
-<center> # How to monitor Kubernetes with Prometheus </center>
+# How to monitor Kubernetes with Prometheus
+{: style="text-align: center"}
 
-| Updated |`11/2020`|
-| Kubernetes | `1.19.2`|
-| Minikube | `1.13.1`|
-| Helm | `3.4.0` |
-| Prometheus | `kube-prometheus-stack-12.2.0`|
+<center>| Updated |`11/2020`|</center>
+<center>| Kubernetes | `1.19.2`|</center>
+<center>| Minikube | `1.13.1`|</center>
+<center>| Helm | `3.4.0` |</center>
+<center>| Prometheus | `kube-prometheus-stack-12.2.0`|</center>
 
 ---
 
