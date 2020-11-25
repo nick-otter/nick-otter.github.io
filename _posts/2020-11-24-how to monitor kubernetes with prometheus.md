@@ -7,17 +7,12 @@ categories: microservices kubernetes
 # How to monitor Kubernetes with Prometheus
 {: style="text-align: center"}
 
-<center>| Updated |`11/2020`|</center>
-<center>| Kubernetes | `1.19.2`|</center>
-<center>| Minikube | `1.13.1`|</center>
-<center>| Helm | `3.4.0` |</center>
-<center>| Prometheus | `kube-prometheus-stack-12.2.0`|</center>
-
 ---
 
 # Contents 
 
 - ## [**Introduction**](#introduction)<br>
+- ## [**Requirements table**](#requirements-table)<br>
 - ## [**Deploying Prometheus with Helm**](#deploying-prometheus-with-helm)<br>
    - ## &nbsp;&nbsp; [Helm values.yaml](#helm-values.yaml)<br>
 - ## [**Exposing the web dashboards**](#exposing-the-web-dashboards)<br>
@@ -36,6 +31,15 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 ![](https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/prometheus_kubernetes_diagram_overview.png)
 
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
+
+---
+
+# Requirements table
+
+| Kubernetes | `1.19.2` |
+| Minikube | `1.13.1`|
+| Helm | `3.4.0` |
+| Prometheus | `kube-prometheus-stack-12.2.0`|
 
 ---
 
