@@ -1,6 +1,8 @@
 ---
 ---
 
+[![Foo](https://img.pngio.com/github-logo-icon-of-glyph-style-available-in-svg-png-eps-ai-github-icon-png-256_256.png)](http://github.com/nick-otter)
+
 This is a DevOps blog by Nick Otter. Click the icon to trigger a dropdown to view articles. Thanks for stopping by.
 
 
