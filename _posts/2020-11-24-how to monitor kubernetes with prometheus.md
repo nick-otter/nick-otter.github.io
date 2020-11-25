@@ -19,6 +19,7 @@ categories: microservices kubernetes
    - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
    - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
    - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)
+
 <br><br>
 # Introduction
 
