@@ -31,7 +31,7 @@ categories: microservices kubernetes
 ```
 # Categories
 
-Categories are organised <primary> <secondary> and so on. 
+Categories are organised < primary > < secondary > and so on. 
   
 So
 ```yaml
