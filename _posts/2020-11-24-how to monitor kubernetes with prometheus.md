@@ -7,8 +7,6 @@ categories: microservices kubernetes
 # How to monitor Kubernetes with Prometheus
 {: style="text-align: center"}
 
----
-
 # Contents 
 
 - ## [**Introduction**](#introduction)<br>
@@ -22,8 +20,6 @@ categories: microservices kubernetes
    - ## &nbsp;&nbsp;[Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
    - ## &nbsp;&nbsp;[Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)<br>
 
----
-
 # Introduction
 
 Let's take a look at Prometheus as a monitoring solution for a simple cluster. Here's a nice overview from [Sysdig.com](https://sysdig.com/blog/kubernetes-monitoring-prometheus/). In this article we'll figure out how to deploy Prometheus using Helm, how to expose the web dashboards to outside of the cluster, take a quick look at the Prometheus web UI and how to expose a Traefik ingress resource to be polled by Prometheus. Nice.<br>
@@ -32,7 +28,6 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
 
----
 
 # Requirements table
 
@@ -41,7 +36,6 @@ I don't like presenting images without info. So.. take a look over the image and
 | Helm | `3.4.0` |
 | Prometheus | `kube-prometheus-stack-12.2.0`|
 
----
 
 # Deploying Prometheus with Helm 
 
@@ -83,7 +77,6 @@ Redployments can be handled nicely with **`helm upgrade`** too.
 ```
 $ helm upgrade --install --namespace monitoring prometheus stable/prometheus-operator -f values.yaml
 ```
----
 
 # Exposing the web dashboards
 
@@ -120,7 +113,6 @@ minikube@control-plane helpers]$ curl 127.0.0.1:9090
 ```
 Great. If there were any issues we could debug from the trace of the `port-forward` session and look at the logs of the actual pod too.
 
----
 
 
 # Looking at Targets in the Web UI
@@ -134,7 +126,6 @@ Get "http://172.17.0.2:10252/metrics": dial tcp 172.17.0.2:10252: connect: conne
 ```
 Prometheus metric discovery is a `Get` - it's a pull request. But it _isn't_ a pull request to specific pods. It is a pull request to their **`Service`** resource. It 'scrapes' services to get metrics. In this case, the service **`prometheus-kube-prometheus-kube-controller-manager`** in the namespace **`monitoring`** doesn't exist. Let's ignore this error for now.
 
----
 
 # Exposing metrics for Prometheus
 Let's keep this short and sweet. To add services to Prometheus, this is what's required.
