@@ -40,8 +40,6 @@ $ echo 1 > /proc/sys/kernel/sysrq
 $ echo c > /proc/sysrq-trigger
 ```
 
-<br><br><br>
-
 # Requirements
 
 | Updated | `04/2020` | 
@@ -57,8 +55,7 @@ Kdump ships with `RHEL` `8` and has some great features: an SSH client to SFTP t
 The rest that follows this is a pretty minimal follow through but I hope it's helpful.
 
 Here's a kdump cheatsheet to get familiar. 
-|||
-|-- |--
+
 |`kdump`|Daemon.|
 |`/etc/kdump.conf`|Conf file.|
 |`makedumpfile`| Customise dump file in conf file.|
@@ -68,12 +65,12 @@ Here's a kdump cheatsheet to get familiar.
 |`vmcore-dmesg.txt`|Pretty dump file name.| 
 |`dmesg`|Kdump calls `dmesg`.|
 
-<br><br><br>
+<br><br>
 
 # kdump install instructions
 
 `kdump` is already installed in `RHEL` `8`and its installation steps are well documented.
-<br><br><br><br>
+<br><br><br>
 
 # kdump output explained
 
