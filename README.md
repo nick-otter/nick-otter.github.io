@@ -46,14 +46,13 @@ The current design format is.
 # Header 
 
 body 
-
-<br><br>
+<br><br><br><br>
 
 # Header 
 
 body + special content
 
-<br>
+<br><br>
 ```
 
 ---
