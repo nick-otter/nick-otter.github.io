@@ -39,6 +39,7 @@ Here's the test case we will be using to trigger a kernel panic.
 $ echo 1 > /proc/sys/kernel/sysrq
 $ echo c > /proc/sysrq-trigger
 ```
+<br>
 
 # Requirements
 
