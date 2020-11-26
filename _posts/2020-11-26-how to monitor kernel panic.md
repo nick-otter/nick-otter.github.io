@@ -256,17 +256,14 @@ We could see the function executed that caused the kernel panic wihtout the use 
 
 `#0 [ffffa49002107bf0] machine_kexec at ffffffff99857e9e`
 | `#0` | `[ffffa49002107bf0]` | `machine_kexec` | `at ffffffff99857e9e` |
-|-- |-- |-- |--
 | Call trace number. | Task pointer. | Function executed. | Memory address. |
 
 `[exception RIP: sysrq_handle_crash+18]`
 | `exception RIP:` | `sysrq_handle_crash` | `+18` |
-|-- |-- |--
 | Oops at instruction pointer. | Function executed. | Offset (line number) inside the function where the exception occurred. |
 
 `CS: 0010`
 | `CS:` | `0010` |
-|-- |-- 
 | Code segment register. | Task leading to crash was running in Kernel mode (0010) _not_ User mode (0033). |
 
 ---
