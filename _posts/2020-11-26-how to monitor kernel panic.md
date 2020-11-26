@@ -33,7 +33,7 @@ In basic terms a kernel panic is a situation when kernel can’t load properly a
 
 Nicely put [Codementor.io](https://www.codementor.io/@sauravjaiswal999/kernel-panic-on-linux-and-how-to-fix-it-yxb0cl4zy). Let's work out a way to save the state of the kernel on crash so we can debug it. We will be taking a look at **kdump** and **crash**. As a nice intro here's a diagram of what is happening during a kernel panic without, and then with **kdump** configured. 
 
-![](https://i1.wp.com/unixadminschool.com/blog/wp-content/uploads/2015/07/kdumpvsnormalboot.png)
+![](https://user-images.githubusercontent.com/26765027/100364674-59cd0200-2ff6-11eb-8040-228cf1943111.png)
 Here's the test case we will be using to trigger a kernel panic.
 ```
 $ echo 1 > /proc/sys/kernel/sysrq
