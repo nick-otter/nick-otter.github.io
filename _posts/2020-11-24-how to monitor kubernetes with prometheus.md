@@ -37,7 +37,7 @@ I don't like presenting images without info. So.. take a look over the image and
 | Helm | `3.4.0` |
 | Prometheus | `kube-prometheus-stack-12.2.0`|
 
-<br><br>
+<br><br><br>
 
 # Deploying Prometheus with Helm 
 
