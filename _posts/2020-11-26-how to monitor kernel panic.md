@@ -112,7 +112,7 @@ Some `crash` info:
 * Can also analyze `netdump`, `diskdump`, `LKCD`, `xendump` or `kvmdump` Kernel dump files.
 
 Below is a brief runthrough of the `crash` install after a cheat sheet.
-<br><br><br><br>
+<br><br><br>
 
 # crash cheatsheet
 
@@ -147,7 +147,7 @@ $ cp /usr/lib/debug/usr/lib/modules/$(uname -r)/vmlinux /tmp/vmlinux
 $ /var/crash/127.0.0.1-2020-04-28-01\:31\:54/vmcore /tmp/vmcore
 ```
 
-<br><br><br>
+<br><br>
 
 # How to start a crash session
 
@@ -205,7 +205,7 @@ LOAD AVERAGE: 0.21, 0.35, 0.25
 crash> 
 ```
 
-<br><br><br>
+<br><br>
 
 # Use crash session command backtrace 
 _see stack trace leading up to kernel panic and trace of panic itself._
@@ -245,7 +245,7 @@ PID: 6631   TASK: ffff8da79cad2f80  CPU: 0   COMMAND: "bash"
     ORIG_RAX: 0000000000000001  CS: 0033  SS: 002b
 ```
 
-<br><br><br>
+<br><br>
 
 # Backtrace output explained
 
