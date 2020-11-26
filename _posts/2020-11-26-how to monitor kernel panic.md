@@ -116,8 +116,6 @@ Below is a brief runthrough of the `crash` install after a cheat sheet.
 
 # crash cheatsheet
 
-|||
-|--|--
 |`crash`|Yum package.|
 | `kernel-debuginfo-<kernel>`| Yum package. Compiles `vmlinux` file with debug data.|
 |`vmcore`| Memory image Kernel crash dump file that will be analyzed.|
@@ -125,7 +123,7 @@ Below is a brief runthrough of the `crash` install after a cheat sheet.
 | `/usr/lib/modules/$(uname -r)/vmlinuz` | Kernel boot bzImage file path. Must include debug data. Debug data is managed in Kernel settings.|
 | `/usr/lib/debug/modules/$(uname -r)/vmlinux` |Kernel object file path with debug data. Compiled by yum package `kernel-debuginfo`.|
 
-<br><br><br>
+<br><br>
 
 # crash install instructions 
 
