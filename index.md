@@ -36,7 +36,7 @@ This is a DevOps blog by Nick Otter. Click the arrow below to trigger a dropdown
 
 <div>
   <ul style="list-style-type:none">
-    {% for post in site.categories.kubernetes %}
+    {% for post in site.categories.misc %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
