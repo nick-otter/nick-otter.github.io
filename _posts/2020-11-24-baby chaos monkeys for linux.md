@@ -22,14 +22,18 @@ categories: linux general
 - [**File System**](#filesystem)<br>
    - [How to corrupt a filesystem](#how-to-corrupt-a-filesystem)<br>
    - [How to orphan an inode](#how-to-orphan-some-inodes)<br>
+<br><br><br><br>
 
 # Introduction
 
 I'm not sure if these are really [**chaos monkeys**](https://en.wikipedia.org/wiki/Chaos_engineering) but I've found these commands useful to test stuff. Here's the (growing) list. I add to it when I remember. Collaborators, complaints and pull requests welcome. Most of these are just terminal commands, but that might change in future.
+<br><br><br><br>
 
 # Requirements
 
 | Linux | `RHEL 8 4.18` |
+
+<br><br><br>
 
 # Kernel
 
@@ -41,6 +45,8 @@ $ echo c > /proc/sysrq-trigger
 ```
 ![](https://media1.tenor.com/images/0d19c4b59db501d0b5c0dd897a234055/tenor.gif?itemid=5799525)
 
+<br><br><br><br>
+
 # Memory
 
 # How to cause a segfault
@@ -50,6 +56,8 @@ Taken from Joey Adams on [this thread](https://codegolf.stackexchange.com/questi
 ```
 $ kill -11 $$
 ```
+
+<br><br><br>
 
 # CPU
 
@@ -61,6 +69,8 @@ Do you want to write repeatedly write a string to STDOUT without any output cons
 ```
 $ yes > /dev/null
 ```
+
+<br><br><br>
 
 # Network
 
@@ -75,6 +85,8 @@ In my case this was happening over the `/dev/eth0` network interface. But switch
 $ sudo tc qdisc add dev eth0 root netem corrupt 100%; sleep 10; sudo tc qdisc del dev eth0 root netem
 ```
 
+<br><br><br>
+
 # Filesystem
 
 # How to corrupt a filesystem
@@ -83,6 +95,8 @@ Let's do some random block writes to a partition, bypassing the volume's filesys
 ```
 $ sudo dd if=/dev/zero of=/partition bs=1k seek=10 count=4k
 ```
+
+<br><br><br>
 
 # How to orphan some inodes
 
