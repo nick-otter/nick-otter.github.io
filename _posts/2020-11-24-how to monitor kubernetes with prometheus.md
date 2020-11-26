@@ -19,7 +19,7 @@ categories: microservices kubernetes
    - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
    - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
    - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)
-<br><br>
+<br><br><br><br>
 
 # Introduction
 
@@ -81,7 +81,7 @@ Redployments can be handled nicely with **`helm upgrade`** too.
 $ helm upgrade --install --namespace monitoring prometheus stable/prometheus-operator -f values.yaml
 ```
 
-<br><br>
+<br><br><br>
 
 # Exposing the web dashboards
 
@@ -118,6 +118,7 @@ minikube@control-plane helpers]$ curl 127.0.0.1:9090
 ```
 Great. If there were any issues we could debug from the trace of the `port-forward` session and look at the logs of the actual pod too.
 <br><br><br><br>
+
 # Looking at Targets in the Web UI
 
 Ok, so now what? How is discovery configured with Prometheus? Let's head to our Prometheus dashboard and look at **`Targets`**.<br><br>
@@ -144,6 +145,7 @@ Not in this diagram is that whole namespace thing I mentioned. A ServiceMonitor 
 
 I'm not going to deep dive into Prometheus Cluster Resource Discovery (**`CRD`**) but you can read more about it [here](https://coreos.com/operators/prometheus/docs/latest/design.html) and look at the CRD for your estate with `kubectl get crd`.
 <br><br><br><br>
+
 # Configuring the metrics endpoint on a pod
 
 Taking our Traefik ingress controller as an example. Let's configure the metrics endpoint. The app supports exposing metrics for Prometheus, so it's just a question of passing those args into the build and redploying. This should do the trick. 
@@ -261,6 +263,7 @@ spec:
 
 The `prometheus.io/port` should be switched to `8080` I reckon, and if we wanted to we could rename that port to 'metrics' instead of 'dashboard' - but I don't think that actually makes great sense, as there is a Traefik dashboard.
 <br><br><br><br>
+
 # Creating a ServiceMonitor resource
 
 Here's one I made earlier. We know our Traefik service works, so just have to get this right and we're there.
