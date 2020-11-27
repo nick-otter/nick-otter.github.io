@@ -26,7 +26,7 @@ CPU is often referred to as the 'brain'. Not a totally bad description. The CPU 
 
 Let's look at some tools as to how we can monitor CPU on a Linux machine. Remember, as it's a 'brain' we want to make sure it is directing other parts of the system as quickly as possible, and not being slow; telling an arm to wave 10 minutes after the queen has gone by.  
 
-**Tools to monitor CPU**
+Tools to monitor CPU:
 
 | Action                  | `uptime` | `top`   | `glances` | `/proc/loadavg` | `/proc/cpuinfo`| `iostat` |
 |--                       |--        |--       |--         |--               |--              |--
