@@ -14,7 +14,7 @@ categories: microservices kubernetes
 - [**Deploying Prometheus with Helm**](#deploying-prometheus-with-helm)<br>
    - [Helm values.yaml](#helm-values.yaml)<br>
 - [**Exposing the web dashboards**](#exposing-the-web-dashboards)<br>
-- [**Looking at targets in the Web UI**](#looking-at-targets-in-the-web-ui)<br>
+   - [Looking at targets in the Web UI](#looking-at-targets-in-the-web-ui)<br>
 - [**Exposing metrics for Prometheus**](#exposing-metrics-for-prometheus)<br>
    - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
    - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
@@ -56,7 +56,7 @@ prometheus-prometheus-kube-prometheus-prometheus-0     2/2     Running   1      
 prometheus-prometheus-node-exporter-x2sdt              1/1     Running   0          75m
 ```
 Hello Prometheus. Grafana has also been installed which will be helpful for visualisation later.
-<br><br><br>
+<br><br>
 
 # Helm values.yaml
 
@@ -116,7 +116,7 @@ minikube@control-plane helpers]$ curl 127.0.0.1:9090
 <a href="/graph">Found</a>.
 ```
 Great. If there were any issues we could debug from the trace of the `port-forward` session and look at the logs of the actual pod too.
-<br><br><br><br>
+<br><br>
 
 # Looking at Targets in the Web UI
 
@@ -143,7 +143,7 @@ Remember, Prometheus scrapes Kubernetes _Services_ **not** Pods. A diagram from 
 Not in this diagram is that whole namespace thing I mentioned. A ServiceMonitor resource _has_ to be deployed in the same namespace as the Prometheus pod (`monitoring` in our case) _but_ that ServiceMonitor resource can expose services in _all other namespaces_ to Prometheus. 
 
 I'm not going to deep dive into Prometheus Cluster Resource Discovery (**`CRD`**) but you can read more about it [here](https://coreos.com/operators/prometheus/docs/latest/design.html) and look at the CRD for your estate with `kubectl get crd`.
-<br><br><br><br>
+<br><br>
 
 # Configuring the metrics endpoint on a pod
 
@@ -216,7 +216,7 @@ kgo_gc_duration_seconds{quantile="0.25"} 3.1354e-05
 ```
 
 Great.
-<br><br><br><br>
+<br><br>
 # Checking current deployment and creating a Service
 
 But what does that Service look like? Will it be configured correctly for the ServiceMonitor resource we're going to create? Let's take a look. For this to work, I'm going to take a top down approach. Let's see how the current ServiceMonitor resources in this deployment should be confgured. 
@@ -261,7 +261,7 @@ spec:
 ```
 
 The `prometheus.io/port` should be switched to `8080` I reckon, and if we wanted to we could rename that port to 'metrics' instead of 'dashboard' - but I don't think that actually makes great sense, as there is a Traefik dashboard.
-<br><br><br><br>
+<br><br>
 
 # Creating a ServiceMonitor resource
 
