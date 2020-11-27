@@ -12,7 +12,7 @@ categories: linux kernel
 - [**Introduction**](#introduction)<br>
      - [Requirements](#equirements)<br>
 - [**Strace**](#strace)<br>
-- [**Strace output explained((](#strace-output-explained)<br>
+- [**Strace output explained**](#strace-output-explained)<br>
      - [Common syscall script return values explained](#common-syscall-script-return-values-explained)<br>
      - [Common posix syscall](#common-posix-system-calls)<br>
 - [**What you can do with strace**](#what-you-can-do-with-strace)<br>
