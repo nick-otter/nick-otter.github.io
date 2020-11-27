@@ -97,4 +97,4 @@ To investigate and resolve higher than preferrable load average values (not incl
 
 ---
 
-Thanks. [Linux Load Averages: Solving The Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html), [Understanding Linux Load Averages](https://scoutapm.com/blog/understanding-load-averages) were useful to write this article.
+Thanks. [Linux Load Averages: Solving The Mystery](http://www.brendangregg.com/blog/2017-08-08/linux-load-averages.html), [Understanding Linux Load Averages](https://scoutapm.com/blog/understanding-load-averages) were useful to write this.
