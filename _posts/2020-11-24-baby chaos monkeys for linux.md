@@ -36,7 +36,7 @@ I'm not sure if these are really [**chaos monkeys**](https://en.wikipedia.org/wi
 
 # Kernel
 
-# How to cause a kernel panic
+**How to cause a kernel panic**
 
 ```
 $ echo 1 > /proc/sys/kernel/sysrq
@@ -44,11 +44,11 @@ $ echo c > /proc/sysrq-trigger
 ```
 ![](https://media1.tenor.com/images/0d19c4b59db501d0b5c0dd897a234055/tenor.gif?itemid=5799525)
 
-<br><br>
+<br>
 
 # Memory
 
-# How to cause a segfault
+**How to cause a segfault**
 
 Taken from Joey Adams on [this thread](https://codegolf.stackexchange.com/questions/4399/shortest-code-that-raises-a-sigsegv). Bye bye!
 
@@ -56,11 +56,11 @@ Taken from Joey Adams on [this thread](https://codegolf.stackexchange.com/questi
 $ kill -11 $$
 ```
 
-<br><br>
+<br>
 
 # CPU
 
-# How to max out CPU as quickly as possible
+**How to max out CPU as quickly as possible**
 
 Do you want to write repeatedly write a string to STDOUT without any output constraints to give your CPU an eternal workout?<br><br>
 ![](https://media.giphy.com/media/svcVqVsSvzm0g/giphy.gif)
@@ -69,11 +69,11 @@ Do you want to write repeatedly write a string to STDOUT without any output cons
 $ yes > /dev/null
 ```
 
-<br><br>
+<br>
 
 # Network
 
-# How to send an incorrect TCP checksum
+**How to send an incorrect TCP checksum**
 
 Hello Netcat. Start a netcat listener on the receiver machine on your desired port. Then let's send something over TCP.
 ```
@@ -84,20 +84,20 @@ In my case this was happening over the `/dev/eth0` network interface. But switch
 $ sudo tc qdisc add dev eth0 root netem corrupt 100%; sleep 10; sudo tc qdisc del dev eth0 root netem
 ```
 
-<br><br>
+<br>
 
 # Filesystem
 
-# How to corrupt a filesystem
+**How to corrupt a filesystem**
 
 Let's do some random block writes to a partition, bypassing the volume's filesystem, this will mess it up even with journaling enabled.
 ```
 $ sudo dd if=/dev/zero of=/partition bs=1k seek=10 count=4k
 ```
 
-<br><br>
+<br>
 
-# How to orphan some inodes
+**How to orphan some inodes**
 
 ```
 $ touch home && tail -f home &
