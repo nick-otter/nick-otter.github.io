@@ -44,6 +44,8 @@ So, loss tolerant services where data transmission loss is not considered critic
 * Routing Information Protocol (`RIP`). 
 * Dynamic Host Configuration Protocol (`DHCP`). 
 
+(Yes I just pasted this list in, I hope it's still helpful though.)
+
 Okay, let's begin.
 
 # Requirements 
