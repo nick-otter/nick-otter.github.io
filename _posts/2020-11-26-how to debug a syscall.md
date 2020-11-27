@@ -10,7 +10,7 @@ categories: linux kernel
 # Contents
 
 - [**Introduction**](#introduction)<br>
-- [**Requirements**](#equirements)<br>
+     - [Requirements](#equirements)<br>
 - [**Strace**](#strace)<br>
      - [Strace output explained](#strace-output-explained)<br>
      - [Common syscall script return values explained](#common-syscall-script-return-values-explained)<br>
@@ -32,8 +32,6 @@ User programs (like your editor, terminal, ssh daemon, etc) need to interact wit
 
 For example, if a user program needs to do some sort of IO (open, read, write, etc) or modify its address space (mmap, sbrk, etc) it must trigger the kernel to run to complete those actions on its behalf.
 ```
-
-<br><br><br>
 
 # Requirements
 
@@ -98,7 +96,7 @@ $ strace -tT cat foo
 ```
 
 Not for the faint of heart. But it's not too complicated.
-<br><br><br><br>
+<br><br>
 
 # Strace output explained
 
@@ -118,14 +116,14 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 [root@rhel-8-1 linux]# ls -lu sysc_execve.stp
 -rw-r--r--. 1 root root 6257 May 13 08:42 sysc_execve.stp
 ```
-<br><br><br>
+<br>
 
 # Common syscall script return values explained
 
 * `= 0` system call script has executed successfully, returning a `0`.
 
 * `= -1` system call script has raised an error, returning a `-1`.
-<br><br><br><br>
+<br>
 
 # Common posix syscalls
 
@@ -145,9 +143,9 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 
 * `fstat()`<br> 
      &nbsp;returns various information that the filesystem keeps about a file - size, last modified, permissions, etc.
-<br><br><br><br>
+<br><br>
 
- # What you can do with strace
+# What you can do with strace
  
  Trace specific system calls by using `trace=`. Like `network` calls in this example (memory calls would be `trace=memory`):
 ```
