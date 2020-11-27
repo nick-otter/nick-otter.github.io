@@ -46,6 +46,8 @@ Here's how a packet is sent from host to client. Neat right? IP is a `network/in
 | Updated | `05/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
 
+<br>
+
 # Overview of TCP tools
 
 | Action | `firewall-cmd` | `netcat` | `netstat` | `nmap` | `tcpdump` | `wireshark` |
@@ -148,8 +150,6 @@ So from that trace we'll look at:
 * window size, 
 * retransmissions / timeouts.
 
-<br>
-
 # TCP flags
 
 Let's breakdown the TCP flags from that trace. 
@@ -182,8 +182,6 @@ With tcpdump we can filter for flags during a session. To filter for `SYN` and `
 ```
 $ tcpdump -i lo 'tcp[tcpflags] == tcp-syn or tcp[tcpflags] == tcp-rst'
 ```
-
-<br>
 
 # Checksum
 
@@ -236,8 +234,6 @@ foo
 foo
 ```
 
-<br>
-
 # Checksum errors and TCP
 
 To save suspense I'm going to jump forward a couple of steps. Often a Checksum error isn't actually a good indicator that something's gone wrong with TCP segments. The receiver **will not** discard or drop packets if a checksum error is detected.
@@ -248,7 +244,6 @@ Other cause of checksum errors could be:
 * a faulty layer 3 (`network`) device, 
 * man-in-the-middle packet manipulation - very unlikely, as man-in-the-middle would be able to calculate a proper checksum, it wouldn't necessarily cause a checksum error.
 
-<br><br>
 
 # Window size 
 
@@ -326,8 +321,6 @@ net.ipv4.tcp_adv_win_scale
 net.ipv4.tcp_window_scaling
 net.ipv4.tcp_workaround_signed_windows
 ```
-
-<br>
 
 # Retransmissions
 
