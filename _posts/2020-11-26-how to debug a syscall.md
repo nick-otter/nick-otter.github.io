@@ -116,7 +116,6 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 [root@rhel-8-1 linux]# ls -lu sysc_execve.stp
 -rw-r--r--. 1 root root 6257 May 13 08:42 sysc_execve.stp
 ```
-<br>
 
 # Common syscall script return values explained
 
@@ -143,7 +142,7 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 
 * `fstat()`<br> 
      &nbsp;returns various information that the filesystem keeps about a file - size, last modified, permissions, etc.
-<br><br>
+<br>
 
 # What you can do with strace
  
