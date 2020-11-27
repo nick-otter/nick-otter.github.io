@@ -90,12 +90,12 @@ Here's a breakdown of the separate packets shown in that output.
 | **`127.0.0.1.59720 > 127.0.0.1.distinct: [udp sum ok] UDP, length 4`**|
 | UDP header fields and values.|
 
+<br>
+
 # Understanding dropped packets
 
 Before we move onto what the UDP header fields and values mean, let's take a quick look at the line **`0 packets dropped by the kernel`** in that `tcpdump` trace above. 
 
-|||
-|-- |-- 
 | **`0 packets dropped by kernel`** | Number of packets dropped due to lack of `buffer` space (read `droppped packets` section for more.|
 
 Packets get dropped due to no having enough `buffer` space in the kernel to capture them - why not increase buffer size (`4069` is KB...):
@@ -120,8 +120,9 @@ $ tcpdump -c 20 -n -B port 53
 
 Nice.
 
-# UDP header values explained
+<br>
 
+# UDP header values explained
 
 Here's a diagram of the UDP header structure (see also [RFC 768](https://tools.ietf.org/html/rfc768)).
 
@@ -157,6 +158,8 @@ In tcpdump a UDP checksum match will be shown as **`[udp sum ok]`**, and a non m
 # N.B.
 
 If a checksum error is detected in a UDP sgment the packet will be **dropped** (discarded) by the receiver.
+
+<br>
 
 # Analyse UDP over time with wireshark
 
