@@ -14,7 +14,7 @@ categories: linux kernel cpu
 - [**CPU load average**](#cpu-load-average)<br>
     - [Good and bad load averages](#good-and-bad-load-averages)<br>
 
-<br><br>
+<br>
 
 # Introduction
 
@@ -26,7 +26,7 @@ CPU is often referred to as the 'brain'. Not a totally bad description. The CPU 
 
 Let's look at some tools as to how we can monitor CPU on a Linux machine. Remember, as it's a 'brain' we want to make sure it is directing other parts of the system as quickly as possible, and not being slow; telling an arm to wave 10 minutes after the queen has gone by.  
 
-# Tools to monitor CPU
+**Tools to monitor CPU**
 
 | Action                  | `uptime` | `top`   | `glances` | `/proc/loadavg` | `/proc/cpuinfo`| `iostat` |
 |--                       |--        |--       |--         |--               |--              |--
@@ -34,10 +34,8 @@ Let's look at some tools as to how we can monitor CPU on a Linux machine. Rememb
 | See processes using CPU. |        |  &#9745;  |          |                  |                | &#9745;  |
 | See cores.               |        |           |          |                  |  &#9745;       |          |
 
-
-Ok, let's get started. 
-
 <br>
+Ok, let's get started. 
 
 # Requirements
 
@@ -69,8 +67,6 @@ Fairly straight forward. But how about the numbers `4.45`, `1.61` and `0.58`? Th
 | `4.45` | `1.61` | `0.58`
 |--    |--    |--  
 | Average number of processes that are using or waiting to use the CPU over the last `1` minute. | Over the last `5` minutes. | And over the last `15` minutes. |
-
-<br>
 
 # Good and bad load averages
 
