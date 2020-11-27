@@ -380,8 +380,6 @@ See also [RFC791](https://tools.ietf.org/html/rfc791).<br>
 | **`proto TCP (6)`**     | `protocol`. Specifies the next encapsulated protocol. In this case, the encapsulated packet in the IP header is `TCP`.|
 | **`length 56`**        | The packet length, in Bytes. |
 
-<br>
-
 # TCP header cheatsheet
 
 `TCP` datagram header (see also [RFC793](https://tools.ietf.org/html/rfc793)).<br>
