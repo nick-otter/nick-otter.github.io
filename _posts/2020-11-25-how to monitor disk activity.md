@@ -9,14 +9,15 @@ categories: linux kernel disk
 
 # Contents
 
-- [**Overview of disk activity monitoring tools**](#overview-of-disk-activity-monitoring-tools)<br>
+
 - [**Introduction, disk activity and Linux**](#introduction-disk-activity-and-linux)<br>
-- [**I/O**](#I/O)<br>
-     - [I/O wait](#i/o-wait)<br>
-     - [See I/O per device](#see-i%2Fo-per-device)<br>
-     - [See I/O per process](#see-i/o-per-process)<br>
-     - [Test I/O performance](#test-i/o-performance)<br>
-     - [Improving performance](#improving-performance)<br>
+     - [Requirements](#requirements)<br>
+     - [Overview of disk activity monitoring tools](#overview-of-disk-activity-monitoring-tools)<br>
+- [**I/O wait**](#i/o-wait)<br>
+- [**See I/O used by devices**](#see-i%2Fo-per-device)<br>
+- [**See I/O used by processes**](#see-i/o-per-process)<br>
+- [**Test I/O performance**](#test-i/o-performance)<br>
+- [**Improving performance**](#improving-performance)<br>
 
 <br><br>
 
@@ -38,10 +39,9 @@ How disk I/O is measured:
 We'll look at all of these in this article.
 
 # Requirements
+
 | Updated | `05/2020`|
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br>
 
 # Overview of disk activity monitoring tools
 
@@ -81,9 +81,7 @@ Let's see:
 * which disk is causing high I/O,
 * which process is causing high I/O.
 
-<br><br>
-
-# See I/O per device 
+# See I/O used by devices
 
 Seeing how much I/O is happening by device can be done with `iostat` - this isn't built in. But, `iotop` (used to see I/O for processes) is, so alternatively you can work backwards from there.
 ```
@@ -111,9 +109,7 @@ scd0             0.36    0.00     27.65      0.00     0.00     0.00   0.00   0.0
 
 It's worth noting that the **`%util`** column from the output above is the percentage over the time period that I/O requests were issued to the device. Close to **`100%`** for a while for serial devices is **bad**. However, if the output shows close to 100 for a RAID array setup or modern SSDs - it doesn't reflect a performance limit. (Sounds like an update might be needed..). 
 
-<br><br>
-
-# See I/O per process 
+# See I/O used by processes 
 
 ```
 $ iotop -o
@@ -144,8 +140,6 @@ root      15018 33.8 10.3 1265676 1050572 pts/0 D    09:35   0:01 dd if=/dev/zer
 [root@rhel-8-1 ~]# ps -eLo pid= -o tid= | awk '$2 == 15018 {print $1}'
 15018
 ```
-
-<br><br>
 
 # Test I/O performance
 
@@ -185,8 +179,6 @@ There is a calculation, for theoretical maximum IOPS that I've seen from [Scout]
 I/O operations per/second = ------------------------------------------------------------------
                                  % of read workload + (raid factor *) % of write workload)
 ```                                     
-
-<br><br>
 
 # Improving performance
 
