@@ -13,7 +13,7 @@ categories: linux kernel memory
 - [**Introduction**](#introduction)<br>
      - [Requirements](#requirements)<br>
 - [**What is Page Cache**](#what-is-page-cache)<br>
-- [**Cache types**](#cache-types)<br>
+     - [Cache types](#cache-types)<br>
 - [**Some ways to monitor Page Cache in memory**](#some-ways-to-monitor-page-cache-in-memory)<br>
      - [/proc/meminfo](#/proc/meminfo)<br>
      - [Free](#free)<br>
@@ -55,20 +55,22 @@ To begin, let's actually talk about what Page Cache is. Simply, it's memory held
 
 N.B. The Page Cache and the Buffer Cache were separate prior to Linux Kernel 2.4 , but now the Buffer Cache simply points into the Page Cache - [read more](https://www.quora.com/What-is-the-major-difference-between-the-buffer-cache-and-the-page-cache-Why-were-they-separate-entities-in-older-kernels-Why-were-they-merged-later-on) . The Buffer essentially stores metadata of the Page Cache. The Kernel does not have access to the Page Cache, but reads from the Buffer.
 
-![](http://static.duartes.org/img/blogPosts/readFromPageCache.png)<br>
+![](http://static.duartes.org/img/blogPosts/readFromPageCache.png)
+
 Source: [manybutfinite.com](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/)
-<br>
+<br><br>
 
 # Some ways to to monitor Page Cache in memory
 # /proc/meminfo
 File that reports statistics about memory usage, [man page](http://man7.org/linux/man-pages/man5/proc.5.html).<br>
 
 Contents of **/proc/meminfo**:
+
 | Parameter | Description |
-|-- |--
 | Buffers | Size of memory used as Buffer Cache in kB.| 
 | Cached | Size of memory used as Page Cache in kB.|
 | SwapCached | Size of Swap memory used as cache in kB.|
+
 ```
 [root@rhel-8-1 ~]# grep -i 'buffer\|cache' /proc/meminfo
 Buffers:            3384 kB
@@ -86,11 +88,12 @@ Changes to **/proc/meminfo** after writing 100MB of data to a new file:
 # Free
 Reads **/proc/meminfo** with pretty display, [man page](http://man7.org/linux/man-pages/man1/free.1.html).
 
-Output of **free**:<br>
-| Column | Description
-|-- |--
+Output of **free**:
+
+| Column | Description |
 | Buffers | Size of memory used as Buffer Cache in kB.|
 | Cache | Size of memory used as Page and Slab Cache in kB.|
+
 ```
 [root@rhel-8-1 ~]# free --kilo --wide
               total        used        free      shared     buffers       cache   available
@@ -113,11 +116,12 @@ SwapCached:            0 kB
 # Vmstat
 Reads **/proc/meminfo** with pretty display, [man page](https://linux.die.net/man/8/vmstatreads).<br>
 
-Output of **vmstat**:<br>
-| Column | Description
-|-- |--
+Output of **vmstat**:
+
+| Column | Description |
 | Buff | Size of memory used as Buffer Cache in kB.|
 | Cache | Size of memory used as Page and Slab Cache in kB.|
+
 ```
 [root@rhel-8-1 ~]# vmstat
 procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
@@ -131,14 +135,15 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
 # Pcstat
 Get **Page Cache** statistics for files, [github](https://github.com/tobert/pcstat).<br>
 
-Output of **pcstat**:<br>
-| Column | Description
-|-- |--
+Output of **pcstat**:
+
+| Column | Description |
 | Name | Name of file analysed.|
 | Size (bytes) | Size of file analysed.|
 | Pages | Pages of data for file.|
 | Cached | Pages of data for file written to a block device.|
 | Percent | Percent of Pages of data for file that have been written to a block device.|
+
 ```
 [root@rhel-8-1 ~]# pcstat /usr/lib/locale/locale-archive
 +--------------------------------+----------------+------------+-----------+---------+
@@ -162,8 +167,8 @@ Viewing change in **Page Cache** using **pcstat** after writing 100MB of data to
 Analyse **Page Cache** for files and directories, [github](https://github.com/hoytech/vmtouch/).<br>
 
 Output of **vmtouch**:
-| Parameter | Description
-|-- |--
+
+| Parameter | Description |
 |Files| Number of files analysed.|
 |Directories| Number of directories analysed.|
 |Resident Pages| Pages/Cached.|
@@ -195,10 +200,9 @@ I also looked at [fincore](https://github.com/martin-a-brown/fincore) - it's not
 
 Reads **/proc/meminfo** and calculates **Page Cache** hit/miss statistics, [github](https://github.com/brendangregg/perf-tools/blob/master/fs/cachestat).
 
-Output of **Cachestat**:<br>
+Output of **Cachestat**:
 
-|Column|Description
-|-- |--
+|Column|Description|
 |Time | Current time.|
 |Hits| Successful reads (of Page Cache).|
 |Misses| Unsuccessful reads / insertions into cache.| 
@@ -206,6 +210,7 @@ Output of **Cachestat**:<br>
 |Ratio| % Unsuccessful vs. Successful reads.  |
 |Buffers_MB| Buffer Cache size in MB.|
 |Cache_MB| Page Cache size in MB.|
+
 ```
 [root@rhel-8-1 ~]# ./cachestat -t
 Counting cache functions... Output every 1 seconds.
