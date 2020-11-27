@@ -11,8 +11,8 @@ categories: linux kernel memory
 
 - [**Introduction**](#introduction)<br>
 - [**Ulimit**](#ulimit)<br>
-        - [Configure ulimit](#configure-ulimit)<br>
-        - [How to test core dump file creation](#how-to-test-core-dump-file-creation)<br>
+     - [How to configure ulimit](#configure-ulimit)<br>
+     - [How to test core dump file creation](#how-to-test-core-dump-file-creation)<br>
 - [**How to read the core dump file**](#how-to-read-the-core-dump-file)
 <br><br><br>
 
@@ -33,7 +33,7 @@ A core dump is a memory dump of a program terminated by the operating system due
 
 <br><br>
 
-# Configure ulimit
+# How to configure ulimit
 
 Let's get started. `ulimit` will need to be configured to increase resource limits on this system. Using the `-c` argument will allow use to see the current core file creation limits. By default, core file creation is set to 0 to save on system performance.
 
@@ -59,11 +59,9 @@ $ ulimit -c unlimited
 ```
 $ echo "/tmp/core-%e.%p.%h.%t" > /proc/sys/kernel/core_pattern
 ```
-| `/tmp/core-`| `%e`                 | `%p`                   | `%h`     | `%t` |
-|--           |--                    |--                      |--        |--    
-| Path.       | Executable filename. | PID of dumped process. | Hostname. | Time of dump. |
 
-<br><br>
+| `/tmp/core-`| `%e`                 | `%p`                   | `%h`     | `%t` |
+| Path.       | Executable filename. | PID of dumped process. | Hostname. | Time of dump. |
 
 # How to test core dump file creation
 
@@ -83,8 +81,6 @@ Check dump file has been created at path.
 [root@rhel-8-1 tmp]# grep -l core /tmp/* 2>/dev/null | xargs ls -l
 -rw-------. 1 root root 605036544 May 18 12:49 /tmp/core-firefox.6804.rhel-8-1.1589802596
 ```
-
-<br><br>
 
 # How to read the core dump file
 
@@ -123,8 +119,6 @@ Ok. let's break this down
 Ok. So.. on first look. If the program failed on the `shared library` function `raise ( )` then we could make an assumption that it's failed gracefully? As opposed to being a bug. Let's investigate further.  
 
 Let's take a closer look at some of the backtrace `bt`. Backtrace shows all the executed frames leading up to the currently executing frame (`#0`), which is where the error occurred. Using the debug binary we should be able to see the functions called leading up to the crash, the arguments passed to them and their respective line number and source file. 
-
-<br><br><br>
 
 # backtrace
 
