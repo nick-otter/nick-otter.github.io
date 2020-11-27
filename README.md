@@ -39,25 +39,6 @@ categories: microservices kubernetes
 ```
 Primary is `microservices` and the secondary category is `kubernetes`.
 
-# Design
-
-The current design format is. 
-```
-# Header 
-
-body 
-<br><br><br><br>
-
-# Header 
-
-body + special content e.g. codeblock or table
-
-<br><br><br>
-
-# Header
-...
-```
-
 ---
 
 Thanks.
