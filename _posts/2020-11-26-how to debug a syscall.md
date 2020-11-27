@@ -142,7 +142,7 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 
 * `fstat()`<br> 
      &nbsp;returns various information that the filesystem keeps about a file - size, last modified, permissions, etc.
-<br>
+<br><br>
 
 # What you can do with strace
  
