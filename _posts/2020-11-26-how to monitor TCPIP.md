@@ -29,7 +29,7 @@ categories: linux kernel network
 
 If you manage a server that receives or transmits over TCP/IP, how can this be monitored? 
 
-Using tcpdump and maybe some wireshark, let's work it out. 
+Using tcpdump and maybe some wireshark, let's work it out. Jump to the end of the article for some cheatsheets on IPv4 and TCP headers. 
 
 # TCP/IP overview
 
@@ -355,7 +355,9 @@ tcp.analysis.retransmission
 ```
 
 It's also worth looking at congestion control and `FRTO` if you have time, [here](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/).
-<br><br><br><br>
+<br><br><br>
+
+And here are the long requested cheatsheets..
 
 # IPv4 header cheatsheet
 
