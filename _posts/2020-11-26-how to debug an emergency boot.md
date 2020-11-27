@@ -72,7 +72,7 @@ Press **`e`** to go to the Grub2 options menu at the boot menu screen. Then appe
 ![image-boot-options-menu](https://user-images.githubusercontent.com/26765027/93582339-3eac9900-f99a-11ea-929c-0d22632d1cfd.png)
 
 Nice!
-<br><br>
+<br>
 
 # How to discover what target you are in
 
@@ -96,7 +96,7 @@ $ systemctl list-units --type service --state runnning
 
 ![image-boot-find-running-services](https://user-images.githubusercontent.com/26765027/81923751-0f45e400-95d6-11ea-80de-380a0bbe4cdf.png)
 
-<br><br>
+<br>
 
 # Debugging emergency mode
 
