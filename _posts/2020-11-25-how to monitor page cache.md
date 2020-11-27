@@ -11,32 +11,28 @@ categories: linux kernel memory
 # Contents
 
 - [**Introduction**](#introduction)<br>
+     - [Requirements](#requirements)<br>
 - [**What is Page Cache**](#what-is-page-cache)<br>
 - [**Cache types**](#cache-types)<br>
 - [**Some ways to monitor Page Cache in memory**](#some-ways-to-monitor-page-cache-in-memory)<br>
-      - [/proc/meminfo](#/proc/meminfo)<br>
-      - [Free](#free)<br>
-      - [Vmstat](#vmstat)<br>
+     - [/proc/meminfo](#/proc/meminfo)<br>
+     - [Free](#free)<br>
+     - [Vmstat](#vmstat)<br>
 - [**Some ways to monitor Page Cache used by files**](#some-ways-to-monitor-page-cache-used-by-files)<br>
-      - [Pctstat](#pcstat)<br>
-      - [Vmtouch](#vmtouch)<br>
+     - [Pctstat](#pcstat)<br>
+     - [Vmtouch](#vmtouch)<br>
 - [**Some ways to monitor Page Cache performance**](#some-ways-to-monitor-page-cache-performance)<br>
-      - [Cachestat](#cachestat)<br>
+     - [Cachestat](#cachestat)<br>
 - [**Some ways to tune Page Cache**](#some-ways-to-tune-page-cache)<br>
-- [**Dropping Page Cache**](#dropping-page-cache)<br>
-      - [/proc/sys/vm/drop_caches](#/proc/sys/vm/drop_caches)<br>
-- [**Building Page Cache**](#building-page-cache)<br>
-      - [cksum](#cksum)<br>
-- [**Controlling Page Cache thresholds**](#controlling-page-cache-thresholds)<br>
-      - [/proc/sys/vm/vfs_cache_pressure](##/proc/sys/vm/vfs_cache_pressure)
+     - [Dropping Page Cache](#dropping-page-cache)<br>
+     - [Building Page Cache](#building-page-cache)<br>
+     - [Controlling Page Cache thresholds](#controlling-page-cache-thresholds)<br>
 
 <br><br>
 
 # Introduction
 
 After reading Brendan Gregg's [Linux Page Cache Hit Ratio](http://www.brendangregg.com/blog/2014-12-31/linux-page-cache-hit-ratio.html), I decided to go down a rabbit hole, try [cachestat](https://github.com/brendangregg/perf-tools/blob/master/fs/cachestat) and look for different tools that could be used to monitor or debug Linux Page Cache. This article **will not** necessarily be a deep dive into Page Cache itself, more an overview of useful tools available to manage Page Cache on servers. 
-
-<br><br>
 
 # Requirements
 
@@ -57,8 +53,8 @@ To begin, let's actually talk about what Page Cache is. Simply, it's memory held
 * **Slab**<br>
   cache for frequently used objects in the Linux Kernel including dentries and inodes.<br>
 
-N.B. The Page Cache and the Buffer Cache were separate prior to Linux Kernel 2.4 , but now the Buffer Cache simply points into the Page Cache - [read more](https://www.quora.com/What-is-the-major-difference-between-the-buffer-cache-and-the-page-cache-Why-were-they-separate-entities-in-older-kernels-Why-were-they-merged-later-on) . The Buffer essentially stores metadata of the Page Cache. The Kernel does not have access to the Page Cache, but reads from the Buffer.<br>
-<br>
+N.B. The Page Cache and the Buffer Cache were separate prior to Linux Kernel 2.4 , but now the Buffer Cache simply points into the Page Cache - [read more](https://www.quora.com/What-is-the-major-difference-between-the-buffer-cache-and-the-page-cache-Why-were-they-separate-entities-in-older-kernels-Why-were-they-merged-later-on) . The Buffer essentially stores metadata of the Page Cache. The Kernel does not have access to the Page Cache, but reads from the Buffer.
+
 ![](http://static.duartes.org/img/blogPosts/readFromPageCache.png)<br>
 Source: [manybutfinite.com](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/)
 <br>
@@ -87,8 +83,6 @@ Changes to **/proc/meminfo** after writing 100MB of data to a new file:
 > Cached:          2147564 kB
 ```
 
-<br><br>
-
 # Free
 Reads **/proc/meminfo** with pretty display, [man page](http://man7.org/linux/man-pages/man1/free.1.html).
 
@@ -116,8 +110,6 @@ Cached:          2146156 kB
 SwapCached:            0 kB
 ```
 
-<br><br>
-
 # Vmstat
 Reads **/proc/meminfo** with pretty display, [man page](https://linux.die.net/man/8/vmstatreads).<br>
 
@@ -132,6 +124,8 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
  r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa st
  2  0      0 5762168   3384 2652148    0    0    21    27   48  122  0  0 99  0  0
  ```
+
+<br><br>
 
 # Some ways to monitor Page Cache used by files
 # Pcstat
@@ -163,8 +157,6 @@ Viewing change in **Page Cache** using **pcstat** after writing 100MB of data to
 ---
 > | foo   | 100000000      | 24415      | 24415     | 100.000 |
 ```
-
-<br><br>
 
 # Vmtouch
 Analyse **Page Cache** for files and directories, [github](https://github.com/hoytech/vmtouch/).<br>
@@ -272,8 +264,6 @@ TIME         HITS   MISSES  DIRTIES    RATIO   BUFFERS_MB   CACHE_MB
          Elapsed: 1.6036 seconds
 ```
 
-<br><br>
-
 # Building Page Cache
 
 # cksum
@@ -295,8 +285,6 @@ Reads data and checks for corruption, by reading all Pages of that file are then
 | foo   | 100000000      | 24415      | 24415     | 000.000 |
 +-------+----------------+------------+-----------+---------+
 ```
-
-<br><br>
 
 # Controlling Page Cache thresholds
 
