@@ -10,7 +10,7 @@ categories: linux kernel
 # Contents
 
 - [**Introduction**](#introduction)<br>
-- [**Requirements**](#requirements)<br>
+    - [Requirements](#requirements)<br>
 - [**kdump**](#kdump)<br>
     - [kdump cheatsheet](#kdump-cheatsheet)<br>
     - [kdump install instructions](#kdump-install-instructions)<br>
@@ -39,7 +39,6 @@ Here's the test case we will be using to trigger a kernel panic.
 $ echo 1 > /proc/sys/kernel/sysrq
 $ echo c > /proc/sysrq-trigger
 ```
-<br>
 
 # Requirements
 
@@ -66,12 +65,12 @@ Here's a kdump cheatsheet to get familiar.
 |`vmcore-dmesg.txt`|Pretty dump file name.| 
 |`dmesg`|Kdump calls `dmesg`.|
 
-<br><br>
+<br>
 
 # kdump install instructions
 
 `kdump` is already installed in `RHEL` `8`and its installation steps are well documented.
-<br><br><br>
+<br>
 
 # kdump output explained
 
@@ -113,7 +112,7 @@ Some `crash` info:
 * Can also analyze `netdump`, `diskdump`, `LKCD`, `xendump` or `kvmdump` Kernel dump files.
 
 Below is a brief runthrough of the `crash` install after a cheat sheet.
-<br><br><br>
+<br><br>
 
 # crash cheatsheet
 
@@ -124,7 +123,7 @@ Below is a brief runthrough of the `crash` install after a cheat sheet.
 | `/usr/lib/modules/$(uname -r)/vmlinuz` | Kernel boot bzImage file path. Must include debug data. Debug data is managed in Kernel settings.|
 | `/usr/lib/debug/modules/$(uname -r)/vmlinux` |Kernel object file path with debug data. Compiled by yum package `kernel-debuginfo`.|
 
-<br><br>
+<br>
 
 # crash install instructions 
 
@@ -148,7 +147,7 @@ $ cp /usr/lib/debug/usr/lib/modules/$(uname -r)/vmlinux /tmp/vmlinux
 $ /var/crash/127.0.0.1-2020-04-28-01\:31\:54/vmcore /tmp/vmcore
 ```
 
-<br><br>
+<br>
 
 # How to start a crash session
 
@@ -206,7 +205,7 @@ LOAD AVERAGE: 0.21, 0.35, 0.25
 crash> 
 ```
 
-<br><br>
+<br>
 
 # Use crash session command backtrace 
 _see stack trace leading up to kernel panic and trace of panic itself._
@@ -246,7 +245,7 @@ PID: 6631   TASK: ffff8da79cad2f80  CPU: 0   COMMAND: "bash"
     ORIG_RAX: 0000000000000001  CS: 0033  SS: 002b
 ```
 
-<br><br>
+<br>
 
 # Backtrace output explained
 
