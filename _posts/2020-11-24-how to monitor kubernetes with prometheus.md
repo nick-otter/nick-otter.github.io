@@ -56,7 +56,7 @@ prometheus-prometheus-kube-prometheus-prometheus-0     2/2     Running   1      
 prometheus-prometheus-node-exporter-x2sdt              1/1     Running   0          75m
 ```
 Hello Prometheus. Grafana has also been installed which will be helpful for visualisation later.
-<br><br><br><br>
+<br><br><br>
 
 # Helm values.yaml
 
