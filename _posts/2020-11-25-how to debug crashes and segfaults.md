@@ -14,6 +14,7 @@ categories: linux kernel memory
      - [How to configure ulimit](#configure-ulimit)<br>
      - [How to test core dump file creation](#how-to-test-core-dump-file-creation)<br>
 - [**How to read the core dump file**](#how-to-read-the-core-dump-file)
+     - [backtrace](#backtrace)
 <br><br><br>
 
 # Introduction
