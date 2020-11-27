@@ -28,9 +28,8 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 ![](https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/prometheus_kubernetes_diagram_overview.png)
 
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
-<br><br><br><br>
 
-# Requirements
+**`Requirements`**
 
 | Kubernetes | `1.19.2` |
 | Minikube | `1.13.1`|
