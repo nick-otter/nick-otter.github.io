@@ -29,7 +29,7 @@ Let's take a look at Prometheus as a monitoring solution for a simple cluster. H
 
 I don't like presenting images without info. So.. take a look over the image and talk it over. Only if you want to though.
 
-**`Requirements`**
+# Requirements
 
 | Kubernetes | `1.19.2` |
 | Minikube | `1.13.1`|
