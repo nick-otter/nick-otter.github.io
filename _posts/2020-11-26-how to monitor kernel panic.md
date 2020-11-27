@@ -65,8 +65,6 @@ Here's a kdump cheatsheet to get familiar.
 |`vmcore-dmesg.txt`|Pretty dump file name.| 
 |`dmesg`|Kdump calls `dmesg`.|
 
-<br>
-
 # kdump install instructions
 
 `kdump` is already installed in `RHEL` `8`and its installation steps are well documented.
@@ -112,7 +110,7 @@ Some `crash` info:
 * Can also analyze `netdump`, `diskdump`, `LKCD`, `xendump` or `kvmdump` Kernel dump files.
 
 Below is a brief runthrough of the `crash` install after a cheat sheet.
-<br><br>
+<br>
 
 # crash cheatsheet
 
@@ -122,8 +120,6 @@ Below is a brief runthrough of the `crash` install after a cheat sheet.
 |`extract-linux`|Kernel script to extract `vmlinuz` file to a Kernel object file.|
 | `/usr/lib/modules/$(uname -r)/vmlinuz` | Kernel boot bzImage file path. Must include debug data. Debug data is managed in Kernel settings.|
 | `/usr/lib/debug/modules/$(uname -r)/vmlinux` |Kernel object file path with debug data. Compiled by yum package `kernel-debuginfo`.|
-
-<br>
 
 # crash install instructions 
 
@@ -146,8 +142,6 @@ Copy vmlinux and vmcore file to a directory.
 $ cp /usr/lib/debug/usr/lib/modules/$(uname -r)/vmlinux /tmp/vmlinux
 $ /var/crash/127.0.0.1-2020-04-28-01\:31\:54/vmcore /tmp/vmcore
 ```
-
-<br>
 
 # How to start a crash session
 
@@ -205,8 +199,6 @@ LOAD AVERAGE: 0.21, 0.35, 0.25
 crash> 
 ```
 
-<br>
-
 # Use crash session command backtrace 
 _see stack trace leading up to kernel panic and trace of panic itself._
 
@@ -244,8 +236,6 @@ PID: 6631   TASK: ffff8da79cad2f80  CPU: 0   COMMAND: "bash"
     R13: 0000000000000002  R14: 00007faad1051740  R15: 0000000000000002
     ORIG_RAX: 0000000000000001  CS: 0033  SS: 002b
 ```
-
-<br>
 
 # Backtrace output explained
 
