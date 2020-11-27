@@ -10,7 +10,7 @@ categories: microservices kubernetes
 # Contents 
 
 - [**Introduction**](#introduction)<br>
-- [**Requirements**](#requirements)<br>
+   - [Requirements](#requirements)<br>
 - [**Deploying Prometheus with Helm**](#deploying-prometheus-with-helm)<br>
    - [Helm values.yaml](#helm-values.yaml)<br>
 - [**Exposing the web dashboards**](#exposing-the-web-dashboards)<br>
