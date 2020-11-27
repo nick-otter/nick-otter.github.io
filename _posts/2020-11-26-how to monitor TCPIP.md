@@ -10,17 +10,17 @@ categories: linux kernel network
 # Contents
 
 - [**Introduction**](#introduction)<br>
-        - [TCP/IP overview](#tcp/ip-overview)<br>
-- [**Requirements**](#requirements)<br>
-- [**Overview of TCP tools**](#overview-of-TCP-tools)<br>
+     - [TCP/IP overview](#tcp/ip-overview)<br>
+     - [Requirements](#requirements)<br>
+     - [Overview of TCP tools](#overview-of-TCP-tools)<br>
 - [**Sniffing packets with tcpdump**](#sniffing-packets-with-tcpdump)<br>
 - [**Understanding dopped packets**](#understanding-dropped-packets)<br>
 - [**Analysing TCP/IP packets**](#analysing-tcp/ip-packets)<br>
-        - [TCP flags](#tcp-flags)<br>
-        - [Checksum](#checksum)<br>
-        - [Checksum errors and TCP](#checksum-errors-and-tcp)<br>
-        - [Window size](#window-size)<br>
-        - [Retransmissions](#retransmissions)<br>
+     - [TCP flags](#tcp-flags)<br>
+     - [Checksum](#checksum)<br>
+     - [Checksum errors and TCP](#checksum-errors-and-tcp)<br>
+     - [Window size](#window-size)<br>
+     - [Retransmissions](#retransmissions)<br>
 - [**IPv4 header cheatsheet**](#ipv4-header-cheatsheet)<br>
 - [**TCP header cheatsheet**](#tcp-header-cheatsheet)
 <br><br><br><br>
@@ -30,9 +30,8 @@ categories: linux kernel network
 If you manage a server that receives or transmits over TCP/IP, how can this be monitored? 
 
 Using tcpdump and maybe some wireshark, let's work it out. 
-<br><br><br><br>
 
-**`TCP/IP overview`**
+# TCP/IP overview
 
 IP is a protocol that obtains the address to which data is sent. TCP is responsible for the delivery of that data after establishing a connection to the IP address of where data is to be sent. 
 
@@ -42,14 +41,10 @@ Here's how a packet is sent from host to client. Neat right? IP is a `network/in
 
 ![](https://docs.oracle.com/cd/E19455-01/806-0916/images/ipov.fig88.epsi.gif)
 
-<br><br><br>
-
 # Requirements
 
 | Updated | `05/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br><br>
 
 # Overview of TCP tools
 
@@ -101,9 +96,7 @@ Here's a breakdown of the separate packets shown in that output:
 |--
 | TCP packet.
 
-<br><br><br>
-
-----
+<br><br>
 
 # Understanding dropped packets
 
@@ -130,7 +123,7 @@ $ tcpdump -c 20 -n -B 4069 port 105
 ```
 
 Nice.
-<br><br><br><br>
+<br><br><br>
 
 # Analysing TCP/IP packets 
 
@@ -155,7 +148,7 @@ So from that trace we'll look at:
 * window size, 
 * retransmissions / timeouts.
 
-<br><br><br>
+<br>
 
 # TCP flags
 
@@ -190,7 +183,7 @@ With tcpdump we can filter for flags during a session. To filter for `SYN` and `
 $ tcpdump -i lo 'tcp[tcpflags] == tcp-syn or tcp[tcpflags] == tcp-rst'
 ```
 
-<br><br><br>
+<br>
 
 # Checksum
 
@@ -243,7 +236,7 @@ foo
 foo
 ```
 
-<br><br><br>
+<br>
 
 # Checksum errors and TCP
 
@@ -255,7 +248,7 @@ Other cause of checksum errors could be:
 * a faulty layer 3 (`network`) device, 
 * man-in-the-middle packet manipulation - very unlikely, as man-in-the-middle would be able to calculate a proper checksum, it wouldn't necessarily cause a checksum error.
 
-<br><br><br>
+<br><br>
 
 # Window size 
 
@@ -334,7 +327,7 @@ net.ipv4.tcp_window_scaling
 net.ipv4.tcp_workaround_signed_windows
 ```
 
-<br><br><br>
+<br>
 
 # Retransmissions
 
@@ -371,7 +364,7 @@ tcp.analysis.retransmission
 It's also worth looking at congestion control and `FRTO` if you have time, [here](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/).
 <br><br><br><br>
 
-**`IPv4 header cheatsheet`**
+# IPv4 header cheatsheet
 
 Here's a diagram of the `IPv4` packet header, with tcpdump abbreviations in blue (`IP` in the trace shows it's an `IPv4` and not `IPv6` packet). The range at the top and right hand side is number of Bytes.
 
@@ -392,7 +385,7 @@ See also [RFC791](https://tools.ietf.org/html/rfc791).<br>
 | **`proto TCP (6)`**     | `protocol`. Specifies the next encapsulated protocol. In this case, the encapsulated packet in the IP header is `TCP`.|
 | **`length 56`**        | The packet length, in Bytes. |
 
-<br><br><br>
+<br>
 
 # TCP header cheatsheet
 
