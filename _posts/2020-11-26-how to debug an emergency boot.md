@@ -11,16 +11,15 @@ categories: linux kernel boot
 
 - [**Introduction**](#introduction)<br>
   - [Boot procedure explained](#boot-procedure-explained)<br>
-- [**Requirements**](#requirements)<br>
+  - [Requirements](#requirements)<br>
 - [**Emergency target vs. rescue target**](#emergency-target-vs.-rescue-target)<br>
-  - [How to discover what target you are in](#how-to-discover-what-target-you-are-in)<br>
+- [**How to discover what target you are in**](#how-to-discover-what-target-you-are-in)<br>
 - [**Debugging emergency mode**](#debugging-emergency-mode)
 <br><br><br><br>
 
 # Introduction
 
 So.. something's wrong and you are unable to boot to your default state. Finding yourself in an odd looking shell, how do you investigate and get back to the default system?
-<br><br><br><br>
 
 # Boot procedure explained
 
@@ -49,8 +48,6 @@ So, if the boot procedure successfully completes, the system will (by default) b
 | KERNEL | `emergency.target`, `rescue.target` |
 | SYSTEMD | `multi-user.target`, `graphical.target`|
 
-<br><br><br>
-
 # Requirements
 
 | Updated | `04/2020` | 
@@ -75,7 +72,7 @@ Press **`e`** to go to the Grub2 options menu at the boot menu screen. Then appe
 ![image-boot-options-menu](https://user-images.githubusercontent.com/26765027/93582339-3eac9900-f99a-11ea-929c-0d22632d1cfd.png)
 
 Nice!
-<br><br><br><br>
+<br><br>
 
 # How to discover what target you are in
 
@@ -99,7 +96,7 @@ $ systemctl list-units --type service --state runnning
 
 ![image-boot-find-running-services](https://user-images.githubusercontent.com/26765027/81923751-0f45e400-95d6-11ea-80de-380a0bbe4cdf.png)
 
-<br><br><br>
+<br><br>
 
 # Debugging emergency mode
 
@@ -130,5 +127,3 @@ To continue to the default boot target, run command `^ d`, `systemctl default` o
 ---
 
 Thanks.
-
-
