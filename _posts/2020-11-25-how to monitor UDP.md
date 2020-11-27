@@ -9,10 +9,10 @@ categories: linux kernel network
 
 # Contents
 
-- [**Overview of UDP tools**](#overview-of-udp-tools)<br>
-- [**Requirements**](#requirements)<br>
 - [**Introduction**](#introduction)<br>
-        - [UDP overview](#udp-overview)<br>
+    - [UDP overview](#udp-overview)<br>
+    - [Requirements](#requirements)<br>
+    - [Overview of UDP tools](#overview-of-udp-tools)<br>
 - [**Sniffing packets with tcpdump**](#sniffing-packets-with-tcpdump)<br>
 - [**Understanding dropped packets**](#understanding-dropped-packets)<br>
 - [**UDP header values explained**](#udp-header-values-explained)<br>
@@ -45,14 +45,11 @@ So, loss tolerant services where data transmission loss is not considered critic
 * Dynamic Host Configuration Protocol (`DHCP`). 
 
 Okay, let's begin.
-<br><br><br><br>
 
 # Requirements 
 
 | Updated | `05/2020` |
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br>
 
 # Overview of UDP tools
 
@@ -86,17 +83,12 @@ Neat.
 Let's breakdown the output. What can we see? Let's identify an IP and UDP packet from that output. IP encapsulates UDP, so when listening on a port for UDP you will get both the IP packet AND the UDP packet. 
 
 Here's a breakdown of the separate packets shown in that output.
-||
-|--
+
 | **`13:20:26.807498 IP (tos 0x0, ttl 64, id 35216, offset 0, flags [DF], proto UDP (17), length 32)`** |
 | IPv4 header fields and values. |
 
-||
-|--
 | **`127.0.0.1.59720 > 127.0.0.1.distinct: [udp sum ok] UDP, length 4`**|
 | UDP header fields and values.|
-
-<br><br>
 
 # Understanding dropped packets
 
@@ -128,8 +120,6 @@ $ tcpdump -c 20 -n -B port 53
 
 Nice.
 
-<br><br><br>
-
 # UDP header values explained
 
 
@@ -139,15 +129,11 @@ Here's a diagram of the UDP header structure (see also [RFC 768](https://tools.i
 
 Can we see that in the tcpdump trace above? You betcha. And it is relatively straightforward.
 
-|||
-|-- |-- 
 | **`127.0.0.1.59720 > 127.0.0.1.distinct`** | Source IP address and port to the left of `>` and Destination IP address and port to the right of where that packet is being sent to and from. |
 | **`[udp sum ok]`** | The datagram's `checksum` status. |
 | **`length 4`** | The packet length (Bytes), **not** including headers. |
 
 Great. What stands out to me there is **`checksum`** let's take a deeper look at what checksum is and UDP checksum values.
-
-<br><br><br>
 
 # Checksum
 
@@ -171,23 +157,6 @@ In tcpdump a UDP checksum match will be shown as **`[udp sum ok]`**, and a non m
 # N.B.
 
 If a checksum error is detected in a UDP sgment the packet will be **dropped** (discarded) by the receiver.
-
-<br><br><br>
-
-# IPv4 header values explained 
-
-| | |
-|-- |--
-| **`13:20:26.807498`** | Timestamp of the datagram. |
-| **`tos 0x0`**| Type of service (`TOS`) value. Based on this value a packet would be placed in a prioritized outgoing queue, or take a route with appropriate latency, throughput, or reliability. See `TOS` hex table [here](https://www.tucny.com/Home/dscp-tos). |
-| **`ttl 64`**| Hops a packet can travel before it gets dropped to make sure the network doesn't get congested. `TTL` (Time to Live) can be set up to `225` by the sender of the packet.  |
-| **`id 35216`**| Identifier for parts of a `fragmented` datagram ([read more](https://packetpushers.net/ip-fragmentation-in-detail/)). |
-| **`offset 0`**| The fragment offset - used for fragmented packets ([read more](https://packetpushers.net/ip-fragmentation-in-detail/)).|
-| **`flags [DF]`**| Any flags set. `DF` stands for Don't Fragment. |
-| **`proto UDP (17)`**| Protocol type and its number (8 bits, 10th octet).|
-| **`length 32`**| The packet length, **including** headers, in Bytes. |
-
-<br><br>
 
 # Analyse UDP over time with wireshark
 
