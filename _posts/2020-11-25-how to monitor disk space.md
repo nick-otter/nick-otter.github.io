@@ -10,6 +10,7 @@ categories: linux kernel disk
 # Contents: 
 
 - [**Introduction**](#introduction)<br>
+    - [Requirements](#requirments)<br>
 - [**df**](#df)<br>
     - [df cheatsheet](#df-cheatsheet)<br>
     - [df output](#df-output)<br>
@@ -50,8 +51,6 @@ Here are a couple of helpful flags for **`df`**.
 
 # df cheatsheet
 
-|||
-|--|--
 | `df -h`| See output as human readable.|
 |`df -T`| See file system type. |
 |`df -i`| See inodes. |
@@ -92,8 +91,6 @@ With `df` we've seen that our root partition is using 73% of our hard drive `/de
 
 # du cheatsheet
 
-|||
-|--|--
 | `--max-depth=1` | Show first column of result only. |
 | `sort` | `coreutils` filter function. |
 | `-h` | See output as human readable. |
@@ -183,8 +180,6 @@ tail    5611 root    3r   REG    8,2 100000000 16949133 foo
 ```
 However, `lsof` can't help us if the process **isn't** currently operating on the file. To track what processes use a file over a period of time we can use `auditctl`.
 
-<br><br>
-
 # How to use auditctl
 
 `auditctl` is shipped with this distribution of RHEL 8 (`4.18`). To initialise `auditctl` to track a file called foo, run this command.
@@ -192,8 +187,7 @@ However, `lsof` can't help us if the process **isn't** currently operating on th
 ```
 $ auditctl -w /root/foo -p warx -k foo
 ```
-|||
-|--|--
+
 |`-w`| Add watch at path.|
 | `-p warx` | Set permissions filter for watch.|
 | `-k` | Set identifying key for rule/watch.|
@@ -204,8 +198,6 @@ To check the configuration has been implemented, run `auditctl -l`.
 -w /root/foo -p rwxa -k foo
 ```
 Neat.
-
-<br>
 
 # Understanding audit.log
 
@@ -220,9 +212,6 @@ type=PATH msg=audit(1588597740.979:2298): item=0 name="/root/foo" inode=16949133
 ```
 A bit condensed, so let's break it down field by field in a table.
 
-`output`
-|||
-|--|--
 | `type=SYSCALL`| Shows that this audit message was triggered by a system call to the kernel. |
 | `msg=audit(1588597740.979:2298)` | Timestamp and ID of the audit message. |
 | `arch=c000003e` |  CPU architecture. |
@@ -249,12 +238,8 @@ Delete files! Here are some serial offender disk space hogs that I've come acros
 
 And below are some ideas of how best to delete them, mostly using `find`. 
 
-<br>
-
 # Some commands to clear some disk space
 
-|||
-|-- |--
 | `yum clean all` | Clean yum cache. |
 | `rm -rf /var/cache/yum`| Clear orphaned yum data. |
 | `find -regex ".*/core\.[0-9]+$" -delete`| Remove core dumps (after debugging). |
