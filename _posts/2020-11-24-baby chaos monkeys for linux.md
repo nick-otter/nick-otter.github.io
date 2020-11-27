@@ -32,8 +32,6 @@ I'm not sure if these are really [**chaos monkeys**](https://en.wikipedia.org/wi
 
 | Linux | `RHEL 8 4.18` |
 
-<br><br>
-
 # Kernel
 
 **How to cause a kernel panic**
@@ -43,8 +41,6 @@ $ echo 1 > /proc/sys/kernel/sysrq
 $ echo c > /proc/sysrq-trigger
 ```
 ![](https://media1.tenor.com/images/0d19c4b59db501d0b5c0dd897a234055/tenor.gif?itemid=5799525)
-
-<br>
 
 # Memory
 
@@ -56,8 +52,6 @@ Taken from Joey Adams on [this thread](https://codegolf.stackexchange.com/questi
 $ kill -11 $$
 ```
 
-<br>
-
 # CPU
 
 **How to max out CPU as quickly as possible**
@@ -68,8 +62,6 @@ Do you want to write repeatedly write a string to STDOUT without any output cons
 ```
 $ yes > /dev/null
 ```
-
-<br>
 
 # Network
 
@@ -84,8 +76,6 @@ In my case this was happening over the `/dev/eth0` network interface. But switch
 $ sudo tc qdisc add dev eth0 root netem corrupt 100%; sleep 10; sudo tc qdisc del dev eth0 root netem
 ```
 
-<br>
-
 # Filesystem
 
 **How to corrupt a filesystem**
@@ -94,8 +84,6 @@ Let's do some random block writes to a partition, bypassing the volume's filesys
 ```
 $ sudo dd if=/dev/zero of=/partition bs=1k seek=10 count=4k
 ```
-
-<br>
 
 **How to orphan some inodes**
 
