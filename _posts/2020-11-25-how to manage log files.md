@@ -74,7 +74,7 @@ compress
 }
 ```
 
-# Configurations options
+# Configuration options
 
 Directives table. For full list of directives that can be used in configurations see the [man page](https://linux.die.net/man/8/logrotate).
 
