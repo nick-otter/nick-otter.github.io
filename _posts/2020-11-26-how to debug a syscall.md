@@ -96,7 +96,6 @@ $ strace -tT cat foo
 ```
 
 Not for the faint of heart. But it's not too complicated.
-<br><br><br>
 
 # Strace output explained
 
@@ -142,7 +141,6 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 
 * `fstat()`<br> 
      &nbsp;returns various information that the filesystem keeps about a file - size, last modified, permissions, etc.
-<br><br><br>
 
 # What you can do with strace
  
