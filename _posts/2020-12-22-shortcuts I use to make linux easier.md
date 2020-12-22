@@ -10,7 +10,7 @@ categories: linux general
 # Contents
 - [**Introduction**](#introduction)<br>
 - [**Using the command line**](#Using-the-command-line)<br>
-   - [Reverse search for commands previously run](#requirements)<br>
+   - [Reverse search for commands run](#reverse-search-for-commands-run)<br>
    - [View history of commands run](#view-history-of-commands-run)<br>
    - [Run command in your history](#run-command-in-your-history)<br>
    - [Autocomplete command](#autocomplete-command)<br>
