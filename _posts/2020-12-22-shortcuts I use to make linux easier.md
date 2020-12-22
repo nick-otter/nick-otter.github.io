@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "The shortcuts I use to make linux easier"
+title:  "Shortcuts I use to make linux easier"
 categories: linux general
 ---
 
-# The shortcuts I use to make linux easier
+# Shortcuts I use to make linux easier
 {: style="text-align: center"}
 
 # Contents
