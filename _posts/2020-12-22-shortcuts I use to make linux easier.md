@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "The shortcuts I use to make linux easier"
+title:  "Shortcuts I use to make linux easier"
 categories: linux general
 ---
 
-# The shortcuts I use to make linux easier
+# Shortcuts I use to make linux easier
 {: style="text-align: center"}
 
 # Contents
 - [**Introduction**](#introduction)<br>
 - [**Using the command line**](#Using-the-command-line)<br>
-   - [Reverse search for commands previously run](#requirements)<br>
+   - [Reverse search for commands run](#reverse-search-for-commands-run)<br>
    - [View history of commands run](#view-history-of-commands-run)<br>
    - [Run command in your history](#run-command-in-your-history)<br>
    - [Autocomplete command](#autocomplete-command)<br>
@@ -75,11 +75,11 @@ Then, when viewing the entry press **`/`** then type the string you are looking 
 
 **Move cursor by word instead of letter**<br>
 
-To go to the left..
+To the left..
 ```
 $ ctrl <left arrow key>
 ```
-To go to the right..
+and to the right..
 ```
 $ ctrl <right arrow key>
 ```
@@ -136,7 +136,7 @@ Type `/` then your string and hit **`return`**. The move to the next result with
 # Processes
 
 **Run a process in the background**<br>
-Run this command while n the process stream..
+Run this command while in the process stream..
 ```
 $ ctrl z
 ```

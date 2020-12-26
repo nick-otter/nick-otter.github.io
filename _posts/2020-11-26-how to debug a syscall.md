@@ -16,7 +16,7 @@ categories: linux kernel
      - [Common syscall script return values explained](#common-syscall-script-return-values-explained)<br>
      - [Common posix syscall](#common-posix-system-calls)<br>
 - [**What you can do with strace**](#what-you-can-do-with-strace)<br>
-<br><br><br><br>
+<br>
 
 # Introduction
 
@@ -38,7 +38,7 @@ For example, if a user program needs to do some sort of IO (open, read, write, e
 | Updated | `04/2020` |
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
 
-<br><br><br>
+<br>
 
 # Strace
 
