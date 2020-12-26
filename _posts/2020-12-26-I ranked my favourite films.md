@@ -11,7 +11,7 @@ Ok. This year I decided to rank films I'd watched. Only caring to record those t
 
 I think reading info in list form can turn into a bit of nightmare, so here's a clean sweep:
 
-I think **Tekkonkinkreet** and **Mcullin** are the best. If you like films that are a bit dark or have aliens in, this list probably covers that. I actually think **Edge of Tomorrow** is great (sorry..). There aren't too many 'classics' in this list, but maybe that will change. Some aren't films, they are documentaries or series. Feel free to throw things at my head if you disagree with me.
+I think **Tekkonkinkreet** and **McCullin** are the best. If you like films that are a bit dark or have aliens in, this list probably covers that. I actually think **Edge of Tomorrow** is great (sorry..). There aren't too many 'classics' in this list, but maybe that will change. Some aren't films, they are documentaries or series. Feel free to throw things at my head if you disagree with me.
 
 **Annihilation** and **Happiest Season** very much pass the [Bechdel test](https://en.wikipedia.org/wiki/Bechdel_test), but other films don't fair so well.
 
