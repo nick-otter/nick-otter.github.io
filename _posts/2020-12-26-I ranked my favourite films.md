@@ -9,7 +9,7 @@ categories: misc
 
 # Introduction
 
-Ok. This year I decided to rank films I'd watched. Only caring to record those that I thought were 8 out of 10 or above. This is a completely subjective list. Mainly ranked in terms of 'rewatchability'. Click each image for information about the film or documentary via their imdb page.
+Ok. This year I decided to rank films I'd watched. Only caring to record those that I thought were 8 out of 10 or above. This is a completely subjective list. Mainly ranked in terms of 'rewatchability' or their meaning. Click each image for information about the film or documentary via their imdb page.
 
 I think reading info in list form can turn into a bit of nightmare, so here's a clean sweep:
 
