@@ -7,6 +7,8 @@ categories: linux kernel memory
 # How to debug crashes and segfaults
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -249,4 +251,4 @@ $ (gdb) disas/s nsProfileLock::FatalSignalHandler
 ```
 ---
 
-Thanks. [Example of using gdb and strace to find the cause of a segmentation fault](http://bl0rg.krunch.be/segfault-gdb-strace.html), [GDB Debugging: ncurses](http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html) and other articles were useful to write this.
+Thanks. [Example of using gdb and strace to find the cause of a segmentation fault](http://bl0rg.krunch.be/segfault-gdb-strace.html), [GDB Debugging: ncurses](http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html) and other articles were useful to write this. This was written by Nick Otter.
