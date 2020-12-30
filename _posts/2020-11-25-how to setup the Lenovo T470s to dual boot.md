@@ -7,6 +7,7 @@ categories: misc
 # How to setup the Lenovo T470s to dual boot
 {: style="text-align: center"}
 
+Written by Nick Otter.
 
 # Contents
 
@@ -75,4 +76,4 @@ This should make the Grub (Linux boot agent) default and hence you can access bo
 (Thanks [itsfoss](https://itsfoss.com/install-ubuntu-1404-dual-boot-mode-windows-8-81-uefi/)).
 
 ---
-Thanks.
+Thanks. This was written by Nick Otter.
