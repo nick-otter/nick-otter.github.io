@@ -7,6 +7,8 @@ categories: linux kernel disk
 # How to manage log files
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -140,4 +142,4 @@ Great. And how about only compressing if the log file's size is greater than 3 M
 And if we want to compress but not create a new log file everytime, we can just use `nocreate`. Neat.
 
 ---
-Thanks.
+Thanks. This was written by Nick Otter.
