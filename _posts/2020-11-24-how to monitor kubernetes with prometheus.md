@@ -7,6 +7,8 @@ categories: microservices kubernetes
 # How to monitor Kubernetes with Prometheus
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents 
 
 - [**Introduction**](#introduction)<br>
@@ -135,7 +137,7 @@ Let's keep this short and sweet. To add services to Prometheus, this is what's r
 * A **[Service](https://kubernetes.io/docs/concepts/services-networking/service/)** resource that exposes this metrics endpoint.
 
 Remember, Prometheus scrapes Kubernetes _Services_ **not** Pods. A diagram from [Sysdig.com](https://sysdig.com/blog/kubernetes-monitoring-prometheus-operator-part3/) will make this easier to understand I'm sure and we'll walk through the running order shortly.<br><br> 
-
+Written by Nick Otter.
 ![](https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/prometheus_operator_servicemonitor.png)
 
 Not in this diagram is that whole namespace thing I mentioned. A ServiceMonitor resource _has_ to be deployed in the same namespace as the Prometheus pod (`monitoring` in our case) _but_ that ServiceMonitor resource can expose services in _all other namespaces_ to Prometheus. 
@@ -322,4 +324,4 @@ Now let's go to the browser on the server and look at **`Targets`**. Voila. Look
 
 ---
 
-Thanks.
+Thanks. This was written by Nick Otter.
