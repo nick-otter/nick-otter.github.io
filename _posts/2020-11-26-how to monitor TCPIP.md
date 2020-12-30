@@ -7,6 +7,8 @@ categories: linux kernel network
 # How to monitor TCP/IP
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -401,4 +403,4 @@ See also [RFC791](https://tools.ietf.org/html/rfc791).<br>
 
 ---
 
-Thanks. [TCP checksum error case study](https://www.networkdatapedia.com/post/2017/09/13/tcp-checksum-error-case-study), [Manually create and send raw TCP/IP packets](https://inc0x0.com/tcp-ip-packets-introduction/tcp-ip-packets-3-manually-create-and-send-raw-tcp-ip-packets/), [Checksums](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvChecksums.html),  [Tweaking Linux TCP stack for lossy networks](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/), [TCP initial window size](https://access.redhat.com/solutions/29455) and other articles were useful in writing this.
+Thanks. [TCP checksum error case study](https://www.networkdatapedia.com/post/2017/09/13/tcp-checksum-error-case-study), [Manually create and send raw TCP/IP packets](https://inc0x0.com/tcp-ip-packets-introduction/tcp-ip-packets-3-manually-create-and-send-raw-tcp-ip-packets/), [Checksums](https://www.wireshark.org/docs/wsug_html_chunked/ChAdvChecksums.html),  [Tweaking Linux TCP stack for lossy networks](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/), [TCP initial window size](https://access.redhat.com/solutions/29455) and other articles were useful in writing this. This was written by Nick Otter.
