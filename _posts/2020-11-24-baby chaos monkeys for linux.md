@@ -7,6 +7,8 @@ categories: linux general
 # Baby chaos monkeys for Linux
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -98,4 +100,4 @@ $ bash -c `rm home; bash`
 
 ---
 
-Thanks.
+Thanks. This was written by Nick Otter.
