@@ -7,6 +7,8 @@ categories: linux kernel boot
 # How to debug an emergency boot
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -126,4 +128,4 @@ To continue to the default boot target, run command `^ d`, `systemctl default` o
 
 ---
 
-Thanks.
+Thanks. This was written by Nick Otter.
