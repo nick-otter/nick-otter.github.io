@@ -7,6 +7,8 @@ categories: linux kernel
 # How to debug a syscall
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -177,4 +179,4 @@ select(6, [0 5], [], NULL, NULL
 ```
 ---
 
-Thanks. [The ultimate strace cheatsheet](https://linux-audit.com/the-ultimate-strace-cheat-sheet/), [The Definitive Guide to Linux System Calls](https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/#what-is-a-system-call) and other articles were useful to write this. 
+Thanks. [The ultimate strace cheatsheet](https://linux-audit.com/the-ultimate-strace-cheat-sheet/), [The Definitive Guide to Linux System Calls](https://blog.packagecloud.io/eng/2016/04/05/the-definitive-guide-to-linux-system-calls/#what-is-a-system-call) and other articles were useful to write this. This written by Nick Otter.
