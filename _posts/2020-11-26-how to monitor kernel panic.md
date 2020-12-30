@@ -7,6 +7,8 @@ categories: linux kernel
 # How to monitor kernel panic
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -260,4 +262,4 @@ We could see the function executed that caused the kernel panic wihtout the use 
 
 ---
 Thanks. some of the articles I used for this included [understanding a kernel oops](https://opensourceforu.com/2011/01/understanding-a-kernel-oops/), [determining cause of linux kernel panic](
-https://unix.stackexchange.com/questions/60574/determining-cause-of-linux-kernel-panic), [analyze crash](https://www.dedoimedo.com/computers/crash-analyze.html) and this [crash whitepaper](https://people.redhat.com/anderson/crash_whitepaper/).<br>
+https://unix.stackexchange.com/questions/60574/determining-cause-of-linux-kernel-panic), [analyze crash](https://www.dedoimedo.com/computers/crash-analyze.html) and this [crash whitepaper](https://people.redhat.com/anderson/crash_whitepaper/). This was written by Nick Otter.
