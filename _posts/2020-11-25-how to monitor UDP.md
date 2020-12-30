@@ -7,6 +7,8 @@ categories: linux kernel network
 # How to monitor UDP
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 - [**Introduction**](#introduction)<br>
@@ -184,4 +186,4 @@ To analyse this file, `wireshark` can be used (reads `pcap` `pcapng` files).
 
 ---
 
-Thanks. [RF C791](https://tools.ietf.org/html/rfc791), [RFC 6864](https://tools.ietf.org/html/rfc6864), [A beginner's guide to network troubleshooting in Linux](https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux), [Verifying which ports are listening](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/security_guide/s1-server-ports) and other articles were useful to write this.
+Thanks. [RF C791](https://tools.ietf.org/html/rfc791), [RFC 6864](https://tools.ietf.org/html/rfc6864), [A beginner's guide to network troubleshooting in Linux](https://www.redhat.com/sysadmin/beginners-guide-network-troubleshooting-linux), [Verifying which ports are listening](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/4/html/security_guide/s1-server-ports) and other articles were useful to write this. This was written by Nick Otter.
