@@ -7,6 +7,8 @@ categories: linux kernel disk
 # How to monitor disk space
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents: 
 
 - [**Introduction**](#introduction)<br>
@@ -247,4 +249,4 @@ And below are some ideas of how best to delete them, mostly using `find`.
 
 ---
 
-Thanks. [Clear disk space on Centos](https://www.getpagespeed.com/server-setup/clear-disk-space-centos) and [how to free disk space one linux systems](https://www.techrepublic.com/article/how-to-free-disk-space-on-linux-systems/) were helpful in writing this, among other articles. And do take a look at the `ncdu`(_disk usage analyzer with an ncurses interface_) [repository](https://dev.yorhel.nl/ncdu).
+Thanks. [Clear disk space on Centos](https://www.getpagespeed.com/server-setup/clear-disk-space-centos) and [how to free disk space one linux systems](https://www.techrepublic.com/article/how-to-free-disk-space-on-linux-systems/) were helpful in writing this, among other articles. And do take a look at the `ncdu`(_disk usage analyzer with an ncurses interface_) [repository](https://dev.yorhel.nl/ncdu). This was written by Nick Otter.
