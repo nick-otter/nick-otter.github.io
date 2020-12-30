@@ -7,6 +7,8 @@ categories: linux kernel disk
 # How to monitor disk activity
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 
 
@@ -75,7 +77,7 @@ So (this is a 1 core system and top increments percentage by cores - `number of 
 
 There's activity in **`sys`** (which is time spent running kernel space processes); could be expected as we've seen high wait - user space can't access the disk. Hardware interrupts (**`hi`**) also look high - this is an instruction from disk to CPU. 
 
-How to investigate? From the top output we can also see that there are **`3`** **`running`** tasks. This really narrows stuff down; some, one or all of those tasks are causing the high wait. To keep investigating we can stay focussed on the disk. 
+How to investigate? From the top output we can also see that there are **Written by Nick Otter.Written by Nick Otter.`3`** **`running`** tasks. This really narrows stuff down; some, one or all of those tasks are causing the high wait. To keep investigating we can stay focussed on the disk. 
 
 Let's see:
 * which disk is causing high I/O,
@@ -190,4 +192,4 @@ Not mentioned in this article - among those tools above, **`ioping`** is a very 
 
 ---
 
-Thanks. [Understanding I/O wait](https://www.witekio.com/blog/understanding-io-wait-0-idle-can-ok/), [Understanding disk I/O when should you be worried](https://scoutapm.com/blog/understanding-disk-i-o-when-should-you-be-worried), [Troubleshooting high I/O wait](https://bencane.com/2012/08/06/troubleshooting-high-io-wait-in-linux/), [Test I/O performance](https://medium.com/@kenichishibata/test-i-o-performance-of-linux-using-dd-a5074f1de9ce), [Calculate I/O in a storage array](https://www.techrepublic.com/blog/the-enterprise-cloud/calculate-iops-in-a-storage-array/) were useful to write this.
+Thanks. [Understanding I/O wait](https://www.witekio.com/blog/understanding-io-wait-0-idle-can-ok/), [Understanding disk I/O when should you be worried](https://scoutapm.com/blog/understanding-disk-i-o-when-should-you-be-worried), [Troubleshooting high I/O wait](https://bencane.com/2012/08/06/troubleshooting-high-io-wait-in-linux/), [Test I/O performance](https://medium.com/@kenichishibata/test-i-o-performance-of-linux-using-dd-a5074f1de9ce), [Calculate I/O in a storage array](https://www.techrepublic.com/blog/the-enterprise-cloud/calculate-iops-in-a-storage-array/) were useful to write this. This was written by Nick Otter.
