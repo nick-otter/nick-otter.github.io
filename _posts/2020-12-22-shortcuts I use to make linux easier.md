@@ -7,6 +7,8 @@ categories: linux general
 # Shortcuts I use to make linux easier
 {: style="text-align: center"}
 
+Written by Nick Otter.
+
 # Contents
 - [**Introduction**](#introduction)<br>
 - [**Using the command line**](#Using-the-command-line)<br>
@@ -150,4 +152,4 @@ _"Output appended data as the file grows"_. Nice.
    
 ---
 
-Thanks.
+Thanks. This was written by Nick Otter.
