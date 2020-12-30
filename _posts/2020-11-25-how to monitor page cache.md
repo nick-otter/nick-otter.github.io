@@ -7,6 +7,7 @@ categories: linux kernel memory
 # How to monitor Page Cache
 {: style="text-align: center"}
 
+Written by Nick Otter.
 
 # Contents
 
@@ -308,4 +309,4 @@ Change pressure:
 
 ---
 
-Thanks. Articles like [Buffer Cache and Page Cache](https://www.quora.com/What-is-the-major-difference-between-the-buffer-cache-and-the-page-cache-Why-were-they-separate-entities-in-older-kernels-Why-were-they-merged-later-on), [Buffer and Cache Columns In /proc/meminfo](https://www.quora.com/What-is-the-difference-between-Buffers-and-Cached-columns-in-proc-meminfo-output), [Linux Kernel Development](https://www.amazon.com/dp/0672329468), [Linux-fincore To Check Linux Page Cache Usage](https://www.percona.com/blog/2019/08/29/using-linux-fincore-to-check-linux-page-cache-usage/), [File System Cache Analysis](https://www.fromdual.com/who-else-is-using-my-memory-file-system-cache-analysis), [Understanding The Linux Kernel](http://shop.oreilly.com/product/9780596005658.do), [Page Cache, The Affair](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/) were helpful to write this.
+Thanks. Articles like [Buffer Cache and Page Cache](https://www.quora.com/What-is-the-major-difference-between-the-buffer-cache-and-the-page-cache-Why-were-they-separate-entities-in-older-kernels-Why-were-they-merged-later-on), [Buffer and Cache Columns In /proc/meminfo](https://www.quora.com/What-is-the-difference-between-Buffers-and-Cached-columns-in-proc-meminfo-output), [Linux Kernel Development](https://www.amazon.com/dp/0672329468), [Linux-fincore To Check Linux Page Cache Usage](https://www.percona.com/blog/2019/08/29/using-linux-fincore-to-check-linux-page-cache-usage/), [File System Cache Analysis](https://www.fromdual.com/who-else-is-using-my-memory-file-system-cache-analysis), [Understanding The Linux Kernel](http://shop.oreilly.com/product/9780596005658.do), [Page Cache, The Affair](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/) were helpful to write this. This was written by Nick Otter.
