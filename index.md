@@ -1,7 +1,10 @@
 ---
 ---
 
-![Image thanks to Dan Ashby athttps://danashby.co.uk/2016/10/19/continuous-testing-in-devops/](https://user-images.githubusercontent.com/26765027/102725400-5df6f180-430e-11eb-89b0-5e967c656317.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26765027/103492151-dbe3ee00-4e20-11eb-8905-20dbfd86c64f.png" />
+</p>
+
 
 Welcome to a DevOps blog by Nick Otter. Click the arrow below to trigger a dropdown to view articles. Thanks for stopping by.
 
