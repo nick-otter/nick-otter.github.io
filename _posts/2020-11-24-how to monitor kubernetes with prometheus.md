@@ -25,7 +25,7 @@ Written by Nick Otter.
 
 # Introduction
 
-Let's take a look at Prometheus as a monitoring solution for a simple cluster. Here's a nice overview from [Sysdig.com](https://sysdig.com/blog/kubernetes-monitoring-prometheus/). In this article we'll figure out how to deploy Prometheus using Helm, how to expose the web dashboards to outside of the cluster, take a quick look at the Prometheus web UI and how to expose a Traefik ingress resource to be polled by Prometheus. Nice.<br>
+Let's take a look at Prometheus as a monitoring solution for a simple cluster. The image below is a nice overview of Prometheus from [Sysdig.com](https://sysdig.com/blog/kubernetes-monitoring-prometheus/). In this article we'll figure out how to deploy Prometheus using Helm, how to expose the web dashboards to outside of the cluster, take a quick look at the Prometheus web UI and how to expose a Traefik ingress resource to be polled by Prometheus. Nice.<br>
 
 ![](https://478h5m1yrfsa3bbe262u7muv-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/prometheus_kubernetes_diagram_overview.png)
 
