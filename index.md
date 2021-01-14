@@ -1,13 +1,10 @@
 ---
 ---
 
-<p align="left">
-  <img src="https://user-images.githubusercontent.com/26765027/104597240-fc0b7c80-566c-11eb-81b1-7b570b349292.png" />
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26765027/104627185-9cbe6400-568e-11eb-8d5f-3c0d7fab1dec.png" />
+  <br>Welcome to a DevOps blog by Nick Otter. Click the arrow below to trigger a dropdown to view articles. Thanks for stopping by.
 </p>
-
-
-Welcome to a DevOps blog by Nick Otter. Click the arrow below to trigger a dropdown to view articles. Thanks for stopping by.
-
 
 <details><summary></summary>
   
