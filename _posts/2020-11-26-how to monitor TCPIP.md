@@ -48,8 +48,6 @@ Here's how a packet is sent from host to client. Neat right? IP is a `network/in
 | Updated | `05/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
 
-<br>
-
 # Overview of TCP tools
 
 | Action | `firewall-cmd` | `netcat` | `netstat` | `nmap` | `tcpdump` | `wireshark` |
@@ -127,7 +125,7 @@ $ tcpdump -c 20 -n -B 4069 port 105
 ```
 
 Nice.
-<br><br><br>
+<br><br>
 
 # Analysing TCP/IP packets 
 
@@ -151,6 +149,8 @@ So from that trace we'll look at:
 * checksum, 
 * window size, 
 * retransmissions / timeouts.
+
+<br><br>
 
 # TCP flags
 
@@ -184,6 +184,8 @@ With tcpdump we can filter for flags during a session. To filter for `SYN` and `
 ```
 $ tcpdump -i lo 'tcp[tcpflags] == tcp-syn or tcp[tcpflags] == tcp-rst'
 ```
+
+<br><br>
 
 # Checksum
 
@@ -235,6 +237,7 @@ foo
 [root@rhel-8-1 ~]# nc -l 105
 foo
 ```
+<br><br>
 
 # Checksum errors and TCP
 
@@ -246,6 +249,7 @@ Other cause of checksum errors could be:
 * a faulty layer 3 (`network`) device, 
 * man-in-the-middle packet manipulation - very unlikely, as man-in-the-middle would be able to calculate a proper checksum, it wouldn't necessarily cause a checksum error.
 
+<br><br>
 
 # Window size 
 
@@ -324,6 +328,8 @@ net.ipv4.tcp_window_scaling
 net.ipv4.tcp_workaround_signed_windows
 ```
 
+<br><br> 
+
 # Retransmissions
 
 Retransmission occurs when a sender doesn't receives an acknowledgement for the data that's been sent before a timeout. If no acknowledgement is received before the allotted time, the segment is `retransmitted`. Missing further acknowledgements, an `RTO` (`retransmission timeout`) state is entered before the retransmission of the packet is attempted again.
@@ -357,7 +363,7 @@ tcp.analysis.retransmission
 ```
 
 It's also worth looking at congestion control and `FRTO` if you have time, [here](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/).
-<br><br><br>
+<br><br>
 
 And here are the long requested cheatsheets..
 
