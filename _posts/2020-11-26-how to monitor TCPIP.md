@@ -364,6 +364,7 @@ tcp.analysis.retransmission
 ```
 
 It's also worth looking at congestion control and `FRTO` if you have time, [here](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/).
+
 <br><br>
 
 And here are the long requested cheatsheets..
