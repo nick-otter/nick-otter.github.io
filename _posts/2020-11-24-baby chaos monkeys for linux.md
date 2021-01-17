@@ -58,7 +58,7 @@ $ kill -11 $$
 
 **How to max out CPU as quickly as possible**
 
-Do you want to write repeatedly write a string to STDOUT without any output constraints to give your CPU an eternal workout?<br><br>
+Do you want to write repeatedly write a string to STDOUT without any output constraints to give your CPU an eternal workout?
 ```
 $ yes > /dev/null
 ```
