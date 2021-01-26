@@ -21,7 +21,6 @@ Written by Nick Otter.
 - [**Checksum**](#udp-checksum-values)<br>
 - [**IPv4 header values explained**](#udp-header-values-explained)<br>
 - [**Analyse UDP over time with wireshark**](#analyse-udp-over-time-with-wireshark)
-<br><br><br>
 
 # Introduction
 
@@ -65,8 +64,6 @@ Okay, let's begin.
 | Sniff packets in console by port, host, hostname/IP. | | | ||&#9745;|&#9745;|
 | Analyse packet capture file dump. | | | ||| &#9745; |
 
-<br><br>
-
 # Sniffing packets with tcpdump
 
 Let's look at some UDP packets. We're going to use `tcpdump` to capture all UDP traffic on a port on an interface. Verbose mode (`-v`) is switched on to see some additional fields like `checksum` and `ttl`.
@@ -93,8 +90,6 @@ Here's a breakdown of the separate packets shown in that output.
 
 | **`127.0.0.1.59720 > 127.0.0.1.distinct: [udp sum ok] UDP, length 4`**|
 | UDP header fields and values.|
-
-<br>
 
 # Understanding dropped packets
 
@@ -123,8 +118,6 @@ $ tcpdump -c 20 -n -B port 53
 ```
 
 Nice.
-
-<br>
 
 # UDP header values explained
 
@@ -162,8 +155,6 @@ In tcpdump a UDP checksum match will be shown as **`[udp sum ok]`**, and a non m
 # N.B.
 
 If a checksum error is detected in a UDP sgment the packet will be **dropped** (discarded) by the receiver.
-
-<br>
 
 # Analyse UDP over time with wireshark
 
