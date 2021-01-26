@@ -29,11 +29,9 @@ Written by Nick Otter.
    - [Run a process in the background](#run-a-process-in-the-background)<br>
    - [Following a file](#following-a-file)<br>
 
-<br>
-
 # Introduction
 
-Hello. This is a list that I've written off the top of my head. There are other useful commands I'm sure. I use these on a daily basis and it's helpful to take a look and think, should I really be using that? The `$` shows that these should be run as root. But so far looking at the list, none of them require that priviledge.
+Hello. This is a list that I've written off the top of my head. There are other useful commands too. I use these on a daily basis and it's helpful to take a look and think, should I really be using that? The `$` shows that these should be run as root. But so far looking at the list, none of them require that priviledge.
 
 Thanks for reading. 
 
