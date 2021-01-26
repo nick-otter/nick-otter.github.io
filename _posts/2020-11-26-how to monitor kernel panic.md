@@ -23,7 +23,6 @@ Written by Nick Otter.
     - [How to start a crash session](#crash-output)<br>
     - [Use crash session command backtrace](#use-crash-session-command-backtrace)<br>
     - [Backtrace output explained](#backtrace-output-explained)
-<br><br><br><br>
 
 # Introduction
 
@@ -47,8 +46,6 @@ $ echo c > /proc/sysrq-trigger
 | Updated | `04/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
 
-<br><br><br>
-
 # kdump 
 _exports memory image file of Kernel in the event of a Kernel crash to analyze._<br>
 
@@ -70,7 +67,6 @@ Here's a kdump cheatsheet to get familiar.
 # kdump install instructions
 
 `kdump` is already installed in `RHEL` `8`and its installation steps are well documented.
-<br>
 
 # kdump output explained
 
@@ -98,8 +94,6 @@ Let's take a look at the `RIP` (`[  566.651999] RIP: 0010:sysrq_handle_crash+0x1
 |--|--|--|--
 | Timestamp of event (0 equal to the time of Kernel boot).| Instruction pointer. | Code segment register, task leading to crash was running in Kernel mode (0010) _not_ User mode (0033). | Function executed and offset (line number) of crash.|
 
-<br><br><br>
-
 # crash
 _analyze live system or a core dump file._<br>
 
@@ -112,7 +106,6 @@ Some `crash` info:
 * Can also analyze `netdump`, `diskdump`, `LKCD`, `xendump` or `kvmdump` Kernel dump files.
 
 Below is a brief runthrough of the `crash` install after a cheat sheet.
-<br>
 
 # crash cheatsheet
 
