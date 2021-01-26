@@ -25,7 +25,6 @@ Written by Nick Otter.
      - [Retransmissions](#retransmissions)<br>
 - [**IPv4 header cheatsheet**](#ipv4-header-cheatsheet)<br>
 - [**TCP header cheatsheet**](#tcp-header-cheatsheet)
-<br><br><br><br>
 
 # Introduction
 
@@ -57,8 +56,6 @@ Here's how a packet is sent from host to client. Neat right? IP is a `network/in
 | List all `TCP` listening ports, port connections, listening programs. | | | &#9745;| &#9745;|| |
 | Sniff packets in console by port, host, hostname/IP. | | | ||&#9745;|&#9745;|
 | Analyse packet capture file dump. | | | ||| &#9745; |
-
-<br><br><br>
 
 # Sniffing packets with tcpdump
 
@@ -98,8 +95,6 @@ Here's a breakdown of the separate packets shown in that output:
 |--
 | TCP packet.
 
-<br><br>
-
 # Understanding dropped packets
 
 In the tcpdump output we can see `packets` `captured` `received by filter` and `packets dropped by kernel`. 
@@ -126,8 +121,6 @@ $ tcpdump -c 20 -n -B 4069 port 105
 
 Nice.
 
-<br><br>
-
 # Analysing TCP/IP packets 
 
 Now that's out the way, let's look at the output again and check for errors. Check out the TCP and IPv4 header cheatsheets (our case is `IPv4`) down below if you want to make sure I'm going in the right direction. 
@@ -150,8 +143,6 @@ So from that trace we'll look at:
 * checksum, 
 * window size, 
 * retransmissions / timeouts.
-
-<br><br>
 
 # TCP flags
 
@@ -185,8 +176,6 @@ With tcpdump we can filter for flags during a session. To filter for `SYN` and `
 ```
 $ tcpdump -i lo 'tcp[tcpflags] == tcp-syn or tcp[tcpflags] == tcp-rst'
 ```
-
-<br><br>
 
 # Checksum
 
@@ -238,7 +227,6 @@ foo
 [root@rhel-8-1 ~]# nc -l 105
 foo
 ```
-<br><br>
 
 # Checksum errors and TCP
 
@@ -249,8 +237,6 @@ With TCP segments, checksum errors can mostly be attributed to `TCP checksum off
 Other cause of checksum errors could be:
 * a faulty layer 3 (`network`) device, 
 * man-in-the-middle packet manipulation - very unlikely, as man-in-the-middle would be able to calculate a proper checksum, it wouldn't necessarily cause a checksum error.
-
-<br><br>
 
 # Window size 
 
@@ -329,8 +315,6 @@ net.ipv4.tcp_window_scaling
 net.ipv4.tcp_workaround_signed_windows
 ```
 
-<br><br> 
-
 # Retransmissions
 
 Retransmission occurs when a sender doesn't receives an acknowledgement for the data that's been sent before a timeout. If no acknowledgement is received before the allotted time, the segment is `retransmitted`. Missing further acknowledgements, an `RTO` (`retransmission timeout`) state is entered before the retransmission of the packet is attempted again.
@@ -365,8 +349,6 @@ tcp.analysis.retransmission
 
 It's also worth looking at congestion control and `FRTO` if you have time, [here](https://whitequark.org/blog/2011/09/12/tweaking-linux-tcp-stack-for-lossy-wireless-networks/).
 
-<br><br>
-
 And here are the long requested cheatsheets..
 
 # IPv4 header cheatsheet
@@ -389,8 +371,6 @@ See also [RFC791](https://tools.ietf.org/html/rfc791).<br>
 | **`flags [DF]`**       | Any flags set. Used to control or identify fragments. `DF` stands for Don't Fragment. If the DF flag is set & fragmentation is required to route the packet, then the packet is dropped. (`MF` stands for More Fragments, which indicates the datagram/packet contains additional fragments). |
 | **`proto TCP (6)`**     | `protocol`. Specifies the next encapsulated protocol. In this case, the encapsulated packet in the IP header is `TCP`.|
 | **`length 56`**        | The packet length, in Bytes. |
-
-<br><br>
 
 # TCP header cheatsheet
 
