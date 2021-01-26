@@ -25,8 +25,6 @@ Written by Nick Otter.
     - [Understanding the audit.log file](#understanding-the-audit.log-file)<br>
 - [**How to clear disk space**](#how-to-clear-disk-space)<br>
     - [Some commands to clear some disk space](#some-commands-to-clear-some-disk-space)
-  
-<br><br>
 
 # Introduction 
 
@@ -38,8 +36,6 @@ So, onto **`df`**.
 
 | Updated | `04/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br>
 
 # df
 _see file system disk space usage._
@@ -84,8 +80,6 @@ Ok great. But do we really need know all that info? Not really. If I was in a ru
 
 Great. So we need to take a look at the root partition (**`/`**) and the `sr0` device **`/repo`** partition.`/dev/sr0` is actually the SCSI CD-ROM device in a Linux system, so we don't need to be concerned that that it is `100%` as that just means it is in use. `/` is using our hard disk, `sda2`. We'll need to clear some space on this as it's over 70% so could lead to some performance issues in no time or maybe something even more critical.
 
-<br><br>
-
 # du
 _see disk space usage for specific files or directories._
 
@@ -120,7 +114,6 @@ Let's investigate `/` with du. We can sort in order of size to ignore the really
 
 So, what can we see. Let's remember standard Linux usage and work out where best we can clear some space. Descending in size, let's make a presumption of the purpose of each directory base on fundamental Linux knowledge. `/usr` and `/var` are for applications. Var being tmp files subject to change and usr source files. So we maybe don't need to look in there to make space, `/repo` is the mountpoint for our external drive so not there. `/tmp` potentially just log files so we could look in there. `/root`... now this one stands out. Why is the /root users partition so big? Let's take a look.
 
-
 ```
 [root@rhel-8-1 ~]# du -h --max-depth=1 /root 2>/dev/null | sort -h | tail
 724K	/root/vmtouch
@@ -142,8 +135,6 @@ Ah hah. Some pretty misc files and a bit of mismanagement is present. A couple o
 132108	/root/kdump/127.0.0.1-2020-04-28-01:31:54
 132108	total
 ```
-
-<br><br>
 
 # How you can investigate large files or directories
 
@@ -228,8 +219,6 @@ A bit condensed, so let's break it down field by field in a table.
 |`name="/root/foo"`| Full path or directory that was passed to the system call.|
 
 Nice. 
-
-<br><br>
 
 # How to clear disk space 
 
