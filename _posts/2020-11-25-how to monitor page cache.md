@@ -29,8 +29,6 @@ Written by Nick Otter.
      - [Building Page Cache](#building-page-cache)<br>
      - [Controlling Page Cache thresholds](#controlling-page-cache-thresholds)<br>
 
-<br><br>
-
 # Introduction
 
 After reading Brendan Gregg's [Linux Page Cache Hit Ratio](http://www.brendangregg.com/blog/2014-12-31/linux-page-cache-hit-ratio.html), I decided to go down a rabbit hole, try [cachestat](https://github.com/brendangregg/perf-tools/blob/master/fs/cachestat) and look for different tools that could be used to monitor or debug Linux Page Cache. This article **will not** necessarily be a deep dive into Page Cache itself, more an overview of useful tools available to manage Page Cache on servers. 
@@ -39,8 +37,6 @@ After reading Brendan Gregg's [Linux Page Cache Hit Ratio](http://www.brendangre
 
 | Updated | `04/2020` |
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br>
 
 # What is Page Cache
 
@@ -59,7 +55,6 @@ N.B. The Page Cache and the Buffer Cache were separate prior to Linux Kernel 2.4
 ![](http://static.duartes.org/img/blogPosts/readFromPageCache.png)
 
 Source: [manybutfinite.com](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/)
-<br><br>
 
 # Some ways to to monitor Page Cache in memory
 # /proc/meminfo
@@ -130,8 +125,6 @@ procs -----------memory---------- ---swap-- -----io---- -system-- ------cpu-----
  2  0      0 5762168   3384 2652148    0    0    21    27   48  122  0  0 99  0  0
  ```
 
-<br><br>
-
 # Some ways to monitor Page Cache used by files
 # Pcstat
 Get **Page Cache** statistics for files, [github](https://github.com/tobert/pcstat).<br>
@@ -194,8 +187,6 @@ Output of **vmtouch** on directory **/usr/lib**:
 
 I also looked at [fincore](https://github.com/martin-a-brown/fincore) - it's not being currently maintained and **pcstat** is a good equivalent.
 
-<br><br>
-
 # Some ways to monitor Page Cache performance
 # Cachestat
 
@@ -235,8 +226,6 @@ TIME         HITS   MISSES  DIRTIES    RATIO   BUFFERS_MB   CACHE_MB
 20:31:40     6767    22559        0    23.1%            0        540
 20:31:41     1574        0        0   100.0%            0        540
 ```
-
-<br><br>
 
 # Some ways to tune Page Cache
 # Dropping Page Cache
@@ -308,5 +297,4 @@ Change pressure:
 `echo n >>/proc/sys/vm/vfs_cache_pressure.`
 
 ---
-
 Thanks. Articles like [Buffer Cache and Page Cache](https://www.quora.com/What-is-the-major-difference-between-the-buffer-cache-and-the-page-cache-Why-were-they-separate-entities-in-older-kernels-Why-were-they-merged-later-on), [Buffer and Cache Columns In /proc/meminfo](https://www.quora.com/What-is-the-difference-between-Buffers-and-Cached-columns-in-proc-meminfo-output), [Linux Kernel Development](https://www.amazon.com/dp/0672329468), [Linux-fincore To Check Linux Page Cache Usage](https://www.percona.com/blog/2019/08/29/using-linux-fincore-to-check-linux-page-cache-usage/), [File System Cache Analysis](https://www.fromdual.com/who-else-is-using-my-memory-file-system-cache-analysis), [Understanding The Linux Kernel](http://shop.oreilly.com/product/9780596005658.do), [Page Cache, The Affair](https://manybutfinite.com/post/page-cache-the-affair-between-memory-and-files/) were helpful to write this. This was written by Nick Otter.
