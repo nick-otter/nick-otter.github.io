@@ -24,7 +24,6 @@ Written by Nick Otter.
 - [**File System**](#filesystem)<br>
    - [How to corrupt a filesystem](#how-to-corrupt-a-filesystem)<br>
    - [How to orphan an inode](#how-to-orphan-some-inodes)<br>
-<br>
 
 # Introduction
 
