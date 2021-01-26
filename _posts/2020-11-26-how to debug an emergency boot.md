@@ -17,7 +17,6 @@ Written by Nick Otter.
 - [**Emergency target vs. rescue target**](#emergency-target-vs.-rescue-target)<br>
 - [**How to discover what target you are in**](#how-to-discover-what-target-you-are-in)<br>
 - [**Debugging emergency mode**](#debugging-emergency-mode)
-<br><br><br><br>
 
 # Introduction
 
@@ -55,8 +54,6 @@ So, if the boot procedure successfully completes, the system will (by default) b
 | Updated | `04/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
 
-<br><br><br>
-
 # Emergency.target vs. rescue.target
 
 The differences between emergency and rescue targets are relatively simple. 
@@ -74,7 +71,6 @@ Press **`e`** to go to the Grub2 options menu at the boot menu screen. Then appe
 ![image-boot-options-menu](https://user-images.githubusercontent.com/26765027/93582339-3eac9900-f99a-11ea-929c-0d22632d1cfd.png)
 
 Nice!
-<br>
 
 # How to discover what target you are in
 
