@@ -230,7 +230,7 @@ TIME         HITS   MISSES  DIRTIES    RATIO   BUFFERS_MB   CACHE_MB
 # Some ways to tune Page Cache
 # Dropping Page Cache
 
-## /proc/sys/vm/drop_caches
+# /proc/sys/vm/drop_caches
 
 Execute this command to drop **Page Cache**, [man page](http://man7.org/linux/man-pages/man5/proc.5.html):
 ```
