@@ -123,7 +123,7 @@ Focusing on **`Unhealthy`** targets, we're seeing an error which helps to unders
 Get "http://172.17.0.2:10252/metrics": dial tcp 172.17.0.2:10252: connect: connection refused
 ```
 Prometheus metric discovery is a `Get` - it's a pull request. But it _isn't_ a pull request to specific pods. It is a pull request to their **`Service`** resource. It 'scrapes' services to get metrics. In this case, the service **`prometheus-kube-prometheus-kube-controller-manager`** in the namespace **`monitoring`** doesn't exist. Let's ignore this error for now.
-<br><br><br><br>
+
 # Exposing metrics for Prometheus
 Let's keep this short and sweet. To add services to Prometheus, this is what's required.
 
