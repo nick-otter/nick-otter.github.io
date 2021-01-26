@@ -11,7 +11,6 @@ Written by Nick Otter.
 
 # Contents
 
-
 - [**Introduction, disk activity and Linux**](#introduction-disk-activity-and-linux)<br>
      - [Requirements](#requirements)<br>
      - [Overview of disk activity monitoring tools](#overview-of-disk-activity-monitoring-tools)<br>
@@ -20,8 +19,6 @@ Written by Nick Otter.
 - [**See I/O used by processes**](#see-i/o-per-process)<br>
 - [**Test I/O performance**](#test-i/o-performance)<br>
 - [**Improving performance**](#improving-performance)<br>
-
-<br><br>
 
 # Introduction, disk activity and linux
 
@@ -53,8 +50,6 @@ We'll look at all of these in this article.
 | List processes performing I/O.              |              | &#9745;     |               |                 |
 | Test disk I/O.                              |              |             |&#9745;        |                 |
 | Analyse disk I/O over time from a dump.     |              |             |               | &#9745;         |
-
-<br><br>
 
 # I/O wait
 
