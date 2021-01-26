@@ -21,7 +21,6 @@ Written by Nick Otter.
    - [Configuring a metrics endpoint on a pod](#configuring-a-metrics-endpoint-on-a-pod)<br>
    - [Checking current deployment and creating a Service](#checking-current-deployment-and-creating-a-service)<br>
    - [Creating a ServiceMonitor resource](#creating-a-servicemonitor-resource)
-<br><br><br><br>
 
 # Introduction
 
@@ -37,8 +36,6 @@ I don't like presenting images without info. So.. take a look over the image and
 | Minikube | `1.13.1`|
 | Helm | `3.4.0` |
 | Prometheus | `kube-prometheus-stack-12.2.0`|
-
-<br><br><br>
 
 # Deploying Prometheus with Helm 
 
@@ -80,8 +77,6 @@ Redployments can be handled nicely with **`helm upgrade`** too.
 ```
 $ helm upgrade --install --namespace monitoring prometheus stable/prometheus-operator -f values.yaml
 ```
-
-<br><br>
 
 # Exposing the web dashboards
 
