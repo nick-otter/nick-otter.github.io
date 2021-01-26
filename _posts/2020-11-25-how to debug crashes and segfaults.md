@@ -17,7 +17,6 @@ Written by Nick Otter.
      - [How to test core dump file creation](#how-to-test-core-dump-file-creation)<br>
 - [**How to read the core dump file**](#how-to-read-the-core-dump-file)
      - [backtrace](#backtrace)
-<br><br><br>
 
 # Introduction
 
@@ -33,8 +32,6 @@ A core dump is a memory dump of a program terminated by the operating system due
 
 | Updated | `04/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br>
 
 # How to configure ulimit
 
