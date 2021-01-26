@@ -16,8 +16,6 @@ Written by Nick Otter.
 - [**CPU load average**](#cpu-load-average)<br>
     - [Good and bad load averages](#good-and-bad-load-averages)<br>
 
-<br>
-
 # Introduction
 
 Ah... CPU. What's the purpose of CPU in a system? Let's see if we can find a diagram. This will do. 
@@ -36,15 +34,12 @@ Tools to monitor CPU:
 | See processes using CPU. |        |  &#9745;  |          |                  |                | &#9745;  |
 | See cores.               |        |           |          |                  |  &#9745;       |          |
 
-<br>
 Ok, let's get started. 
 
 # Requirements
 
 | Updated | `04/2020` | 
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br><br> 
 
 # CPU load average
 
