@@ -18,7 +18,6 @@ Written by Nick Otter.
      - [Common syscall script return values explained](#common-syscall-script-return-values-explained)<br>
      - [Common posix syscall](#common-posix-system-calls)<br>
 - [**What you can do with strace**](#what-you-can-do-with-strace)<br>
-<br>
 
 # Introduction
 
@@ -39,8 +38,6 @@ For example, if a user program needs to do some sort of IO (open, read, write, e
 
 | Updated | `04/2020` |
 | Linux | `Kernel 5.4` `RHEL 8 4.18` |
-
-<br>
 
 # Strace
 
@@ -123,7 +120,6 @@ Where to see the actual `execve` script? `tapset` of course. (Note the timestamp
 * `= 0` system call script has executed successfully, returning a `0`.
 
 * `= -1` system call script has raised an error, returning a `-1`.
-<br>
 
 # Common posix syscalls
 
