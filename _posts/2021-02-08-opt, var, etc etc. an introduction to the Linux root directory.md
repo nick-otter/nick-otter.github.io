@@ -31,7 +31,7 @@ bin   dev  home  lib64  mnt  proc  run   src  sys  usr
 boot  etc  lib   media  opt  root  sbin  srv  tmp  var
 ```
 
-So, we have some directories. But what are they? The Linux Foundation describes them as the **Filesystem Hierarchy Standard**. Most Linux distributions follow the Filesystem Hierarchy Standard and declare it their own policy to maintain **FHS** compliance. The latest version of the FHS is **3.0** and was released on 3 June 2015.
+So, we have some directories. But what are they? The Linux Foundation describes them as part of the **Filesystem Hierarchy Standard**. Most Linux distributions follow the Filesystem Hierarchy Standard and declare it their own policy to maintain **FHS** compliance. The latest version of the FHS is **3.0** and was released on 3 June 2015.
 
 I normally use the **FHS** wiki as it is a great condense of the docs. You can view the wiki [here](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) and the complete docs at [linuxfoundation.org](https://refspecs.linuxfoundation.org/FHS_3.0/index.html). 
 
