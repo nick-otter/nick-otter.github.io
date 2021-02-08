@@ -6,7 +6,7 @@
   <br>Welcome to a DevOps blog by Nick Otter. Click the arrow below to trigger a dropdown to view articles. Thanks for stopping by.
 </p>
 
-<details><summary></summary>
+<details><summary>...</summary>
   
 <div markdown="1">## Links
 
