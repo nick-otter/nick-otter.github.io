@@ -16,11 +16,11 @@ Written by Nick Otter.
 
 # Introduction 
 
-Let's take a look at the Linux `/` directories and their purposes.
+Let's take a look at the Linux `/` directory and it's subdirectories.
 
 # The contents of /
 
-This is a fresh install of RHEL 8. What's seen here is present in most other Linux distributions. 
+This is a fresh install of RHEL 8. Let's take a look.
 
 ```
 [minikube@control-plane ~]$ cd /
@@ -31,9 +31,13 @@ bin   dev  home  lib64  mnt  proc  run   src  sys  usr
 boot  etc  lib   media  opt  root  sbin  srv  tmp  var
 ```
 
-Let's create a table of each directories purpose and any subdirectories of interest. It's very important to understand eaches initial purpose; for debugging, configuration and installation. I refer to the **FHS** wiki, instead of the docs. The Filesystem Hierarchy Standard is widely referenced and acknowledged. You can view it [here](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) and the complete docs on [linuxfoundation.org](https://refspecs.linuxfoundation.org/FHS_3.0/index.html). The latest version is **3.0** released on 3 June 2015. Most Linux distributions follow the Filesystem Hierarchy Standard and declare it their own policy to maintain FHS compliance.
+So, we have some directories. But what are they? The Linux Foundation describes them as the **Filesystem Hierarchy Standard**. Most Linux distributions follow the Filesystem Hierarchy Standard and declare it their own policy to maintain **FHS** compliance. The latest version of the FHS is **3.0** and was released on 3 June 2015.
+
+I normally use the **FHS** wiki as it is a great condense of the docs. You can view the wiki [here](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard) and the complete docs at [linuxfoundation.org](https://refspecs.linuxfoundation.org/FHS_3.0/index.html). 
 
 So, here goes... I'm going to go through the table documented on the wiki and add any additional notes too.
+
+Here lies a description of all the subdirectories in the root directory, and any further directories of note.
 
 | Directory  | Description |
 | `/`        | Primary hierarchy root and root directory of the entire file system hierarchy. |
