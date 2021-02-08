@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "opt, var, etc etc. an introduction to the Linux root directories"
+title:  "opt, var, etc etc. an introduction to the Linux root directory"
 categories: linux general
 ---
 
-# opt, var, etc etc. an introduction to the Linux root directories
+# opt, var, etc etc. an introduction to the Linux root directory
 {: style="text-align: center"}
 
 Written by Nick Otter. 
