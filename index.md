@@ -8,7 +8,7 @@
 
 <details><summary>...</summary>
   
-<div markdown="1">## Links
+<div markdown="1">## Info
 
 <div>
   <ul style="list-style-type:none">
