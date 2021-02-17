@@ -21,7 +21,7 @@ Written by Nick Otter.
 
 Pretty simply; this is how I stay up to date with AWS. It's great and all, but there are always **alot** of updates to stay across. Here's the pinch points for me that condense the right info.
 
-TL:DR if you just want the links:
+**TL;DR** if you just want the links:
 
 * [lastweekinaws.com](https://www.lastweekinaws.com/)
 * [aws.amazon.com/blogs/devops](https://aws.amazon.com/blogs/devops/)
