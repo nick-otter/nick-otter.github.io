@@ -23,7 +23,7 @@ Pretty simply; this is how I stay up to date with AWS. It's great and all, but t
 
 # Last Week in AWS
 
-Alongside the great podcast **[Screaming in the cloud](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/)** this lighthearted tone news source is where it's at. A nice resource for AWS billing tips too :/.
+Alongside the great podcast **[Screaming in the cloud](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/)**, this lighthearted tone news source is where it's at. A nice resource for AWS billing tips too :/.
 
 Visit the website and sign up to the mailing list at **[lastweekinaws.com](https://www.lastweekinaws.com/)**.
 
