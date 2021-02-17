@@ -21,6 +21,13 @@ Written by Nick Otter.
 
 Pretty simply; this is how I stay up to date with AWS. It's great and all, but there are always **alot** of updates to stay across. Here's the pinch points for me that condense the right info.
 
+TL:DR if you just want the links:
+
+* [lastweekinaws.com](https://www.lastweekinaws.com/)
+* [aws.amazon.com/blogs/devops](https://aws.amazon.com/blogs/devops/)
+* [aws.amazon.com/builders-library](https://aws.amazon.com/builders-library/?cards-body.sort-by=item.additionalFields.customSort&cards-body.sort-order=asc)
+* [reinvent.awsevents.com](https://reinvent.awsevents.com/#footer)
+
 # Last Week in AWS
 
 Alongside the great podcast **[Screaming in the cloud](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/)**, this lighthearted tone news source is where it's at. A nice resource for AWS billing tips too :/.
