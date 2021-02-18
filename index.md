@@ -13,6 +13,11 @@
 <div>
   <ul style="list-style-type:none">
          <li><a href="https://github.com/nick-otter/">Github</a></li>
+         {% for post in site.categories.info %}
+           {% if post.url %}
+              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+           {% endif %}
+         {% endfor %}
   </ul>
 </div>
 
