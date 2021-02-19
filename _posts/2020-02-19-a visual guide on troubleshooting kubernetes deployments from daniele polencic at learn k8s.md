@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "A visual guide on troubleshooting kubernetes deployments from Daniele Polencic at Learn k8s"
+title:  "A visual guide on troubleshooting Kubernetes deployments from Daniele Polencic at Learn k8s"
 categories: kubernetes general
 ---
 
-# A visual guide on troubleshooting kubernetes deployments from Daniele Polencic at Learn k8s
+# A visual guide on troubleshooting Kubernetes deployments from Daniele Polencic at Learn k8s
 {: style="text-align: center"}
 
 
