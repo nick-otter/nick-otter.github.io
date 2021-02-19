@@ -1,4 +1,12 @@
+---
+layout: post
+title:  "A visual guide on troubleshooting kubernetes deployments from Daniele Polencic at Learn k8s"
+categories: kubernetes general
+---
+
 # A visual guide on troubleshooting kubernetes deployments from Daniele Polencic at Learn k8s
+{: style="text-align: center"}
+
 
 [Daniele Polencic](https://www.linkedin.com/in/danielepolencic/) at [Learn k8s](https://learnk8s.io/) recently published ["A visual guide on troubleshooting Kubernetes deployments"](https://learnk8s.io/troubleshooting-deployments).
 It's the most concise breakdown for troubleshooting K8s I've seen. I recommend reading it. 
