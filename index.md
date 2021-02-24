@@ -20,7 +20,7 @@
   </ul>
 </div>
 
-<div markdown="1">## Open-source contributions
+<div markdown="1">## Open-source commits
 
 <div>
   <ul style="list-style-type:none">
