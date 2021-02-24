@@ -24,7 +24,7 @@
 
 <div>
   <ul style="list-style-type:none">
-         <li><a href="https://github.com/UKHomeOffice/tf-testrunner/commits?author=nick-otter">Terraform test framework for UK Government</a></li>
+         <li><a href="https://github.com/UKHomeOffice/tf-testrunner/commits?author=nick-otter">Terraform test framework for UK Home Office</a></li>
   </ul>
 </div>
 
