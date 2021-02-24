@@ -20,14 +20,6 @@
   </ul>
 </div>
 
-<div markdown="1">## Open-source commits
-
-<div>
-  <ul style="list-style-type:none">
-         <li><a href="https://github.com/UKHomeOffice/tf-testrunner/commits?author=nick-otter">tf-testrunner - Terraform test framework for UK Home Office</a></li>
-  </ul>
-</div>
-
 <div markdown="1">## AWS
 
 <div>
