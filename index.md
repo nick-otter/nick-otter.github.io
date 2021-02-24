@@ -20,7 +20,7 @@
   </ul>
 </div>
 
-<div markdown="1">## Open Source Conrtibutions
+<div markdown="1">## Open-source Conrtibutions
 
 <div>
   <ul style="list-style-type:none">
