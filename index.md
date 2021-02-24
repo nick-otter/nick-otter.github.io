@@ -3,10 +3,9 @@
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/26765027/104627185-9cbe6400-568e-11eb-8d5f-3c0d7fab1dec.png" />
-  <br>Welcome to a DevOps blog by Nick Otter. Click the arrow below to view articles. Thanks for stopping by.
+  <br>Welcome to a DevOps blog by Nick Otter. Click the headers to view articles. Thanks for stopping by.
 </p>
 
-<details><summary>...</summary>
   
 <div markdown="1">## Info
 
