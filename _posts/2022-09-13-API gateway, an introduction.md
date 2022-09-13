@@ -4,7 +4,7 @@ title:  "API gateway, an introduction from Alex Xu at ByteByteGo"
 categories: solutions apigateway
 ---
 
-# An API Gateway introduction from Alex Xu at ByteByteGo
+# API gateway, an introduction from Alex Xu at ByteByteGo
 {: style="text-align: center"}
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published an ["API gateway introduction"](https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database).
