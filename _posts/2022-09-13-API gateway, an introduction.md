@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An API gateway introduction from Alex Xu at ByteByteGo"
+title:  "API gateway, an introduction from Alex Xu at ByteByteGo"
 categories: solutions apigateway
 ---
 
