@@ -15,4 +15,4 @@ The main piece is this flow chart. It's well worth reading through too [here](ht
 
 ---
 
-Thanks. This article was written by Nick Otter.
+Thanks. Unsurprisingly, this article was not written by me but [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) .
