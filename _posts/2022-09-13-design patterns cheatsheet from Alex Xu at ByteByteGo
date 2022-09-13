@@ -1,15 +1,11 @@
 ---
 layout: post
 title:  "Design patterns cheatsheet from Alex Xu at ByteByteGo"
-categories: solutions
+categories: solutions general
 ---
 
 # Design patterns cheatsheet from Alex Xu at ByteByteGo
 {: style="text-align: center"}
-
-Written by Nick Otter. 
-
-# Contents
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published ["Design Patterns cheatsheet"](https://blog.bytebytego.com/p/ep17-design-patterns-cheat-sheet).
 
