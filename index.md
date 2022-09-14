@@ -32,7 +32,7 @@
    </ul>
 </div>
 
-<div markdown="1">## AWS
+<div markdown="1">## Amazon Web Services
 
 <div>
   <ul style="list-style-type:none">
