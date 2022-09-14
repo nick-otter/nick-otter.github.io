@@ -21,7 +21,12 @@ Generally, an OS (Operating System) is a piece of software that manages applicat
 The generic operating systems that we are going to talk about for now (like Windows, Linux and OSX) are divided into two main parts: user-mode and kernel-mode (I am excluding for now security features such as VBS on Windows - they are going to be covered separately). 
 
 ## The Kernel 
-The kernel is responsible for different tasks such as: memory management, interrupt handling, process/thread scheduling, networking and other IO devices management. There are different types of kernel with different attributes like: modular kernel (which means we can load driver/kernel modules to a running kernel without the need to compile them into the kernel), monolithic kernel (the entire OS code reside in the kernel), microkernel (only part of the OS code reside in the kernel, for example device drivers, networking stacks and filesystems don’t execute as part of the kernel) and hybrid kernel (some kind of combination between monolithic and microkernel) - for more context check out the illustration below (https://lnkd.in/dqBQHwiV).
+The kernel is responsible for different tasks such as: memory management, interrupt handling, process/thread scheduling, networking and other IO devices management. There are different types of kernel: 
+
+* **modular kernel**: load driver/kernel modules to a running kernel without the need to compile them into the kernel.
+* **monolithic kernel**: the entire OS code resides in the kernel. 
+* **microkernel**: only part of the OS code reside in the kernel, for example device drivers, networking stacks and filesystems don’t execute as part of the kernel.
+* **hybrid kernel**: some kind of combination between monolithic and microkernel - for more context check out the illustration above.
 
 ## x86, rings
 For now you should know that kernel mode and user mode are two different permission levels which are enforced by the hardware (CPU in our case). In x86 we have “rings” and in ARM we have “exceptions levels” - we will focus on x86 for now ARM will be covered in the future. 
