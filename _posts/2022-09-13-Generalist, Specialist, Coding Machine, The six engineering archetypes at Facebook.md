@@ -11,7 +11,7 @@ Recently "leaked" from their employee handbook, Facebook's characterisation pill
 
 Let's take a look at the excerpt.
 
-![Screenshot](6 engineering types Facebook.jpg)
+![Screenshot](https://github.com/nick-otter/nick-otter.github.io/blob/651f01919ba954f754a45617de836d9aa346e84f/_posts/6%20engineering%20types%20Facebook.jpg)
 
 ---
 
