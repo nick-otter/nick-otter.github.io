@@ -28,6 +28,9 @@ Written by Nick Otter.
 - [**Managing processes**](#managing-processes)<br>
    - [Run a process in the background](#run-a-process-in-the-background)<br>
    - [Following a file](#following-a-file)<br>
+- [**Executing commands**](#executing-commands)<br>
+   - [Execute a command with multiple arguments](#execute-a-command-with-multiple-arguments)<br>
+
 
 # Introduction
 
@@ -147,6 +150,17 @@ Bring to foreground with `fg` `<job id>`.
 $ tail -f <file>
 ```
 _"Output appended data as the file grows"_. Nice.
+
+# Executing commands
+
+**Execute a command with multiple arguments**
+```
+$ <command> {arg,arg}
+```
+E.g.
+```
+$ ls {dir_1,dir_2}
+```
    
 ---
 
