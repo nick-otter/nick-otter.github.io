@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Shortcuts I use to make linux easier"
+title:  "Commands I use to make Linux easier"
 categories: linux general
 ---
 
-# Shortcuts I use to make linux easier
+# Commands I use to make Linux easier
 {: style="text-align: center"}
 
 Written by Nick Otter.
