@@ -26,7 +26,7 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Dedicated DevOps per Dev team creates Siloing without tribal knowledge unifying all DevOps individuals embedded in Dev teams.
 
 # DevOps transfomations
-* Evangelise Operations moving into DevOps not Dev moving into DevOps which squeezes out Operations.
+* Evangelise Operations orchestrating DevOps not Dev movement to DevOps which squeezes out Operations.
 * Understand Operations DevOps vs. Cloud Engineer/Platform engineer vs. Embedded DevOps.
 
 # Working past 'DevOps' as a job title
