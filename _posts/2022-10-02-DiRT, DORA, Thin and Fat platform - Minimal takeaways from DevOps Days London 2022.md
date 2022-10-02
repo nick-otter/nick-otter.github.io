@@ -31,8 +31,9 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 
 # Working past 'DevOps' as a job title
 * DevOps as a job title is far too tenuous.
-* 'DevOps engineer' might mean might mean working as Operations with some dev tooling.
-* 'DevOps engineer' might mean informal platform acrhitects.
+* 'DevOps engineer' may mean working as Operations with some dev tooling.
+* 'DevOps engineer' may mean acting as an informal platform architect.
+* 'DevOps engineer' may mean being a Cloud Engineer.
 
 # DevOps metrics of success
 * DORA.
