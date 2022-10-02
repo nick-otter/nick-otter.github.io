@@ -13,7 +13,7 @@ Written by Nick Otter.
 
 We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaways. For fun and laziness - I am only listing each takeaway as a one liner, to be explored in more depth outside of this post.
 
-# Platform as a product
+# Platform as a Product
 
 * Use PACT (code-first consumer-driven contract testing tool) to test Infrastructure.
 * SLA contracts for platform changes that have to pass Dev tests before deployment.
@@ -22,7 +22,7 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Platform repos are completely open to Dev, innersource mentality - dev can PR immediate changes they need if there is too much of a backlog of work.
 * Understand Thin platform team or Fat platform team.
 
-# Issues with embedded DevOps
+# Issues with Embedded DevOps
 * Dedicated DevOps per Dev team creates Siloing without tribal knowledge unifying all DevOps individuals embedded in Dev teams.
 
 # DevOps transfomations
