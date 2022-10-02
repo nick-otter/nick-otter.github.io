@@ -9,7 +9,7 @@ categories: misc
 
 Written by Nick Otter. 
 
-Intro
+# Intro
 
 We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaways. For fun and laziness - I am only listing each takeaway as a one liner, to be explored in more depth outside of this post.
 
