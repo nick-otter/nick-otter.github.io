@@ -18,6 +18,7 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Use PACT (code-first consumer-driven contract testing tool) to test Infrastructure.
 * SLA contracts for platform changes that have to pass Dev tests before deployment.
 * Platform resources are not considered implicit, there is a feature roadmap.
+* User personas for Dev teams, try and group dev needs as user personas.
 * Platform repos are completely open to Dev, innersource mentality - dev can PR immediate changes they need if there is too much of a backlog of work.
 * Understand Thin platform team or Fat platform team.
 
