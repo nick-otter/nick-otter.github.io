@@ -23,7 +23,7 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Understand Thin platform team or Fat platform team.
 
 # Issues with Embedded DevOps
-* Dedicated DevOps per Dev team creates Siloing without tribal knowledge unifying all DevOps individuals embedded in Dev teams.
+* A dedicated DevOps engineer per Dev team creates Siloing and Code sprawl. Tribal knowledge is required to unify all DevOps individuals embedded in Dev teams.
 
 # DevOps transfomations
 * Evangelise Operations orchestrating DevOps not Dev movement to DevOps which squeezes out Operations.
