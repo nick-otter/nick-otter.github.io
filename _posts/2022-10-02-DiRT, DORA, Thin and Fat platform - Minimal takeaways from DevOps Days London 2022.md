@@ -22,13 +22,13 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Understand Thin platform team or Fat platform team.
 
 # Issues with embedded DevOps
-* Dedicated DevOps per Dev team creates Siloing without tribal knowledge unifying all DevOps Dev team individuals.
+* Dedicated DevOps per Dev team creates Siloing without tribal knowledge unifying all DevOps individuals embedded in Dev teams.
 
 # DevOps transfomations
 * Evangelise Operations moving into DevOps not Dev moving into DevOps which squeezes out Operations.
 * Understand Operations DevOps vs. Cloud Engineer/Platform engineer vs. Embedded DevOps.
 
-# Working past 'DevOps` as a job title
+# Working past 'DevOps' as a job title
 * DevOps as a job title is far too tenuous.
 * 'DevOps engineer' might mean might mean working as Operations with some dev tooling.
 * 'DevOps engineer' might mean informal platform acrhitects.
@@ -62,4 +62,6 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Keep deployment configuration in Dev codebase as much as possible
 * 'Open source license auditor, audits most dependended upon open source projects'
 
+---
 
+Thanks. This was written by Nick Otter.
