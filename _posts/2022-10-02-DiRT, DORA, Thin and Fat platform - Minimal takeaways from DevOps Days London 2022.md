@@ -13,8 +13,6 @@ Written by Nick Otter.
 
 We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaways. For fun and laziness - I am only listing each takeaway as a one liner, to be explored in more depth outside of this post.
 
-DevOps Days London 2022 One liners
-
 # Platform as a product
 
 * Use PACT (code-first consumer-driven contract testing tool) to test Infrastructure.
