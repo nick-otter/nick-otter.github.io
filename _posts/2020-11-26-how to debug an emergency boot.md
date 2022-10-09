@@ -37,6 +37,9 @@ Here is a simplified breakdown of the boot procedure in RHEL 8.
 And a here's a picture, why not.<br><br>
 ![](https://static.thegeekstuff.com/wp-content/uploads/2011/02/linux-boot-process.png)
 
+And another, why not.<br><br>
+![](https://media-exp1.licdn.com/dms/image/C5622AQHWND6LtQCgfA/feedshare-shrink_1280/0/1665211087437?e=1668038400&v=beta&t=-xtocIjyBqhvfMZmKJeaH9EuHeFDIVOm74eFWg5bhgQ)
+
 In RHEL 8, the last stages of the boot procedure could also be understood as a `systemd` `target` (which is a specific group of systemd `units` to achieve a specifc system state) or what was referred to as `SysV Runlevels`.
 
 So, if the boot procedure successfully completes, the system will (by default) be in the `systemd` `multi-user` or `graphical` target state. If the boot procedure errors, the system will be in the `emergency` or `rescue` target state (depending on the nature of the error).
