@@ -17,6 +17,7 @@
            {% endif %}
          {% endfor %}
          <li><a href="https://github.com/nick-otter/">Github</a></li>
+         <li><a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a></li>
   </ul>
 </div>
 
