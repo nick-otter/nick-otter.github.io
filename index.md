@@ -13,11 +13,9 @@
   <ul style="list-style-type:none">
          {% for post in site.categories.info %}
            {% if post.url %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              <a href="{{ post.url }}">{{ post.title }}</a> <a href="https://github.com/nick-otter/">Github</a> <a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a>
            {% endif %}
          {% endfor %}
-         <li><a href="https://github.com/nick-otter/">Github</a></li>
-         <li><a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a></li>
   </ul>
 </div>
 
