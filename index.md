@@ -13,7 +13,7 @@
   <ul style="list-style-type:none">
          {% for post in site.categories.info %}
            {% if post.url %}
-              <a href="{{ post.url }}">{{ post.title }}</a> <a href="https://github.com/nick-otter/">Github</a> <a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a>
+              <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;<a href="https://github.com/nick-otter/">Github</a>&nbsp;<a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a>
            {% endif %}
          {% endfor %}
   </ul>
