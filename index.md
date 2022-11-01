@@ -7,7 +7,7 @@
 </p>
 
   
-<div markdown="1">## Info
+<div markdown="1">## Personal info
 
 <div>
   <ul style="list-style-type:none">
