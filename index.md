@@ -11,11 +11,7 @@
 
 <div>
   <ul style="list-style-type:none">
-         {% for post in site.categories.info %}
-           {% if post.url %}
-              <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-           {% endif %}
-         {% endfor %}
+          {% post_url 2020-02-18-about-me %} 
          <li><a href="https://github.com/nick-otter/">Github</a></li>
          <li><a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a></li>
   </ul>
