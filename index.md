@@ -12,8 +12,7 @@
 <div>
   <ul style="list-style-type:none">
           {% link _posts/2020-02-18-about me.md %} 
-         <li><a href="https://github.com/nick-otter/">Github</a></li>
-         <li><a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a></li>
+         <a href="https://github.com/nick-otter/">Github</a> <a href="https://www.linkedin.com/in/nick-otter/">LinkedIn</a>
   </ul>
 </div>
 
