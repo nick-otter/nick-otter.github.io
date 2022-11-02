@@ -23,7 +23,9 @@ Written by Nick Otter.
    - [Deleting..](#deleting..)<br>
 - [**Using vim**](#using-vim)<br>
    - [Delete line](#delete-line)<br>
+   - [Batch delete](#batch-delete)<br>
    - [Jump to end of line](#jump-to-end-of-line)<br>
+   - [Jump to start of file](#jump-to-start-of-file)<br>
    - [Search for string](#search-for-string)<br>
 - [**Managing processes**](#managing-processes)<br>
    - [Run a process in the background](#run-a-process-in-the-background)<br>
@@ -121,7 +123,18 @@ $ ctrl w
 **Delete line**
 
 ```
-dd
+Esc + dd
+```
+
+**Batch delete**
+
+Enter visual mode:
+```
+Esc + ctrl v
+```
+Get deleting:
+```
+d
 ```
 
 **Jump to end of line**
@@ -131,6 +144,15 @@ $
 ```
 
 And to get to the start of a line use `0`.
+
+**Jump to start of file**
+
+```
+Esc + gg
+```
+
+And to get to the bottom of file, use `Esc + G`.
+
 
 **Search for string**
 
