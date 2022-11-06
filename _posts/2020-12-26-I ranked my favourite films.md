@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I ranked my favourite films"
-categories: misc
+categories: personal
 ---
 
 # I ranked my favourite films
