@@ -32,6 +32,7 @@ Written by Nick Otter.
    - [Following a file](#following-a-file)<br>
 - [**Executing commands**](#executing-commands)<br>
    - [Execute a command with multiple arguments](#execute-a-command-with-multiple-arguments)<br>
+   - [Using process substitutions instead of piping](#using-process-substitutions-instead-of-piping)
 
 
 # Introduction
@@ -182,6 +183,15 @@ $ <command> {arg,arg}
 E.g.
 ```
 $ ls {dir_1,dir_2}
+```
+
+**Using process substitutions instead of piping**
+```
+$ <command> <(output of other command to pass to first command) <(output of other command to pass to first command)
+```
+E.g. Diff the contents of 2 files after they have been sorted by `sort`.
+```
+$ diff <(sort file_1) <(sort file_2)
 ```
    
 ---
