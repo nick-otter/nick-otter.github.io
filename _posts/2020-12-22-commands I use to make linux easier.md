@@ -189,7 +189,7 @@ $ ls {dir_1,dir_2}
 ```
 $ <command> <(output of other command to pass to first command) <(output of other command to pass to first command)
 ```
-E.g. Diff the contents of 2 files after they have been sorted by `sort`.
+E.g. Diff the contents of `file_1` `file_2` after they have been sorted by `sort`.
 ```
 $ diff <(sort file_1) <(sort file_2)
 ```
