@@ -193,7 +193,8 @@ E.g. Diff the contents of 2 files after they have been sorted by `sort`.
 ```
 $ diff <(sort file_1) <(sort file_2)
 ```
-   
+With process substitutions, arguments are passed with `/dev/fd/63` not `stdin` like pipe.
+
 ---
 
 Thanks. This was written by Nick Otter.
