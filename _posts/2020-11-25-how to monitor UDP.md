@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor UDP"
-categories: linux kernel network
+categories: network
 ---
 
 # How to monitor UDP

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor Kubernetes with Prometheus"
-categories: microservices kubernetes
+categories: prometheus
 ---
 
 # How to monitor Kubernetes with Prometheus

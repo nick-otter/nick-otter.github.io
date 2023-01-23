@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to debug an emergency boot"
-categories: linux kernel boot
+categories: boot
 ---
 
 # How to debug an emergency boot

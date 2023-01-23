@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "opt, var, etc etc. the contents of the Linux root directory explained"
-categories: linux general
+categories: linux
 ---
 
 # opt, var, etc etc. the contents of the Linux root directory explained

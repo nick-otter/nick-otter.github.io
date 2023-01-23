@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor Page Cache"
-categories: linux kernel memory
+categories: memory
 ---
 
 # How to monitor Page Cache

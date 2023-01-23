@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "How iQIY choose relational and NoSQL databases from Alex Xu at ByteByteGo"
-categories: solutions databases
+title:  "How iQIY choose relational and NoSQL databases"
+categories: databases
 ---
 
-# How iQIY choose relational and NoSQL databases from Alex Xu at ByteByteGo
+# How iQIY choose relational and NoSQL databases
 {: style="text-align: center"}
+
+From Alex Xu at ByteByteGo.
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published ["How iQIY choose relational and NoSQL databases"](https://www.linkedin.com/feed/update/urn:li:activity:6982726479977586688/).
 

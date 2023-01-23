@@ -43,6 +43,30 @@
       {% endif %}
      {% endfor %}
    </ul>
+API
+  <ul style="list-style-type:none">
+    {% for post in site.categories.api %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+Databases
+  <ul style="list-style-type:none">
+    {% for post in site.categories.databases %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+Latency
+  <ul style="list-style-type:none">
+    {% for post in site.categories.latency %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
 </div>
 
 <div markdown="1">## Amazon Web Services
@@ -60,8 +84,17 @@
 <div markdown="1">## Kubernetes
 
 <div>
+Cheatsheets
   <ul style="list-style-type:none">
-    {% for post in site.categories.kubernetes %}
+    {% for post in site.categories.kubernetes_cheatsheets %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+Prometheus
+  <ul style="list-style-type:none">
+    {% for post in site.categories.prometheus %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
@@ -74,6 +107,30 @@
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+Kernel
+  <ul style="list-style-type:none">
+    {% for post in site.categories.kernel %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+Disk
+  <ul style="list-style-type:none">
+    {% for post in site.categories.disk %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+Memory
+  <ul style="list-style-type:none">
+    {% for post in site.categories.memory %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}

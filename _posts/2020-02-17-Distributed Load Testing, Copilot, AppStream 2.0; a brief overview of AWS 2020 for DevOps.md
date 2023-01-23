@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Distributed Load Testing, Copilot, AppStream 2.0; a brief overview of AWS 2020 for DevOps"
-categories: aws general
+categories: aws
 ---
 
 # Distributed Load Testing, Copilot, AppStream 2.0; a brief overview of AWS 2020 for DevOps

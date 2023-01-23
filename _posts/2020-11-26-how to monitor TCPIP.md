@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor TCPIP"
-categories: linux kernel network 
+categories: network 
 ---
 
 # How to monitor TCP/IP

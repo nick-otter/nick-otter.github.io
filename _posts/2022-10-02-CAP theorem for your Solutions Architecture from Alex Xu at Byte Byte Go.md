@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "CAP theorem for your Solutions Architecture from Alex Xu at ByteByteGo"
+title:  "CAP theorem for your Solutions Architecture"
 categories: solutions
 ---
 
-# CAP theorem for your Solutions Architecture from Alex Xu at ByteByteGo
+# CAP theorem for your Solutions Architecture
 {: style="text-align: center"}
+
+From Alex Xu at ByteByteGo.
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published ["CAP theorem: one of the most misunderstood terms"](https://www.linkedin.com/feed/update/urn:li:activity:6980914617103360000/).
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How I stay up to date with Amazon Web Services"
-categories: aws general
+categories: aws
 ---
 
 # How I stay up to date with Amazon Web Services

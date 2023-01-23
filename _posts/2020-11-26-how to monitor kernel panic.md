@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor kernel panic"
-categories: linux kernel
+categories: kernel
 ---
 
 # How to monitor kernel panic

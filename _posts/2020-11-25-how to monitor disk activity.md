@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor disk activity"
-categories: linux kernel disk
+categories: disk
 ---
 
 # How to monitor disk activity

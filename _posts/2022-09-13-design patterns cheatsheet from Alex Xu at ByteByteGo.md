@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Design patterns cheatsheet from Alex Xu at ByteByteGo"
-categories: solutions general
+title:  "Design patterns cheatsheet"
+categories: solutions
 ---
 
-# Design patterns cheatsheet from Alex Xu at ByteByteGo
+# Design patterns cheatsheet
 {: style="text-align: center"}
+
+From Alex Xu at ByteByteGo.
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published ["Design Patterns cheatsheet"](https://blog.bytebytego.com/p/ep17-design-patterns-cheat-sheet).
 

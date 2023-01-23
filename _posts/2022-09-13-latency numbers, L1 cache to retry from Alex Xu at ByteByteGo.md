@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Latency numbers, L1 cache to retry from Alex Xu at ByteByteGo"
-categories: solutions latency
+title:  "Latency numbers, L1 cache to retry"
+categories: latency
 ---
 
-# Latency numbers, L1 cache to retry from Alex Xu at ByteByteGo
+# Latency numbers, L1 cache to retry
 {: style="text-align: center"}
+
+From Alex Xu at ByteByteGo.
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published ["Which latency numbers should you know?"](https://blog.bytebytego.com/p/ep22-latency-numbers-you-should-know).
 

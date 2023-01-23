@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to debug crashes and segfaults"
-categories: linux kernel memory
+categories: kernel
 ---
 
 # How to debug crashes and segfaults

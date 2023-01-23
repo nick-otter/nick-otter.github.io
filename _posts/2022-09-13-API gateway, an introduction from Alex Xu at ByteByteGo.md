@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "API gateway, an introduction from Alex Xu at ByteByteGo"
-categories: solutions apigateway
+title:  "API gateway, an introduction"
+categories: api
 ---
 
-# API gateway, an introduction from Alex Xu at ByteByteGo
+# API gateway, an introduction
 {: style="text-align: center"}
+
+From Alex Xu at ByteByteGo.
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published an ["API gateway introduction"](https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database).
 

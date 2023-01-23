@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to manage log files"
-categories: linux kernel disk
+categories: disk
 ---
 
 # How to manage log files

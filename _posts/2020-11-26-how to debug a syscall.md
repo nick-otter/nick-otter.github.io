@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to debug a syscall"
-categories: linux kernel
+categories: kernel
 ---
 
 # How to debug a syscall

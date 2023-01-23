@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "GraphQL vs. REST, a shallow dive from Alex Xu at ByteByteGo"
-categories: solutions restapi
+title:  "GraphQL vs. REST, a shallow dive"
+categories: api
 ---
 
-# GraphQL vs. REST, a shallow dive from Alex Xu at ByteByteGo
+# GraphQL vs. REST, a shallow dive
 {: style="text-align: center"}
+
+From Alex Xu at ByteByteGo
 
 [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published ["What is GraphQL? Is it a replacement for the REST API?"](https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database).
 

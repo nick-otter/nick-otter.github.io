@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to monitor CPU"
-categories: linux kernel cpu
+categories: cpu
 ---
 
 # How to monitor CPU
