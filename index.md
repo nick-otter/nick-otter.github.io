@@ -35,6 +35,7 @@
 
 <div markdown="1">## Solutions Architecture
 
+<div markdown="1">#### General
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.solutions %}
@@ -43,7 +44,8 @@
       {% endif %}
      {% endfor %}
    </ul>
-API
+
+<div markdown="1">#### API
   <ul style="list-style-type:none">
     {% for post in site.categories.api %}
       {% if post.url %}
@@ -51,7 +53,8 @@ API
       {% endif %}
      {% endfor %}
    </ul>
-Databases
+
+<div markdown="1">#### Databases
   <ul style="list-style-type:none">
     {% for post in site.categories.databases %}
       {% if post.url %}
@@ -59,7 +62,8 @@ Databases
       {% endif %}
      {% endfor %}
    </ul>
-Latency
+
+<div markdown="1">#### Latency
   <ul style="list-style-type:none">
     {% for post in site.categories.latency %}
       {% if post.url %}
@@ -83,8 +87,7 @@ Latency
 
 <div markdown="1">## Kubernetes
 
-<div>
-Cheatsheets
+<div markdown="1">#### Cheatsheets
   <ul style="list-style-type:none">
     {% for post in site.categories.kubernetes_cheatsheets %}
       {% if post.url %}
@@ -92,7 +95,8 @@ Cheatsheets
       {% endif %}
      {% endfor %}
    </ul>
-Prometheus
+
+<div markdown="1">#### Prometheus
   <ul style="list-style-type:none">
     {% for post in site.categories.prometheus %}
       {% if post.url %}
@@ -104,6 +108,7 @@ Prometheus
 
 <div markdown="1">## Linux
 
+<div markdown="1">#### General
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux %}
@@ -112,7 +117,8 @@ Prometheus
       {% endif %}
      {% endfor %}
    </ul>
-Kernel
+
+<div markdown="1">#### Kernel
   <ul style="list-style-type:none">
     {% for post in site.categories.kernel %}
       {% if post.url %}
@@ -120,7 +126,8 @@ Kernel
       {% endif %}
      {% endfor %}
    </ul>
-Disk
+
+<div markdown="1">#### Disk
   <ul style="list-style-type:none">
     {% for post in site.categories.disk %}
       {% if post.url %}
@@ -128,7 +135,8 @@ Disk
       {% endif %}
      {% endfor %}
    </ul>
-Memory
+
+<div markdown="1">#### Memory
   <ul style="list-style-type:none">
     {% for post in site.categories.memory %}
       {% if post.url %}

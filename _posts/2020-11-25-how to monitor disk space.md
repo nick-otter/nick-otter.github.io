@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor disk space"
+title:  "How to monitor Disk Space"
 categories: disk
 ---
 
-# How to monitor disk space
+# How to monitor Disk Space
 {: style="text-align: center"}
 
 Written by Nick Otter.

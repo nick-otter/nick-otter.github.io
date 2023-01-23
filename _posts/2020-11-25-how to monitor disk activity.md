@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor disk activity"
+title:  "How to monitor Disk Activity"
 categories: disk
 ---
 
-# How to monitor disk activity
+# How to monitor Disk Activity
 {: style="text-align: center"}
 
 Written by Nick Otter.

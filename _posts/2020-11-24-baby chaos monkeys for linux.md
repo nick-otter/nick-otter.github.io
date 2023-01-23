@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Baby chaos monkeys for Linux"
+title:  "Baby Chaos Monkeys for Linux"
 categories: linux
 ---
 
-# Baby chaos monkeys for Linux
+# Baby Chaos Monkeys for Linux
 {: style="text-align: center"}
 
 Written by Nick Otter.

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to debug an emergency boot"
+title:  "How to debug an Emergency Boot"
 categories: boot
 ---
 
-# How to debug an emergency boot
+# How to debug an Emergency Boot
 {: style="text-align: center"}
 
 Written by Nick Otter.
