@@ -35,17 +35,17 @@
 
 <div markdown="1">## Solutions Architecture
 
-<div markdown="1">#### General
-<div>
-  <ul style="list-style-type:none">
-    {% for post in site.categories.solutions %}
-      {% if post.url %}
-         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-     {% endfor %}
-   </ul>
+<div markdown="1">### General
+  <div>
+    <ul style="list-style-type:none">
+      {% for post in site.categories.solutions %}
+        {% if post.url %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
 
-<div markdown="1">#### API
+<div markdown="1">### API
   <ul style="list-style-type:none">
     {% for post in site.categories.api %}
       {% if post.url %}
@@ -54,7 +54,7 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">#### Databases
+<div markdown="1">### Databases
   <ul style="list-style-type:none">
     {% for post in site.categories.databases %}
       {% if post.url %}
@@ -63,7 +63,7 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">#### Latency
+<div markdown="1">### Latency
   <ul style="list-style-type:none">
     {% for post in site.categories.latency %}
       {% if post.url %}
@@ -87,7 +87,7 @@
 
 <div markdown="1">## Kubernetes
 
-<div markdown="1">#### Cheatsheets
+<div markdown="1">### Cheatsheets
   <ul style="list-style-type:none">
     {% for post in site.categories.kubernetes_cheatsheets %}
       {% if post.url %}
@@ -96,7 +96,7 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">#### Prometheus
+<div markdown="1">### Prometheus
   <ul style="list-style-type:none">
     {% for post in site.categories.prometheus %}
       {% if post.url %}
@@ -108,7 +108,7 @@
 
 <div markdown="1">## Linux
 
-<div markdown="1">#### General
+<div markdown="1">### General
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux %}
@@ -118,7 +118,7 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">#### Kernel
+<div markdown="1">### Kernel
   <ul style="list-style-type:none">
     {% for post in site.categories.kernel %}
       {% if post.url %}
@@ -127,7 +127,7 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">#### Disk
+<div markdown="1">### Disk
   <ul style="list-style-type:none">
     {% for post in site.categories.disk %}
       {% if post.url %}
@@ -136,7 +136,7 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">#### Memory
+<div markdown="1">### Memory
   <ul style="list-style-type:none">
     {% for post in site.categories.memory %}
       {% if post.url %}
