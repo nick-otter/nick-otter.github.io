@@ -11,7 +11,7 @@ Recently "leaked" from their employee handbook, Facebook's characterisation pill
 
 Let's take a look at the excerpt.
 
-![Screenshot](https://media-exp1.licdn.com/dms/image/C4E22AQGy5TPJfa1-Yw/feedshare-shrink_800/0/1663757887512?e=1670457600&v=beta&t=fzaDE11VxZcXUdbZQKtFtxdXFIoAVeNJqhnbVP7wg0w)
+(/![](/assets/6_eng_fb.jpg)
 
 ---
 
