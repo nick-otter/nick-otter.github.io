@@ -33,7 +33,7 @@
    </ul>
 </div>
 
-<div markdown="1">## Solutions Architecture
+<div markdown="1">## System Design
 
 <div markdown="1">### General
   <div>
