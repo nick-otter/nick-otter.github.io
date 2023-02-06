@@ -118,6 +118,24 @@
      {% endfor %}
    </ul>
 
+<div markdown="1">### Boot
+  <ul style="list-style-type:none">
+    {% for post in site.categories.boot %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
+<div markdown="1">### Network
+  <ul style="list-style-type:none">
+    {% for post in site.categories.network %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
 <div markdown="1">### Kernel
   <ul style="list-style-type:none">
     {% for post in site.categories.kernel %}
