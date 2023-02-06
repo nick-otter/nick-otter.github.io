@@ -15,6 +15,7 @@ Written by Nick Otter.
 - [**Describing patterns**](#describing-patterns)<br>
 - [**Isolating individuals**](#isolating-individuals)
 - [**Describing inrastructure**](#describing-infrastructure)<br>
+- [**Project oriented**](#project-oriented)<br>
 
 # Introduction
 
