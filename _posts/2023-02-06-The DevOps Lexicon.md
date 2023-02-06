@@ -75,7 +75,6 @@ This is a DevOps lexicon. It is filled with words for things that are hard to de
 | Transformation of source code into machine readable code | Compile
 | Convert object into a stream of bytes to store or transmit | Serialization |
 | Unzip | Deserialization
-| 
 
 
 # Project oriented
