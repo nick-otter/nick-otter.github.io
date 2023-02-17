@@ -55,15 +55,6 @@
      {% endfor %}
    </ul>
 
-<div markdown="1">### Databases
-  <ul style="list-style-type:none">
-    {% for post in site.categories.databases %}
-      {% if post.url %}
-         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-     {% endfor %}
-   </ul>
-
 <div markdown="1">### Latency
   <ul style="list-style-type:none">
     {% for post in site.categories.latency %}
