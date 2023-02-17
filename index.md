@@ -99,15 +99,14 @@
 </div>
 
 <div markdown="1">## Linux
-
-<div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux_handbook_contents
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
-     {% endfor %}
+    {% endfor %}
    </ul>
+</div>
 
 <div markdown="1">## B-Sides
 
