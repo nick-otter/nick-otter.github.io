@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "I ranked my favourite films"
+title:  "I Ranked My Favourite Films"
 categories: personal
 ---
 
-# I ranked my favourite films
+# I Ranked My Favourite Films
 {: style="text-align: center"}
 
 Written by Nick Otter.
