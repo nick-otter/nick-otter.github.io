@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Python 3 Cheatsheet"
-categories: python
+categories: misc
 ---
 
 # A Python 3 Cheatsheet
