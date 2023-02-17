@@ -6,7 +6,7 @@ categories: linux_handbook_contents
 
 # A Linux Handbook
 
-<div markdown="1"># Observability
+<div markdown="1"># Cheatsheets
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux_cheatsheets %}
