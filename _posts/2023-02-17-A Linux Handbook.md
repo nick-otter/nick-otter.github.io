@@ -26,7 +26,7 @@ categories: linux_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1">### Boot
+<div markdown="1"># Boot
   <ul style="list-style-type:none">
     {% for post in site.categories.boot %}
       {% if post.url %}
@@ -35,7 +35,7 @@ categories: linux_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1">### Network
+<div markdown="1"># Network
   <ul style="list-style-type:none">
     {% for post in site.categories.network %}
       {% if post.url %}
@@ -44,7 +44,7 @@ categories: linux_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1">### Kernel
+<div markdown="1"># Kernel
   <ul style="list-style-type:none">
     {% for post in site.categories.kernel %}
       {% if post.url %}
@@ -53,7 +53,7 @@ categories: linux_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1">### Disk
+<div markdown="1"># Disk
   <ul style="list-style-type:none">
     {% for post in site.categories.disk %}
       {% if post.url %}
@@ -62,7 +62,7 @@ categories: linux_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1">### Memory
+<div markdown="1"># Memory
   <ul style="list-style-type:none">
     {% for post in site.categories.memory %}
       {% if post.url %}
