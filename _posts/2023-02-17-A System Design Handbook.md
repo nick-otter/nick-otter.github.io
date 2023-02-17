@@ -4,9 +4,9 @@ title:  "A System Design Handbook"
 categories: sysdesign_handbook_contents
 ---
 
-<div markdown="1">## System Design
+<div markdown="1"># A System Design Handbook
 
-<div markdown="1">### General
+<div markdown="1"># General
   <div>
     <ul style="list-style-type:none">
       {% for post in site.categories.solutions %}
@@ -16,7 +16,7 @@ categories: sysdesign_handbook_contents
       {% endfor %}
     </ul>
 
-<div markdown="1">### API
+<div markdown="1"># API
   <ul style="list-style-type:none">
     {% for post in site.categories.api %}
       {% if post.url %}
@@ -25,7 +25,7 @@ categories: sysdesign_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1">### Latency
+<div markdown="1"># Latency
   <ul style="list-style-type:none">
     {% for post in site.categories.latency %}
       {% if post.url %}
