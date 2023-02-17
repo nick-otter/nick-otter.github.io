@@ -100,7 +100,7 @@
 
 <div markdown="1">## Linux
   <ul style="list-style-type:none">
-    {% for post in site.categories.linux_handbook_contents
+    {% for post in site.categories.linux_handbook_contents %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
