@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How iQIY choose relational and NoSQL databases"
-categories: databases
+categories: misc
 ---
 
 # How iQIY choose relational and NoSQL databases
