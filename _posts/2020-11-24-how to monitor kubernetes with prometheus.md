@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor Kubernetes with Prometheus"
+title:  "How To Monitor Kubernetes With Prometheus"
 categories: prometheus
 ---
 
-# How to monitor Kubernetes with Prometheus
+# How To Monitor Kubernetes With Prometheus
 {: style="text-align: center"}
 
 Written by Nick Otter.
