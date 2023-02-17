@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "opt, var, etc etc. the contents of the Linux Root Directory explained"
+title:  "The Linux Root Directory Explained"
 categories: linux
 ---
 
-# opt, var, etc etc. the contents of the Linux Root Directory explained
+# The Linux Root Directory Explained
 {: style="text-align: center"}
 
 Written by Nick Otter. 
@@ -12,13 +12,13 @@ Written by Nick Otter.
 # Contents
 
 - [**Introduction**](#introduction)<br>
-- [**The contents of /**](#the-contents-of-/)<br>
+- [**The Contents Of /**](#the-contents-of-/)<br>
 
 # Introduction 
 
 Let's take a look at the Linux `/` directory and it's subdirectories.
 
-# The contents of /
+# The Contents Of /
 
 This is a fresh install of RHEL 8. Let's take a look.
 
@@ -67,7 +67,7 @@ Here lies a description of all the subdirectories in the root directory, and any
 | &nbsp;&nbsp;`/usr/lib<qual>` | Alt-format libraries, e.g. `/usr/lib32` for 32-bit libriaries on a 64-bit machine. |
 | &nbsp;&nbsp;`/usr/local`     | _Tertiary hierarchy_ for local data, specific to the host. Normally has further subdirectories e.g. `bin`, `lib`.
 | &nbsp;&nbsp;`/usr/sbin`      | Non-essential system binaries e.g. daemons for various network services. |
-| &nbsp;&nbsp;`/usr/share`     | Architectture-independent (shared) data. |
+| &nbsp;&nbsp;`/usr/share`     | Architecture-independent (shared) data. |
 | &nbsp;&nbsp;`/usr/src`       | Source code e.g. the kernel source code with its header files. |
 | `/var`     | Variable files: files whose content is expected to continually change during the normal operation of the system, such as logs and spool files. |
 | &nbsp;&nbsp;`/var/cache` | Application cache data. Such data are locally generated as a result of time-consuming I/O or calculation. The application must be able to regenerate or restore the data. The cached files can be deleted without loss of data. |
@@ -81,6 +81,6 @@ Here lies a description of all the subdirectories in the root directory, and any
 | &nbsp;&nbsp;&nbsp;&nbsp;`/var/spool/mail` | Deprecated location for users' mailboxes. |
 | &nbsp;&nbsp; `/var/tmp` | Temporary files to be **preserved between reboots**. |
 
-
+![]((/assets/linux_dir_cheat.jpg)
 ---
 Thanks. This article was written by Nick Otter.
