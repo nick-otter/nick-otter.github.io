@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/26765027/104627185-9cbe6400-568e-11eb-8d5f-3c0d7fab1dec.png" />
-  <br>Welcome to the minimal DevOps blog by Nick Otter.
+  <br>Welcome to a minimal DevOps blog by Nick Otter.
   <br>Click the headers to view articles. Thanks for stopping by.
 </p>
 
