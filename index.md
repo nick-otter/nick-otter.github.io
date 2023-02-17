@@ -165,7 +165,7 @@
    </ul>
 </div>
 
-<div markdown="1">## Misc
+<div markdown="1">## B-Sides
 
 <div>
   <ul style="list-style-type:none">
