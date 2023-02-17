@@ -58,8 +58,6 @@
 </div>
 
 <div markdown="1">## Kubernetes
-
-<div markdown="1">### Cheatsheets
   <ul style="list-style-type:none">
     {% for post in site.categories.kubernetes_cheatsheets %}
       {% if post.url %}
@@ -67,8 +65,6 @@
       {% endif %}
      {% endfor %}
    </ul>
-
-<div markdown="1">### Prometheus
   <ul style="list-style-type:none">
     {% for post in site.categories.prometheus %}
       {% if post.url %}
