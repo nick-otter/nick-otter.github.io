@@ -6,7 +6,17 @@ categories: linux_handbook_contents
 
 # A Linux Handbook
 
-<div markdown="1">### General
+<div markdown="1"># Observability
+<div>
+  <ul style="list-style-type:none">
+    {% for post in site.categories.linux_cheatsheets %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
+<div markdown="1"># General
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux %}
