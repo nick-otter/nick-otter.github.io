@@ -17,6 +17,7 @@ Written by Nick Otter.
 - [**Ishikawa Diagram**](#ishikawa-diagram)<br>
 - [**Inversion**](#inversion)<br>
 - [**Issue Trees**](#issue-trees)<br>
+- [**A Bonus Round**](#a-bonus-round)<br>
 
 # Introduction
 
@@ -97,6 +98,22 @@ Issue trees are a visual diagram that help you break down a larger problem or qu
 They allow you to identify the root causes of a problem as well as to identify its potential solutions.
 
 ![](/assets/issue_trees.jpg)
+
+# A Bonus Round
+
+Questions to help you face reality:
+* What’s happening now? 
+* What do you need to know?
+* What’s working well and what isn’t? 
+* What kept you from trying other things?  
+* Where are you now in relation to your goal? 
+* What is preventing you from obtaining your goals?
+
+Questions to help you discover what you will do:
+* What do you need to put into place first? 
+* What actions will you take over the next week? 
+* What will be the next step you take in the next 24 hours? 
+* How/ when/ who/ where/ what will you do to move forward?
 
 ---
 
