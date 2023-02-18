@@ -22,11 +22,11 @@
   </ul>
 </div>
 
-<div markdown="1">## Personal
+<div markdown="1">## DevOps
 
 <div>
   <ul style="list-style-type:none">
-    {% for post in site.categories.personal %}
+    {% for post in site.categories.devops %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
@@ -79,6 +79,19 @@
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
     {% endfor %}
+   </ul>
+</div>
+
+
+<div markdown="1">## Personal
+
+<div>
+  <ul style="list-style-type:none">
+    {% for post in site.categories.personal %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
    </ul>
 </div>
 
