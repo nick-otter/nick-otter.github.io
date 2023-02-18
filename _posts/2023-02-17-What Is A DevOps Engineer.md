@@ -22,7 +22,7 @@ A "DevOps Engineer" should be defined as so:
 
 "DevOps" should:
 * Abstract a technical solution from key business milestones
-* Manage the technical solution for key business milestones
+* Manage and deliver the technical solution for key business milestones
 * Prioritise business milestones far before technical milestones
 * Distill the technical side for Functional teams
 
