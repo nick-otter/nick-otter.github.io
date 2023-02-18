@@ -52,6 +52,7 @@ A "DevOps Engineer" will have similar responsibilities to:
 * Site Reliability Engineer
 * Platform Engineer
 * Cloud Engineer
+* Solutions Architect
 
 Brushing past:
 * System Administrator
