@@ -41,8 +41,7 @@ Here are the five questions:
 
 ![](/assets/5_whys.jpg)
 
-Richard Feynman, Magnets
-https://www.youtube.com/watch?v=Q1lL-hXO27Q
+See this in action with: [Richard Feynman, Magnets](https://www.youtube.com/watch?v=Q1lL-hXO27Q)
 
 # The Minto Pyramid Principle
 
