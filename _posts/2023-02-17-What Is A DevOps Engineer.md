@@ -24,9 +24,9 @@ A "DevOps Engineer" should be defined as so:
 * Abstract a technical solution from key business milestones
 * Provide a technical solution for key business milestones
 * Prioritise business milestones far before technical milestones
-* Distill technical side for the functional teams
+* Distill the technical side for Functional teams
 
-Measured by:
+DevOps is measured by:
 * Deployment frequency
 * Change lead time
 * Change failure rate
