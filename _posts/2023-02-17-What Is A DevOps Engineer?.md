@@ -21,7 +21,7 @@ A "DevOps Engineer" should be defined as so:
 * A DevOps Engineer has a responsibility to deliver that methodology
 
 "DevOps" should:
-* Abstract a technical solution for key business milestones
+* Abstract a technical solution from key business milestones
 * Provide a technical solution for key business milestones
 * Prioritise business milestones far before technical milestones
 * Distill technical side for the functional teams
