@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "DiRT, DORA, Thin and Fat platform - Minimal takeaways from DevOps Days London 2022"
-categories: misc
+title:  "DiRT, DORA, Thin and Fat platform - Takeaways from DevOps Days London 2022"
+categories: devops
 ---
 
-# DiRT, DORA, Thin and Fat platform - Minimal takeaways from DevOps Days London 2022
+# DiRT, DORA, Thin and Fat platform - Takeaways from DevOps Days London 2022
 {: style="text-align: center"}
 
 Written by Nick Otter. 
