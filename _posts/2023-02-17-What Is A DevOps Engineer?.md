@@ -40,7 +40,7 @@ Systems that have been improved by DevOps might be:
 * Automated
 * Observable
 * Built using Agile
-* Have very fast feedback loops.
+* Have very fast feedback loops
 
 As a DevOps engineer, problems should be solved by:
 * Being an enabler not a problem solver
