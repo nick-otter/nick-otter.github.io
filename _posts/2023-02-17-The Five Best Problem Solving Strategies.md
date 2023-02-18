@@ -57,7 +57,7 @@ Process:
 
 3. Logically order your supporting ideas
 
-![](/assets/minto_pyramid.jpg)
+![](/assets/minto_pyramid.png)
 
 # Ishikawa Diagram
 
@@ -73,7 +73,7 @@ Steps:
 
 4. Analyse the diagram
 
-![](/assets/ishikawa_diagram.jpg)
+![](/assets/ishikawa_diagram.png)
 
 
 # Inversion
