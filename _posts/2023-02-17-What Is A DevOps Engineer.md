@@ -67,7 +67,7 @@ A DevOps Engineer aim should be never to "touch" Production.
 
 # DevOps Engineer Metrics
 
-Performance of a companies DevOps movement should be analysed using DORA metrics (First discussed in [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/dp/1950508641/ref=sr_1_2?keywords=accelerate+the+science+of+lean+software&qid=1676886447&s=books&sprefix=Accelerate+the+scie%2Cstripbooks%2C75&sr=1-2) - Accelerate: The Science of Lean Software and DevOps).
+Performance of a companies DevOps movement should be analysed using DORA metrics (First discussed in [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.amazon.co.uk/Accelerate-Software-Performing-Technology-Organizations/dp/1950508641/ref=sr_1_2?keywords=accelerate+the+science+of+lean+software&qid=1676886447&s=books&sprefix=Accelerate+the+scie%2Cstripbooks%2C75&sr=1-2)).
 
 * Deployment frequency: How often a software team pushes changes to production
 * Change lead time: The time it takes to get committed code to run in production
