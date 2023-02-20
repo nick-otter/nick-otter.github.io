@@ -17,7 +17,7 @@ Written by Nick Otter.
 
 # Devops Engineer Fundamentals
 
-Gene Kim, Jez Humble, Patrick Debois, John Willis, Nicole Forsgren's [The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations](https://www.amazon.co.uk/DevOps-Handbook-Second-World-Class-Organizations/dp/B09L56826R/ref=sr_1_2?adgrpid=54933751562&gclid=CjwKCAiA0cyfBhBREiwAAtStHFf2kVnsLsJG29u-yx3BFyGQPmmsbuCO6-COUPdANu3hWg7Z_IDM6BoCAxQQAvD_BwE&hvadid=259067638720&hvdev=c&hvlocphy=9045271&hvnetw=g&hvqmt=e&hvrand=16537500343183288233&hvtargid=kwd-298080548321&hydadcr=24405_1748889&keywords=the+devops+handbook&qid=1676886524&sr=8-2) has worthy DevOps definitions and responsibilities. Using that as a foundation and combined with my personal experience, here's what I think.
+Gene Kim, Jez Humble, Patrick Debois, John Willis, Nicole Forsgren's [The DevOps Handbook: How to Create World-Class Agility, Reliability, & Security in Technology Organizations](https://www.amazon.co.uk/DevOps-Handbook-Second-World-Class-Organizations/dp/B09L56826R/ref=sr_1_2?adgrpid=54933751562&gclid=CjwKCAiA0cyfBhBREiwAAtStHFf2kVnsLsJG29u-yx3BFyGQPmmsbuCO6-COUPdANu3hWg7Z_IDM6BoCAxQQAvD_BwE&hvadid=259067638720&hvdev=c&hvlocphy=9045271&hvnetw=g&hvqmt=e&hvrand=16537500343183288233&hvtargid=kwd-298080548321&hydadcr=24405_1748889&keywords=the+devops+handbook&qid=1676886524&sr=8-2) has worthy DevOps definitions and responsibilities. Using that as a foundation and combined with my humble personal experience, here's what I think.
 
 A "DevOps Engineer" should be defined as so:
 * DevOps is a methodology, not an individual task
