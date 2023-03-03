@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Commands I use to make Linux easier"
-categories: misc
+categories: inactive
 ---
 
 # Commands I use to make Linux easier
