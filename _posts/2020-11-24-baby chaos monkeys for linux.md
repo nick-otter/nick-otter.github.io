@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Baby Chaos Monkeys for Linux"
-categories: misc
+categories: inactive
 ---
 
 # Baby Chaos Monkeys for Linux
