@@ -83,12 +83,27 @@ _Result:_ AWS 5 - 1 Data Center
 
 # VPC
 
+This is another big win IMHO. It is incredibly hard to get a network overview - there may be multiple vendors, multiple gateways, separate firewalls etc. etc. and then on top of that you might be fumbling around with nmcli config. Not great. 
+
+```
+Amazon Virtual Private Cloud (Amazon VPC) lets you provision a logically isolated section of the Amazon Web Services Cloud where you can launch Amazon Web Services resources in a virtual network that you define. You have complete control over your virtual networking environment, including selection of your own IP address range, creation of subnets, and configuration of route tables and network gateways
+```
+
+_Result:_ AWS 6 - 1 Data Center
 
 # Elastic IP
+
+Managing IPs via Terraform/VCenter/Citrix Netscaler/Whatever other crazy idea is a nuisance and can be far from "Elastic". `arp -a` or netcat/nmap will never not be fun but also not totally robust.
+
+_Result:_ AWS 7 - 1 Data Center
 
 # OS Choice
 
 This is a draw. Nice to have, sure. But these .iso's are free yaknow.
+
+# Conclusion
+
+_Result:_ AWS 7 - 1 Data Center. Bit of a pasting. 
 
 ---
 
