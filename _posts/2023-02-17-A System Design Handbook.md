@@ -6,7 +6,7 @@ categories: sysdesign_handbook_contents
 
 <div markdown="1"># A System Design Handbook
 
-<div markdown="1"># General
+<div markdown="1"># Introduction
   <div>
     <ul style="list-style-type:none">
       {% for post in site.categories.solutions %}
