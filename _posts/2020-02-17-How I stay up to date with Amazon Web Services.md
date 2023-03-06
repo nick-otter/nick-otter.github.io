@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How I stay up to date with Amazon Web Services"
+title:  "How I Stay Up To Date With Amazon Web Services"
 categories: aws
 ---
 
-# How I stay up to date with Amazon Web Services
+# How I Stay Up To Date With Amazon Web Services
 {: style="text-align: center"}
 
 Written by Nick Otter. 
