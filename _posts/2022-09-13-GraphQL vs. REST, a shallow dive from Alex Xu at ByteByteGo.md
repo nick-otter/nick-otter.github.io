@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "GraphQL vs. REST, a shallow dive"
+title:  "GraphQL vs. REST, A Shallow Dive"
 categories: api
 ---
 
-# GraphQL vs. REST, a shallow dive
+# GraphQL vs. REST, A Shallow Dive
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo
