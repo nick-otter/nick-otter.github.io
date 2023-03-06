@@ -57,6 +57,12 @@ AWS 2 - 1 Data Center
 
 # High Throughput Low Latency
 
+Cluster Compute, Cluster GPU, and High Memory Cluster instances.. I would describe these as cute bundles. Nifty. 
+
+Definite score. 
+
+_Result:_ AWS 3 - 1 Data Center
+
 # Multiple Storage Options
 
 # Auto Scaling
