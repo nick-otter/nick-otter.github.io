@@ -49,7 +49,7 @@ EC2 offers "Amazon Graviton2 processors". Hmm.
 * int8/fp16 CPU-based machine learning inference acceleration. 
 * Customize number of vCPUs when launching new instances 
 
-Okay let's speed this up it's [cheaper than AMD and Intel](https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-intel-and-amd) and most probably the DC you want to use will not have top spec servers.
+_Result:_ Okay let's speed this up it's [cheaper than AMD and Intel](https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-intel-and-amd) and most probably the DC you want to use will not have top spec servers.
 
 ![](/assets/ec2vsamdxeon.png)
 
