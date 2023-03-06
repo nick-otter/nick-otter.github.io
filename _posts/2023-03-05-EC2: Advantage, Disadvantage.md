@@ -88,7 +88,7 @@ _Result:_ AWS 5 - 1 Data Center
 
 # OS Choice
 
-This is a draw. Nice to have sure. But these .iso's are free yaknow.
+This is a draw. Nice to have, sure. But these .iso's are free yaknow.
 
 ---
 
