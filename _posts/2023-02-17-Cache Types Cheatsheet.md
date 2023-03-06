@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Cache Types Cheatsheet"
-categories: solutions
+title:  "Cheatsheet: Cache Types"
+categories: cache
 ---
 
-# Cache Types Cheatsheet
+# Cheatsheet: Cache Types
 {: style="text-align: center"}
 
 Written by Nick Otter.
