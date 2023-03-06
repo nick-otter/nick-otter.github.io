@@ -25,6 +25,15 @@ categories: sysdesign_handbook_contents
      {% endfor %}
    </ul>
 
+<div markdown="1"># Cache
+  <ul style="list-style-type:none">
+    {% for post in site.categories.cache %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
 <div markdown="1"># Latency
   <ul style="list-style-type:none">
     {% for post in site.categories.latency %}
