@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Design patterns cheatsheet"
+title:  "Cheatsheet: Design Patterns"
 categories: solutions
 ---
 
-# Design patterns cheatsheet
+# Cheatsheet: Design Patterns
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo.
