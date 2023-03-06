@@ -51,7 +51,7 @@ EC2 offers "Amazon Graviton2 processors". Hmm.
 
 Okay let's speed this up it's [cheaper than AMD and Intel](https://www.anandtech.com/show/15578/cloud-clash-amazon-graviton2-arm-against-intel-and-amd) and most probably the DC you want to use will not have top spec servers.
 
-![](/assets/ec2vsamdxeon.jpg)
+![](/assets/ec2vsamdxeon.png)
 
 AWS 2 - 1 Data Center
 
