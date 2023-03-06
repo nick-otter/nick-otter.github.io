@@ -55,6 +55,19 @@ Okay let's speed this up it's [cheaper than AMD and Intel](https://www.anandtech
 
 AWS 2 - 1 Data Center
 
+# High Throughput Low Latency
+
+# Multiple Storage Options
+
+# Auto Scaling
+
+# ELB
+
+# VPC
+
+# Elastic IP
+
+# OS Choice
 
 
 ---
