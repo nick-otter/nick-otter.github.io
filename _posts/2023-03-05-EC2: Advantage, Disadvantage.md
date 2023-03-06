@@ -69,6 +69,12 @@ Amazon Elastic Block Store (Amazon EBS) optimized instances for IOPS. This is ju
 
 # Auto Scaling
 
+The equivalent of AWS EC2 Auto Scaling would be to write your own custom Terraform wrapper maybe (been there!) - or just bite the bullet and Go Big or Go Home in VCenter. Big win for AWS EC2 here.
+
+![](/assets/as-basic-diagram.png)
+
+_Result:_ AWS 4 - 1 Data Center
+
 # ELB
 
 # VPC
