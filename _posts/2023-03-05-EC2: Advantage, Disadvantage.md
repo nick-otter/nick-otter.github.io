@@ -65,6 +65,8 @@ _Result:_ AWS 3 - 1 Data Center
 
 # Multiple Storage Options
 
+Amazon Elastic Block Store (Amazon EBS) optimized instances for IOPS. This is just a block storage volume right? So, just increasing the disk size? Err. No goals scored here.
+
 # Auto Scaling
 
 # ELB
