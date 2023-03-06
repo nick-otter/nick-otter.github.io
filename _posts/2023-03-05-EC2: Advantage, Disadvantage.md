@@ -77,7 +77,12 @@ _Result:_ AWS 4 - 1 Data Center
 
 # ELB
 
+Automatic Traffic Distribution with Elastic Load Balancing. Is there anyone who longs to use Citrix? Who wishes to have a totally separate vendor for a specific LB resource? Logging in in a spearate window to an LB GUI? Win for AWS. 
+
+_Result:_ AWS 5 - 1 Data Center
+
 # VPC
+
 
 # Elastic IP
 
