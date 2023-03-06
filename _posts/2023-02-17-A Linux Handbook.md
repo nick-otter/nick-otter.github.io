@@ -16,7 +16,7 @@ categories: linux_handbook_contents
      {% endfor %}
    </ul>
 
-<div markdown="1"># General
+<div markdown="1"># Introduction
 <div>
   <ul style="list-style-type:none">
     {% for post in site.categories.linux %}
