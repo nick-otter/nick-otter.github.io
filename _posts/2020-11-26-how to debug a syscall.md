@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to debug a Syscall"
+title:  "How To Debug A Syscall"
 categories: kernel
 ---
 
-# How to debug a Syscall
+# How To Debug A Syscall
 {: style="text-align: center"}
 
 Written by Nick Otter.
