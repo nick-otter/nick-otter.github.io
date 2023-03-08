@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor CPU"
+title:  "How To Monitor CPU"
 categories: cpu
 ---
 
-# How to monitor CPU
+# How To Monitor CPU
 {: style="text-align: center"}
 
 Written by Nick Otter.
