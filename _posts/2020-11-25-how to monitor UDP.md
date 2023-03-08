@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor UDP"
+title:  "How To Monitor UDP"
 categories: network
 ---
 
-# How to monitor UDP
+# How To Monitor UDP
 {: style="text-align: center"}
 
 Written by Nick Otter.
