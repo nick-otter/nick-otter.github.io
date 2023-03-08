@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor TCPIP"
+title:  "How To Monitor TCPIP"
 categories: network 
 ---
 
-# How to monitor TCP/IP
+# How To Monitor TCP/IP
 {: style="text-align: center"}
 
 Written by Nick Otter.
