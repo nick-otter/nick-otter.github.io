@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to manage Log Files"
+title:  "How To Manage Log Files"
 categories: disk
 ---
 
-# How to manage Log Files
+# How To Manage Log Files
 {: style="text-align: center"}
 
 Written by Nick Otter.
