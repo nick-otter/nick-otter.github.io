@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to debug Crashes and Segfaults"
+title:  "How To Debug Crashes And Segfaults"
 categories: kernel
 ---
 
-# How to debug Crashes and Segfaults
+# How To Debug Crashes And Segfaults
 {: style="text-align: center"}
 
 Written by Nick Otter.
