@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor Page Cache"
+title:  "How To Monitor Page Cache"
 categories: memory
 ---
 
-# How to monitor Page Cache
+# How To Monitor Page Cache
 {: style="text-align: center"}
 
 Written by Nick Otter.
