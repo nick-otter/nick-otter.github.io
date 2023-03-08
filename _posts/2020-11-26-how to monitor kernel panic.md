@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to monitor Kernel Panic"
+title:  "How To Monitor Kernel Panic"
 categories: kernel
 ---
 
-# How to monitor Kernel Panic
+# How To Monitor Kernel Panic
 {: style="text-align: center"}
 
 Written by Nick Otter.
