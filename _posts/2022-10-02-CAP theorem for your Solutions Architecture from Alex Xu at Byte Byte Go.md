@@ -13,7 +13,7 @@ From Alex Xu at ByteByteGo.
 
 Let's take a look. 
 
-![](https://media-exp1.licdn.com/dms/image/C4E22AQEsFG4xv2YrZw/feedshare-shrink_2048_1536/0/1664379742977?e=1667433600&v=beta&t=Pa3uvyEL_BtB5VjNUf5VsgScjmgFINNMe0TQU9XTXBo)
+![](/assets/cap_theorem.jpeg)
 
 CAP theorem: one of the most misunderstood terms
 
