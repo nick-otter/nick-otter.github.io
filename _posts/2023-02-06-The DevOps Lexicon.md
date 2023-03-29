@@ -53,6 +53,7 @@ This is a DevOps lexicon. It is filled with words for things that are hard to de
 | Add to end | Append
 | Add to start | Prepend
 | Add parameter to a request | Decorate request
+| Analyse cache/logs | Interrogate
 | Parameter | Attribute
 | After / in a URL | Context Path / Path
 | Scheme, Authority, User Info, Host etc.| URI | 
