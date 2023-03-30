@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Latency numbers, L1 cache to retry"
-categories: latency
+title:  "Latency Numbers, L1 Cache To Retry"
+categories: solutions
 ---
 
-# Latency numbers, L1 cache to retry
+# Latency Numbers, L1 Cache To Retry
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo.
