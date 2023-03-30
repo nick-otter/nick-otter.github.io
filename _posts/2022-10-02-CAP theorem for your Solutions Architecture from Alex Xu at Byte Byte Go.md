@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "CAP theorem for your Solutions Architecture"
+title:  "CAP Theorem For Your Solutions Architecture"
 categories: solutions
 ---
 
-# CAP theorem for your Solutions Architecture
+# CAP Theorem For Your Solutions Architecture
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo.
