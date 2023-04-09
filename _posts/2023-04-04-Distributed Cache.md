@@ -82,3 +82,5 @@ The read-through strategy is another common caching approach where the cache ser
 3. If the key is not found in the cache (cache miss), the cache requests the key from the storage.<br>
 
 4. The cache retrieves the data from storage, writes the key and associated data into the cache, and returns the data to the application.<br>
+
+![](/assets/distributed-cache-5.png)
