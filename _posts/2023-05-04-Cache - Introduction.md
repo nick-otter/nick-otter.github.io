@@ -46,7 +46,7 @@ If the data that is requested is available in the cache, it is known as a *cache
 # Where is caching used
 While the previous example showcased caching in client/server computing, it is worth noting that caching is extensively used in modern computer and software systems.
 
-![](/assets/cache-3.jpeg)
+![](/assets/cache-3.jpg)
 
 Modern computers utilize multiple levels of cache, including the L1, L2, and L3 caches, to provide fast access to frequently used data for the CPU.
 
