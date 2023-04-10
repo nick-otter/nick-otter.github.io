@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simplifying Down To First Principles"
-categories: misc
+categories: holistic
 ---
 
 # Simplifying Down To First Principles
