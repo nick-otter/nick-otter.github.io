@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DiRT DORA Thin and Fat platform - Takeaways from DevOps Days London 2022"
+title:  "DevOps Days London 2022"
 categories: devops
 ---
 
