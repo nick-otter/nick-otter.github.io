@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Monitor Kubernetes With Prometheus"
+title:  "Monitor Kubernetes With Prometheus"
 categories: prometheus
 ---
 
