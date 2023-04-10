@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simplifying Down To First Principles"
+title:  "First Principles"
 categories: holistic
 ---
 
