@@ -111,3 +111,5 @@ The impact of the large key problem is more severe than it may initially seem:
 * If a large key becomes invalid or is evicted from the cache, reloading it from storage can be time-consuming, leading to additional slow query performance.
 
 ![](/assets/cache-challenge-9.png)
+
+---
