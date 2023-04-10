@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Become More Predictable As A Product Team"
+title:  "Predictability As A Product Team"
 categories: misc
 ---
 
