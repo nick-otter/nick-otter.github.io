@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Cheatsheet - Performance Observability Tools"
+title:  "Performance Observability Commands"
 categories: linux_cheatsheets
 ---
 
-# Cheatsheet - Linux Performance Observability Tools
+# Linux Performance Observability Tools
 {: style="text-align: center"}
 
 ![](/assets/linux_perf_tools.jpg)
