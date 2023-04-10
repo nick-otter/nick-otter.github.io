@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cheatsheet - Linux Commands"
+title:  "Commands"
 categories: linux_cheatsheets
 ---
 
