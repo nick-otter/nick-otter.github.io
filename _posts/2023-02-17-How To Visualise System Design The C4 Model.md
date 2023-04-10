@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Visualise System Design: The C4 Model"
+title:  "The C4 Model"
 categories: solutions
 ---
 
