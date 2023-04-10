@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AWS 2020 for DevOps"
+title:  "AWS 2020 For DevOps"
 categories: aws
 ---
 
