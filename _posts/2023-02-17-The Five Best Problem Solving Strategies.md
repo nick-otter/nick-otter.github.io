@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Five Best Problem Solving Strategies"
-categories: devops
+categories: holistic
 ---
 
 # The Five Best Problem Solving Strategies
