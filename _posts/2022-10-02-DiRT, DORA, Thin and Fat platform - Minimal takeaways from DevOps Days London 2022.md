@@ -4,7 +4,7 @@ title:  "DevOps Days London 2022"
 categories: devops
 ---
 
-# DiRT DORA Thin and Fat platform - Takeaways from DevOps Days London 2022
+# DevOps Days London 2022
 {: style="text-align: center"}
 
 Written by Nick Otter. 
