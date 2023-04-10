@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Linux Root Directory Explained"
+title:  "The Linux Root Directory"
 categories: linux
 ---
 
