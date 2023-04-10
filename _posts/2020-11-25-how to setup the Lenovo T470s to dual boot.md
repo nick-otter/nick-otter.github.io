@@ -4,7 +4,7 @@ title:  "How To Setup The Lenovo T470s To Dual Boot"
 categories: misc
 ---
 
-# How to setup the Lenovo T470s to dual boot
+# How To Setup The Lenovo T470s To Dual Boot
 {: style="text-align: center"}
 
 Written by Nick Otter.
