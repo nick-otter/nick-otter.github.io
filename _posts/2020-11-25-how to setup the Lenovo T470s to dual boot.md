@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to setup the Lenovo T470s to dual boot"
+title:  "How To Setup The Lenovo T470s To Dual Boot"
 categories: misc
 ---
 
