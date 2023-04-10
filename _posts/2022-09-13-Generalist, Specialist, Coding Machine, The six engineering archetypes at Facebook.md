@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Generalist, Specialist, Coding Machine, The Six Staff Engineering Archetypes Of Facebook"
+title:  "The Six Staff Engineering Archetypes Of Facebook"
 categories: misc
 ---
 
