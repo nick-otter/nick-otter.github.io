@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Visual Guide On Troubleshooting Kubernetes Deployments"
+title:  "Troubleshooting Kubernetes Deployments"
 categories: kubernetes_cheatsheets
 ---
 
