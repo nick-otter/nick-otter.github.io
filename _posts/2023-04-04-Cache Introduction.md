@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cache - Introduction"
+title:  "Introduction"
 categories: cache
 ---
 
