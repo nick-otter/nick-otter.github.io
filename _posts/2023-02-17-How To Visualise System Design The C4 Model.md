@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The C4 Model"
+title:  "C4 Model"
 categories: solutions
 ---
 
