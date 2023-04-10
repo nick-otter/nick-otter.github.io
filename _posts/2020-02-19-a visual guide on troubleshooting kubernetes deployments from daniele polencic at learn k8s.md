@@ -108,10 +108,10 @@ You should remember three things:
 * The Service port can be any number. Multiple Services can use the same port because they have different IP addresses assigned.
 
 The following diagram summarises how to connect the ports:
-![](/assets/k8s-1.jpg)
+![](/assets/k8s-1.png)
 
 If you look at the YAML, the labels and `ports`/`targetPort` should match:
-![](/assets/k8s-2.kpg)
+![](/assets/k8s-2.png)
 
 What about the `track: canary` label at the top of the Deployment?
 
