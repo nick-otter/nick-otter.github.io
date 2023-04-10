@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Ask Questions As A Developer"
+title:  "Asking Questions"
 categories: holistic
 ---
 
