@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Five Best Problem Solving Strategies"
+title:  "Problem Solving"
 categories: holistic
 ---
 
