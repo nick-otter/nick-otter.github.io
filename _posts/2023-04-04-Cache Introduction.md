@@ -72,3 +72,4 @@ Caching is an effective solution for scenarios where data changes infrequently, 
 
 While there are many different types of caches in hardware and software, this article will focus on the general caching use cases in system design, exploring its principles, strategies, and problems.
 
+---
