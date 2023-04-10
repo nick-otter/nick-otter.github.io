@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Unified Constraints Of System Design"
+title:  "Constraints"
 categories: solutions
 ---
 
