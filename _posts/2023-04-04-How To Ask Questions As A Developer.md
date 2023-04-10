@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To Ask Questions As A Developer"
-categories: devops
+categories: holistic
 ---
 
 # How To Ask Questions As A Developer
