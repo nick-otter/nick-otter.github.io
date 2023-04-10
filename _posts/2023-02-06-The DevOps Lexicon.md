@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The DevOps Lexicon"
-categories: misc
+categories: devops
 ---
 
 # The DevOps Lexicon
