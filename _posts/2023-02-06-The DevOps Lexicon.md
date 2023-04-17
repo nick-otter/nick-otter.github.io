@@ -43,6 +43,7 @@ This is a DevOps lexicon. It is filled with words for things that are hard to de
 | Run in parallel | Asynchronous |
 | Fibonacci Sequence | Dynamic prgramming |
 | The foundation on which other things live | Substrate |
+| Is run | Executed
 
 # Isolating individuals
 
