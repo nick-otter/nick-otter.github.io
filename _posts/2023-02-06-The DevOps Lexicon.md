@@ -77,6 +77,7 @@ This is a DevOps lexicon. It is filled with words for things that are hard to de
 | Transformation of source code into machine readable code | Compile
 | Convert object into a stream of bytes to store or transmit | Serialization |
 | Unzip | Deserialization
+| When a large number of processes or threads waiting for an event are awoken when that event occurs, but only one process is able to handle the event | Thundering herd |
 
 
 # Project oriented
