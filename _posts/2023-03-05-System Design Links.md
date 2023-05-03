@@ -21,5 +21,5 @@ Written by Nick Otter.
 * [TOGAF](https://www.opengroup.org/certifications/togaf-certification-portfolio)
 
 # Books
-* [Designing Data-Intensive Appliactions](https://dataintensive.net/)
+* [Designing Data-Intensive Applications](https://dataintensive.net/)
 
