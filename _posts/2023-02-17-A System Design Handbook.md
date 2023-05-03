@@ -14,6 +14,7 @@ categories: sysdesign_handbook_contents
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endif %}
       {% endfor %}
+    </ul>  
   <div>
     <ul style="list-style-type:none">
       {% for post in site.categories.solutions %}
