@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Be Successful
+title:  "How To Be Successful"
 categories: holistic
 ---
 
