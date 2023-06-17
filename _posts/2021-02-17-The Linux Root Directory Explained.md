@@ -81,6 +81,7 @@ Here lies a description of all the subdirectories in the root directory, and any
 | &nbsp;&nbsp;&nbsp;&nbsp;`/var/spool/mail` | Deprecated location for users' mailboxes. |
 | &nbsp;&nbsp; `/var/tmp` | Temporary files to be **preserved between reboots**. |
 
+![](/assets/linux_fs.jpeg)
 ![](/assets/linux_dir_cheat.jpg)
 ---
 Thanks. This article was written by Nick Otter.
