@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To Be Successful"
-categories: holistic
+categories: misc
 ---
 
 # How To Be Successful
