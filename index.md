@@ -46,6 +46,16 @@
    </ul>
 </div>
 
+<div markdown="1">## Being a Software Developer
+   <ul style="list-style-type:none">
+     {% for post in site.categories.software_developer %}
+       {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+       {% endif %}
+     {% endfor %}
+    </ul>
+ </div>
+
 <div markdown="1">## System Design
    <ul style="list-style-type:none">
      {% for post in site.categories.sysdesign_handbook_contents %}
