@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Distributed Cache"
+title:  "Cache Invalidation"
 categories: cache
 ---
 
