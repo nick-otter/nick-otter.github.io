@@ -57,6 +57,17 @@ The first version of the cheatsheet was written by guest author Love Sharma.
 
 ![](/assets/cache.jpg)
 
+# Where Is Cache Used
+
+- Client-side cache
+- Load balancer cache
+- CDN cache
+- CPU, RAM, Disk cache
+- Message broker cache
+- Database cache
+
+![](/assets/cache-3.jpg)
+
 ---
 
 Thanks. This was written by Nick Otter.
