@@ -8,7 +8,6 @@ categories: cache
 {: style="text-align: center"}
 
 From [Arslan Ahmad](https://www.linkedin.com/in/arslanahmad/).
- 
 
 # Introduction To Cache Invalidation
 
