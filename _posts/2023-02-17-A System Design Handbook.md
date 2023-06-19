@@ -47,3 +47,12 @@ categories: sysdesign_handbook_contents
       {% endif %}
      {% endfor %}
    </ul>
+
+<div markdown="1"># Load Balancing
+  <ul style="list-style-type:none">
+    {% for post in site.categories.loadbalancing %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
