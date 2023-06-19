@@ -29,7 +29,7 @@ Some patterns to ensure resilience and fault tolerance of individual services:
 
 4️⃣ Backpressure: It regulates the flow of data or requests between microservices when one service can't process incoming requests at the same rate. Instead of overwhelming a slow or resource-constrained service, it propagates a signal upstream to slow down or stop sending additional requests.
 
-# Circuite Breaker
+# Circuit Breaker
 
 5️⃣ Circuit Breaker Pattern: It protects your system from cascading failures and provides fault tolerance when dealing with remote service dependencies. It monitors the availability of a service and, if it detects repeated failures or timeouts, opens the circuit, preventing further requests from being sent. It allows the system to gracefully handle the failure and provides fallback mechanisms, such as returning cached data or displaying a user-friendly error message. When the faulty service recovers, the circuit breaker gradually closes, allowing requests to flow again.
 
