@@ -23,7 +23,7 @@ For example logging, configuration, caching, authorization, observability…
 
 The traditional way is to code and use all this tooling within our development service. If we have different services written in the same language, we can share those codes between services and use them as packages/libraries between services.
 
-![](/assets/micro_traddev.jpeg)
+![](/assets/micro_traddev.png)
 
 So what is a bad scenario?
 
@@ -55,7 +55,7 @@ Answer: We will use to Sidecar pattern.
 
 ![](/assets/micro_apppatterns.png)
 
-![](/assets/kube_sidecar.jpeg)
+![](/assets/kube_sidecar.png)
 
 So what is this Sidecar?
 
