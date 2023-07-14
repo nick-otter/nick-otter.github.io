@@ -66,6 +66,16 @@
     </ul>
  </div>
 
+<div markdown="1">## Incident Management
+   <ul style="list-style-type:none">
+     {% for post in site.categories.incidents %}
+       {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+       {% endif %}
+     {% endfor %}
+    </ul>
+ </div>
+
 
 <div markdown="1">## Amazon Web Services
 
