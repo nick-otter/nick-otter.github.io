@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Pair Programming"
+title:  "How to Pair Programme"
 categories: software_developer
 ---
 
@@ -19,5 +19,7 @@ If you aren’t pair programming right now, I suggest that you try it. In partic
 It’s easy to make a mistake and have no idea that you’ve broken the software. A second set of eyes definitely helps. Let’s face it, working in legacy code is surgery, and doctors never operate alone.
 
 For more information about pair programming, see Pair Programming Illuminated by Laurie Williams and Robert Kessler (Addison-Wesley 2002)"
+
+--- 
 
 This excerpt is taken from [Michael Feathers - Working Effectively With Legacy Code](https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052).
