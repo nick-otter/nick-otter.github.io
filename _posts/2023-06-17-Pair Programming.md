@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Pair Programme"
+title:  "How to Pair Program"
 categories: software_developer
 ---
 
