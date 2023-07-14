@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Constraints"
+title:  "The Constraints of System Design"
 categories: solutions
 ---
 
