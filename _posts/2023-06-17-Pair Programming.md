@@ -4,7 +4,7 @@ title:  "How to Pair Program"
 categories: software_developer
 ---
 
-# Pair Programming
+# How to Pair Program
 {: style="text-align: center"}
 
 From [Austin Chadwick](https://www.linkedin.com/in/austin-chadwick-3a58151a4/).
