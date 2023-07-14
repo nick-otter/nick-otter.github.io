@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Cache Types"
+title:  "Types of Cache"
 categories: cache
 ---
 
-# Cache Types
+# Types of Cache
 {: style="text-align: center"}
 
 Written by Nick Otter.
