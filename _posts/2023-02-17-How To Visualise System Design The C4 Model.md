@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "C4 Model"
+title:  "How to diagram Systems"
 categories: solutions
 ---
 
-# How To Visualise System Design: The C4 Model
+# How to diagram Systems
 {: style="text-align: center"}
 
 [Dr Milan Milovic](https://www.linkedin.com/in/milanmilanovic/) provides a brilliant description for The C4 Model. Let's take a look.
+
+# The C4 Model
 
 When developing software, it is important to have a clear plan and understand how different components of the system will work together. Documentation and diagramming help us to achieve this by providing a 𝘃𝗶𝘀𝘂𝗮𝗹 𝗿𝗲𝗽𝗿𝗲𝘀𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝘁𝗵𝗲 𝘀𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲. This helps different stakeholders, like developers, testers, and clients, to have a common understanding of the software design.
 

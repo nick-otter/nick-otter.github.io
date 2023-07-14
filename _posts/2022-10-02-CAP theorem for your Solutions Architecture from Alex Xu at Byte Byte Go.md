@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "CAP Theorem"
+title:  "Understanding CAP Theorem"
 categories: solutions
 ---
 
-# CAP Theorem
+# Understanding CAP Theorem
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo.
