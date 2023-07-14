@@ -40,4 +40,6 @@ DockerSquash (https://github.com/goldmann/docker-squash)
 - .dockerignore file can help us to avoid copy unnecessary files and reduce the image size too. 
 - https://dev.to/kitarp29/reducing-docker-image-size-a67
 
+![](/assets/docker.jpeg)
+
 ---
