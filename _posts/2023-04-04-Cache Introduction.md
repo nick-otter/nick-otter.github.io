@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Introduction"
+title:  "An Introduction to Cache"
 categories: cache
 ---
 
-# Cache - Introduction
+# An Introduction to Cache
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo.
