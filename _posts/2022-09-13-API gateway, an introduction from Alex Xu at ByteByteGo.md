@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "API gateway, An Introduction"
+title:  "An Introduction to API Gateway"
 categories: api
 ---
 
-# API gateway, An Introduction
+# An Introduction to API Gateway
 {: style="text-align: center"}
 
 From Alex Xu at ByteByteGo.
