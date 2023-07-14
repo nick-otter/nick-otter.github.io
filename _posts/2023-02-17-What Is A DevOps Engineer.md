@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Is A DevOps Engineer?"
+title:  "What Is A DevOps Engineer"
 categories: devops
 ---
 
