@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Troubleshooting Kubernetes Deployments"
+title:  "How to Troubleshoot Kuberenets Deployments"
 categories: kubernetes_cheatsheets
 ---
 
-# A Visual Guide On Troubleshooting Kubernetes Deployments
+# How to Troubleshoot Kubernetes Deployments
 {: style="text-align: center"}
 
 From Daniele Polencic at Learn k8s.
