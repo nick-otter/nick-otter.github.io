@@ -5,7 +5,7 @@
   <img src="https://user-images.githubusercontent.com/26765027/104627185-9cbe6400-568e-11eb-8d5f-3c0d7fab1dec.png" />
   <br>Welcome to a DevOps blog by Nick Otter.
   <br>Click the headers to view articles. Thanks for stopping by.
-</p>
+
 
   
 <div markdown="1">## Info
@@ -151,3 +151,4 @@
    </ul>
 </div>
 
+</p>
