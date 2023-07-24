@@ -21,9 +21,18 @@ categories: aws
       {% endfor %}
     </ul>
 
-<div markdown="1"># Databases, Storage
+<div markdown="1"># Storage
   <ul style="list-style-type:none">
-    {% for post in site.categories.aws_storagedb %}
+    {% for post in site.categories.aws_storage %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
+<div markdown="1"># Databases
+  <ul style="list-style-type:none">
+    {% for post in site.categories.aws_databases %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
@@ -42,6 +51,15 @@ categories: aws
 <div markdown="1"># Operations
   <ul style="list-style-type:none">
     {% for post in site.categories.aws_operations %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
+<div markdown="1"># Network
+  <ul style="list-style-type:none">
+    {% for post in site.categories.aws_network %}
       {% if post.url %}
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
