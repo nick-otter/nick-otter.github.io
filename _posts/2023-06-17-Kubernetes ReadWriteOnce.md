@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kubernetes ReadWriteOnce Explained"
-categories: kubernetes
+categories: k8s_volume
 ---
 
 # Kubernetes ReadWriteOnce Explained
