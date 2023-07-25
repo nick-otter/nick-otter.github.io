@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Kubernetes ReadWriteOnce Explained"
-categories: kubernetes_cheatsheets
+categories: kubernetes
 ---
 
 # Kubernetes ReadWriteOnce Explained
