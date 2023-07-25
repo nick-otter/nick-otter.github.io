@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Overview of Kubernetes Architecture"
-categories: kubernetes_cheatsheets
+categories: kubernetes
 ---
 
 # Kubernetes Overview

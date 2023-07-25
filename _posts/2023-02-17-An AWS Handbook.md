@@ -4,7 +4,8 @@ title:  "An AWS Handbook"
 categories: aws
 ---
 
-<div markdown="1"># An AWS Handbook
+# An AWS Handbook
+{: style="text-align: center"}
 
 <div markdown="1"># Introduction
   <div>

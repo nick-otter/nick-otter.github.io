@@ -5,6 +5,7 @@ categories: linux_handbook_contents
 ---
 
 # A Linux Handbook
+{: style="text-align: center"}
 
 <div markdown="1"># Cheatsheets
 <div>
