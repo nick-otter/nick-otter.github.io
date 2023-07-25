@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Monitor Kubernetes with Prometheus"
-categories: prometheus
+categories: k8s_observability
 ---
 
 # How To Monitor Kubernetes With Prometheus

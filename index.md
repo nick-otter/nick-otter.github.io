@@ -108,11 +108,6 @@
          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endif %}
      {% endfor %}
-    {% for post in site.categories.prometheus %}
-      {% if post.url %}
-         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
-     {% endfor %}
    </ul>
 </div>
 

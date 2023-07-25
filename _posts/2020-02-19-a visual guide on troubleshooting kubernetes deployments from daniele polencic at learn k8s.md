@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to Troubleshoot Kubernetes Deployments"
-categories: kubernetes_cheatsheets
+categories: k8s_overviews
 ---
 
 # How to Troubleshoot Kubernetes Deployments
