@@ -77,5 +77,4 @@ Data warehouse:
 ![](/assets/data_l_data_w.png)
 
 
-
 ---
