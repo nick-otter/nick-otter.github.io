@@ -26,9 +26,15 @@ categories: aws_datapipelines
 
 # Data Lake on AWS
 
-The code configures a suite of AWS Lambda microservices (functions), Amazon OpenSearch Service for robust search capabilities, Amazon Cognito for user authentication, AWS Glue for data transformation, and Amazon Athena for analysis.
+The code configures a suite of:
 
-Data Lake on AWS leverages the security, durability, and scalability of Amazon S3 to manage a persistent catalog of organizational datasets, and Amazon DynamoDB to manage corresponding metadata. Once a dataset is cataloged, its attributes and descriptive tags are available to search on. Users can search and browse available datasets in the console, and create a list of data they require access to. It keeps track of the datasets a user selects and generates a manifest file with secure access links to the desired content when the user checks out.
+- **AWS Lambda microservices (functions)**
+- **Amazon OpenSearch Service** for robust search capabilities
+- **Amazon Cognito** for user authentication
+- **AWS Glue** for data transformation
+- **Amazon Athena** for analysis
+- **Amazon S3** using security, durability, and scalability to manage a persistent catalog of organizational datasets
+- **Amazon DynamoDB** to manage corresponding metadata. Once a dataset is cataloged, its attributes and descriptive tags are available to search on. - **Athena** Users can search and browse available datasets in the console, and create a list of data they require access to. It keeps track of the datasets a user selects and generates a manifest file with secure access links to the desired content when the user checks out.
 
 ![](/assets/data_l_on_aws.png)
 
