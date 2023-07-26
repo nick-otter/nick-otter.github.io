@@ -5,6 +5,7 @@ categories: aws_datapipelines
 ---
 
 # AWS Data Pipeline Components
+{: style="text-align: center"}
 
 | Category | Use cases | Service | Descri­ption |
 | --- | --- | --- | --- |
