@@ -34,7 +34,7 @@ Data Lake on AWS leverages the security, durability, and scalability of Amazon S
 
 # Lake Formation on AWS
 
-1. User personas: As first step, the DMO team identified three user personas for the Audit Surveillance system on AWS.
+1. **User personas**: As first step, the DMO team identified three user personas for the Audit Surveillance system on AWS.
 - **Data service compliance users** who would like to consume audit surveillance data from the data lake into their respective applications through an enterprise data service.
 - **Business users** who would like to create business intelligence dashboards using a BI tool to audit data for compliance needs.
 - **Compliance IT users** who would like to perform ad-hoc queries on the data lake to perform analytics using an interactive query tool.
