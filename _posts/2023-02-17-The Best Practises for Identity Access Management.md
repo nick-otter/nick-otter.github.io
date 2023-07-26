@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Best Practises for Identity Access Management"
-categories: aws
+categories: aws_iam
 ---
 
 # The Best Practises for Identity Access Management

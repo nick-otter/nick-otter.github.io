@@ -76,4 +76,13 @@ categories: aws
      {% endfor %}
    </ul>
 
+<div markdown="1"># IAM
+  <ul style="list-style-type:none">
+    {% for post in site.categories.aws_iam %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>
+
 ---
