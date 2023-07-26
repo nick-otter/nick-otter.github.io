@@ -12,16 +12,6 @@ categories: aws_datapipelines
 
 - What type of data do you want to store?
 
-| Characteristic | Recommended |
-| --- | --- | 
-| Large volume of data in multiple formats | Data Lake |
-| Store IoT data for real-time analysis | Data Lake |
-| Raw unstructured data to generate output, e.g. machine learning | Data Lake |
-| Visualize data and extract insights | Data Warehouse |
-| Decision making not just collecting data for analysis | Data Warehouse |
-| Original data source is not suitable for querying, and you need to separate analytical data from your transactional data | Data Warehouse | 
-
-
 | Structured | Unstructured |
 | --- | --- |
 | Relational | Non-Relational |
@@ -63,9 +53,20 @@ categories: aws_datapipelines
 | --- | --- |
 | AWS Redshift is best suited when your organization is already using services from this company, and there are heavy query loads on applications that need analytics and structured information in real time. | Snowflake is the best option for organizations with lighter query loads, which need frequent scaling. It's also built on automation without operational overhead. |
 
+# AWS Data Lake comparisons
 
 
+# Geneal comparisons
 
+| Data Lake | Data Warehouse |
+| --- | --- |
+| Large volume of data in multiple formats | Visualize data and extract insights |
+| Store IoT data for real-time analysis | Decision making not just collecting data for analysis |
+| Raw unstructured data to generate output, e.g. machine learning | Original data source is not suitable for querying, and you need to separate analytical data from your transactional data |
+
+![](/assets/db_olap_oltp.png)
+
+![](/assets/db_dw.png)
 
 # What is a data lake?
 
