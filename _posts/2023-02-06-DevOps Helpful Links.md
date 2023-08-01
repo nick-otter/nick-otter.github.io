@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Helpful Links"
+title:  "Helpful DevOps Links"
 categories: devops
 ---
 
-# Helpful Links
+# Helpful DevOps Links
 {: style="text-align: center"}
 
 Written by Nick Otter.
