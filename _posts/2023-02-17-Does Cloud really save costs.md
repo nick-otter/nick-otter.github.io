@@ -25,7 +25,7 @@ Reference:
 1. AWS guide: Choosing between Amazon EC2 and Amazon RDS
 2. Cloud versus On-Premise Computing by Cameron Fisher, MIT
 
-![/assets/cloud_costs.png]
+![](/assets/cloud_costs.png)
 
 ---
 
