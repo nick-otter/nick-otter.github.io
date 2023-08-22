@@ -36,3 +36,13 @@ categories: kubernetes
       {% endif %}
      {% endfor %}
    </ul>  
+
+<div markdown="1"># Troubleshooting
+<div>
+  <ul style="list-style-type:none">
+    {% for post in site.categories.k8s_troubleshoot %}
+      {% if post.url %}
+         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+     {% endfor %}
+   </ul>  
