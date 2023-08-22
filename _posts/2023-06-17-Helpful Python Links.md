@@ -35,6 +35,7 @@ Project/
 ## Error Handling
 
 - [Try, Except for API connections](https://stackoverflow.com/questions/16511337/correct-way-to-try-except-using-python-requests-module)
+
 ```
 url='http://www.google.com/blahblah'
 
