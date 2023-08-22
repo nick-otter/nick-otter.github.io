@@ -52,7 +52,8 @@ except requests.exceptions.RequestException as err:
 
 Http Error: 404 Client Error: Not Found for url: http://www.google.com/blahblah
 ```
-## __init__.py
+
+## init py
 
 - [What is init py for?](https://stackoverflow.com/questions/448271/what-is-init-py-for)
 ```
