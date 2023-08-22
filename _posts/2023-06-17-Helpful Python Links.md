@@ -57,6 +57,7 @@ Http Error: 404 Client Error: Not Found for url: http://www.google.com/blahblah
 ## init py
 
 - [What is init py for?](https://stackoverflow.com/questions/448271/what-is-init-py-for)
+
 ```
 database/
     __init__.py
@@ -64,8 +65,9 @@ database/
     insertions.py
     queries.py
 ```
+
 ```
-# __init__.py
+__init__.py
 import os
 
 from sqlalchemy.orm import sessionmaker
