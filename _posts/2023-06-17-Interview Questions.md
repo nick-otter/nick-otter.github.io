@@ -31,13 +31,17 @@ categories: misc
 ## DevOps 
 
 2. What is your experience and understanding of DevOps?
+
 - What is DevOps and why is it valuable to an organisation? 
 	- Abstract a technical solution from key business milestones 
+
 - How can you measure DevOps? 
 	- Dora metrics DORA metrics: Deployment frequency, Change lead time, Change failure rate, Time to restore service 
-- Can you give a real world example of where you have delivered a good DevOps solution? 
+- Can you give a real world example of where you have delivered a good DevOps solution?
+
 - What was the cost of that solution?  
 	- Incl. team size, infra cost, time spent 
+	
 - Monorepo vs. multi repo? 
 - What is your opinion on AI Ops? 
 
@@ -71,7 +75,7 @@ categories: misc
 
 - What is a .dockerignore file? 
 	- A configuration file that describes files and directories that you want to exclude when building a Docker image 
-	
+
 - How could you reduce the size of a Docker image? 
 	- `Leverage Multi-stage builds` Multi-stage builds separate the build environment from the final runtime environment. They allow you to compile & package your application in one stage and then copy only the necessary artifacts to the final image, reducing its size significantly. 
 	- `Build Images from Scratch` If you only need to run a statically-compiled, standalone executable (like a C++ or Go application), pack it inside an empty Image by using “scratch” as the base image.  
