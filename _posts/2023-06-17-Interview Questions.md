@@ -9,59 +9,39 @@ categories: misc
 
 
 
-Background For Candidate (For “Any Questions” at the end of the interview)  
+## Introductions
 
-First round, but could be final round or technical test 
-
-
-
-0 Intro Yourself Time at / position at
-
-0 Intro Interview a mix of technical / scenario / teamfit questions, won’t take 60mins 
-
-0 Do you have any questions before we start? 
+* Intro Yourself Time at / position at
+* Intro Interview a mix of technical / scenario / teamfit questions, won’t take 60mins 
+* Do you have any questions before we start? 
 
  
+## Previous Experiences
 
 1. Could you walk me through your experience so far? 
+-- Significant initiative on a major project that you led or were a key contributor on?  
+-- What did you do to accelerate delivery?  
+-- How did you approach making key decisions and navigating trade offs?  
+-- What data did you use to make decisions? 
+-- Tell us about a time you failed or had to correct course on a project l. Lessons you learned, ideas for improvement? 
+-- Have you ever lead a team before? Managed a project?  
+-- Would you be happy to stay up to date with certifications for this roles? 
 
-Significant initiative on a major project that you led or were a key contributor on?  
 
-What did you do to accelerate delivery?  
+## DevOps 
 
-How did you approach making key decisions and navigating trade offs?  
+* What is DevOps and why is it valuable to an organisation? 
+* Abstract a technical solution from key business milestones 
+* How can you measure DevOps? 
+-- Dora metrics DORA metrics: Deployment frequency, Change lead time, Change failure rate, Time to restore service 
+* Can you give a real world example of where you have delivered a good DevOps solution? 
+* What was the cost of that solution?  
+-- Incl. team size, infra cost, time spent 
+* Monorepo vs. multi repo? 
+* What is your opinion on AI Ops? 
 
-What data did you use to make decisions? 
 
-Tell us about a time you failed or had to correct course on a project l. Lessons you learned, ideas for improvement? 
-
-Have you ever lead a team before? Managed a project?  
-
-Would you be happy to stay up to date with certifications for this roles? 
-
- 
-
-2. DevOps 
-
-What is DevOps and why is it valuable to an organisation? 
-
-Abstract a technical solution from key business milestones 
-
-How can you measure DevOps? 
-
-Dora metrics DORA metrics: Deployment frequency, Change lead time, Change failure rate, Time to restore service 
-
-Can you give a real world example of where you have delivered a good DevOps solution? 
-
-What was the cost of that solution?  
-
-Incl. team size, infra cost, time spent 
-
-Monorepo vs. multi repo? 
-
-What is your opinion on AI Ops? 
-
- 
+## Microservices
 
 3. What is your experience with microservices? 
 
