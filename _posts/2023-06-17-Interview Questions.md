@@ -19,98 +19,59 @@ categories: misc
 ## Previous Experiences
 
 1. Could you walk me through your experience so far? 
--- Significant initiative on a major project that you led or were a key contributor on?  
--- What did you do to accelerate delivery?  
--- How did you approach making key decisions and navigating trade offs?  
--- What data did you use to make decisions? 
--- Tell us about a time you failed or had to correct course on a project l. Lessons you learned, ideas for improvement? 
--- Have you ever lead a team before? Managed a project?  
--- Would you be happy to stay up to date with certifications for this roles? 
+- Significant initiative on a major project that you led or were a key contributor on?  
+- What did you do to accelerate delivery?  
+- How did you approach making key decisions and navigating trade offs?  
+- What data did you use to make decisions? 
+- Tell us about a time you failed or had to correct course on a project l. Lessons you learned, ideas for improvement? 
+- Have you ever lead a team before? Managed a project?  
+- Would you be happy to stay up to date with certifications for this roles? 
 
 
 ## DevOps 
 
-* What is DevOps and why is it valuable to an organisation? 
-* Abstract a technical solution from key business milestones 
-* How can you measure DevOps? 
--- Dora metrics DORA metrics: Deployment frequency, Change lead time, Change failure rate, Time to restore service 
-* Can you give a real world example of where you have delivered a good DevOps solution? 
-* What was the cost of that solution?  
--- Incl. team size, infra cost, time spent 
-* Monorepo vs. multi repo? 
-* What is your opinion on AI Ops? 
+2. What is your experience and understanding of DevOps?
+- What is DevOps and why is it valuable to an organisation? 
+	- Abstract a technical solution from key business milestones 
+- How can you measure DevOps? 
+	- Dora metrics DORA metrics: Deployment frequency, Change lead time, Change failure rate, Time to restore service 
+- Can you give a real world example of where you have delivered a good DevOps solution? 
+- What was the cost of that solution?  
+	- Incl. team size, infra cost, time spent 
+- Monorepo vs. multi repo? 
+- What is your opinion on AI Ops? 
 
 
 ## Microservices
 
 3. What is your experience with microservices? 
+- What is microservice architecture vs. monolith? 
+	- A monolithic application is built as a single unified unit while a microservices architecture is a collection of smaller, independently deployable services 
+- What are some weaknesses or challenges of Microservice architecture? 
+	- `Development sprawl` – Microservices add more complexity compared to a monolith architecture, since there are more services in more places created by multiple teams. If development sprawl isn’t properly managed, it results in slower development speed and poor operational performance.  
+	- `Exponential infrastructure costs` – Each new microservice can have its own cost for test suite, deployment playbooks, hosting infrastructure, monitoring tools, and more. 
+	- `Added organizational overhead` – Teams need to add another level of communication and collaboration to coordinate updates and interfaces.  
+	- `Debugging challenges` – Each microservice has its own set of logs, which makes debugging more complicated. Plus, a single business process can run across multiple machines, further complicating debugging.  
+	- `Lack of standardization` – Without a common platform, there can be a proliferation of languages, logging standards, and monitoring.  
+	- `Lack of clear ownership` – As more services are introduced, so are the number of teams running those services. Over time it becomes difficult to know the available services a team can leverage and who to contact for support. 
 
-What is microservice architecture vs. monolith? 
-
-A monolithic application is built as a single unified unit while a microservices architecture is a collection of smaller, independently deployable services 
-
-What are some weaknesses or challenges of Microservice architecture? 
-
-Development sprawl – Microservices add more complexity compared to a monolith architecture, since there are more services in more places created by multiple teams. If development sprawl isn’t properly managed, it results in slower development speed and poor operational performance.  
-
-Exponential infrastructure costs – Each new microservice can have its own cost for test suite, deployment playbooks, hosting infrastructure, monitoring tools, and more. 
-
-Added organizational overhead – Teams need to add another level of communication and collaboration to coordinate updates and interfaces.  
-
-Debugging challenges – Each microservice has its own set of logs, which makes debugging more complicated. Plus, a single business process can run across multiple machines, further complicating debugging.  
-
-Lack of standardization – Without a common platform, there can be a proliferation of languages, logging standards, and monitoring.  
-
-Lack of clear ownership – As more services are introduced, so are the number of teams running those services. Over time it becomes difficult to know the available services a team can leverage and who to contact for support. 
-
- 
-
-What is a docker container?  
-
-Encapsulated process, Hypervisor partitioned vm  
-
-What is a Container? | Docker 
-
- 
+- What is a docker container?  
+	- Encapsulated process, Hypervisor partitioned vm  
+- What are some of the weaknesses of Docker?  
+	- Managing storage 
+	- Reliance on baked images, scratch image 
+ - What is a scratch image in Docker? 
+	- The scratch image is the smallest possible image for docker. Actually, by itself it is empty (in that it doesn't contain any folders or files) and is the starting point for building out images. In order to run binary files on a scratch image, your executables need to be statically compiled and self-contained – go, or bash  
+	- Can you name a programming language that doesn’t not require any binaries? 
+- What is a .dockerignore file? 
+	- A configuration file that describes files and directories that you want to exclude when building a Docker image 
+- How could you reduce the size of a Docker image? 
+	- `Leverage Multi-stage builds` Multi-stage builds separate the build environment from the final runtime environment. They allow you to compile & package your application in one stage and then copy only the necessary artifacts to the final image, reducing its size significantly. 
+	- `Build Images from Scratch` If you only need to run a statically-compiled, standalone executable (like a C++ or Go application), pack it inside an empty Image by using “scratch” as the base image.  
+	- `Use fewer Layers Each instruction like RUN or COPY` adds another layer to your image, thus increasing its size. Each layer comes with its own metadata & file system structures. The fewer layers you use, the lesser data overhead your image has. 
+	- `.dockerignore file` can help us to avoid copy unnecessary files and reduce the image size too. 
 
  
-
-What are some of the weaknesses of Docker?  
-
-Managing storage 
-
-Reliance on baked images, scratch image 
-
- 
-
-What is a scratch image in Docker? 
-
-The scratch image is the smallest possible image for docker. Actually, by itself it is empty (in that it doesn't contain any folders or files) and is the starting point for building out images. In order to run binary files on a scratch image, your executables need to be statically compiled and self-contained – go, or bash  
-
-Can you name a programming language that doesn’t not require any binaries? 
-
-What is a .dockerignore file? 
-
-a configuration file that describes files and directories that you want to exclude when building a Docker image 
-
- 
-
-How could you reduce the size of a Docker image? 
-
-Leverage Multi-stage builds Multi-stage builds separate the build environment from the final runtime environment. They allow you to compile & package your application in one stage and then copy only the necessary artifacts to the final image, reducing its size significantly. 
-
-Build Images from Scratch If you only need to run a statically-compiled, standalone executable (like a C++ or Go application), pack it inside an empty Image by using “scratch” as the base image.  
-
-Use fewer Layers Each instruction like RUN or COPY adds another layer to your image, thus increasing its size. Each layer comes with its own metadata & file system structures. The fewer layers you use, the lesser data overhead your image has. 
-
-.dockerignore file can help us to avoid copy unnecessary files and reduce the image size too. 
-
- 
-
- 
-
- 
-
 What is Kubernetes? 
 
 a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation 
