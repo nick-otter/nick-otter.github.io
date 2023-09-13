@@ -45,8 +45,10 @@ categories: misc
 ## Microservices
 
 3. What is your experience with microservices? 
+
 - What is microservice architecture vs. monolith? 
 	- A monolithic application is built as a single unified unit while a microservices architecture is a collection of smaller, independently deployable services 
+
 - What are some weaknesses or challenges of Microservice architecture? 
 	- `Development sprawl` – Microservices add more complexity compared to a monolith architecture, since there are more services in more places created by multiple teams. If development sprawl isn’t properly managed, it results in slower development speed and poor operational performance.  
 	- `Exponential infrastructure costs` – Each new microservice can have its own cost for test suite, deployment playbooks, hosting infrastructure, monitoring tools, and more. 
@@ -57,14 +59,19 @@ categories: misc
 
 - What is a docker container?  
 	- Encapsulated process, Hypervisor partitioned vm  
+
 - What are some of the weaknesses of Docker?  
 	- Managing storage 
 	- Reliance on baked images, scratch image 
+
  - What is a scratch image in Docker? 
 	- The scratch image is the smallest possible image for docker. Actually, by itself it is empty (in that it doesn't contain any folders or files) and is the starting point for building out images. In order to run binary files on a scratch image, your executables need to be statically compiled and self-contained – go, or bash  
-	- Can you name a programming language that doesn’t not require any binaries? 
+
+- Can you name a programming language that doesn’t not require any binaries? 
+
 - What is a .dockerignore file? 
 	- A configuration file that describes files and directories that you want to exclude when building a Docker image 
+	
 - How could you reduce the size of a Docker image? 
 	- `Leverage Multi-stage builds` Multi-stage builds separate the build environment from the final runtime environment. They allow you to compile & package your application in one stage and then copy only the necessary artifacts to the final image, reducing its size significantly. 
 	- `Build Images from Scratch` If you only need to run a statically-compiled, standalone executable (like a C++ or Go application), pack it inside an empty Image by using “scratch” as the base image.  
