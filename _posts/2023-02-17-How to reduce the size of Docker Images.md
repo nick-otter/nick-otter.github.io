@@ -29,6 +29,19 @@ If you only need to run a statically-compiled, standalone executable (like a C++
 Each instruction like RUN or COPY adds another layer to your image, thus increasing its size. Each layer comes with its own metadata & file system structures. The fewer layers you use, the lesser data overhead your image has.
 🔗 https://lnkd.in/eNkvGHAa
 
+👉 Use Distroless Images
+These are base images that contain only your application and its runtime dependencies. There are no package managers, shell programs or anything that you normally find in a Linux distribution.
+
+The smallest Distroless Image is just 2MB 🤯
+
+You use Docker's Multi-stage build and in its last stage, use Distroless as your base image and cherry-pick only the files that are needed to run the container. This would normally include your compiled binary.
+
+This is the most powerful way to end up with a super light image that is easy to run and maintain in production 🚀
+
+![](/assets/dockerless.png)
+
+
+
 *Bonus* 
 
 My thoughts around it other than the points mentioned
