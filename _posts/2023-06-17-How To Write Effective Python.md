@@ -14,7 +14,7 @@ I recently read "Effective Python: 50 Specific Ways To Write Better Python" by B
 
 # Chapter 1 Pythonic Thinking
 
-# Using Standard Slice
+### Using Standard Slice
 
 Slicing deals properly with `start` and `end` indexes. That are beyond the boundaries of a list. 
 
@@ -44,7 +44,7 @@ foo = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 >>> foo[-3:-1] ['f', 'g']
 ```
 
-# Use List Comprehensions Instead Of Map And Filter
+### Use List Comprehensions Instead Of Map And Filter
 
 ```
 a = [1,2,3,4,5,6,7,8,9.10]
@@ -67,7 +67,7 @@ print(even_squares)
 
 The `filter` built-in function can be used along with `map` to acheive the same outcome, but it is much harder to read.
 
-# Avoid More Than Two Expressions In List Comprehensions
+### Avoid More Than Two Expressions In List Comprehensions
 
 ```
 my_lists = [
@@ -86,7 +86,7 @@ for sublist1 in my_lists:
         flat.extend(sublist2)
 ```
 
-# Consider Generator Expressions instead Of List Comprehensions For Large Comprehensions
+### Consider Generator Expressions instead Of List Comprehensions For Large Comprehensions
 
 Reading a file and returning the number of characters on each line: Using `List Comprehension` would require holding the length of every line of the file in memory which will cause many problems at large scale. `Generator Expressions` don't materialize the whole output sequence when they're run. Instead, generator expressions evaluate to an iterator that yields one item at a time from the expression.
 
@@ -126,7 +126,7 @@ print(next(roots))
 (15, 3.872983346207417)
 ```
 
-# Prefer Enumerate Over Range
+### Prefer Enumerate Over Range
 
 Often, you'll want to iterate over a list and also know the index of the current item in the list. For example, say you want to print the ranking of your favourite ice cream flavors. One way to do it using range. 
 
@@ -166,7 +166,7 @@ for i, flavor in enumerate(flavor_list, 1):
 (4, 'strawberry')
 ```
 
-# Use Zip To Process Iterators In Parallel
+### Use Zip To Process Iterators In Parallel
 
 To iterate over multiple lists in parallel, `zip` is preferred. In Python 3, `zip` is a lazy generator that produces tuples. In Python 2, `zip` returns the full result as a list of tuples. `zip` truncates the output silently if you supply it with iterators of different lengths. 
 
@@ -194,7 +194,7 @@ Marie
 5
 ```
 
-# Fail Upwards In `try` `except` `finally` Blocks
+### Fail Upwards In `try` `except` `finally` Blocks
 
 There are four distinct times that you may want to take action during exception handling in Python. These are captured in the functionality of `try` `except` `else` and `finally` blocks.
 
@@ -207,7 +207,7 @@ finally:
   handle.close()       # Always runs after try
 ```
 
-**Use try/except/else to make it clear which exceptions will be handled by your code and which will propagate up**
+**Use try/except/else to make it clear which exceptions will be handled by your code and which will propagate up**<br>
 When the `try` block doesn't raise an exception the `else` block will run. The `else` block helps you minimize the amount of code in the `try` block and improves readability. 
 ```
 def load_json_key(data, key):
