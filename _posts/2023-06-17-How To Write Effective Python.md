@@ -11,6 +11,9 @@ categories: python
 
 I recently read "Effective Python: 50 Specific Ways To Write Better Python" by Brett Slatkin. Here are my personal takeaways abbreviated in a doc. I highly recommend reading Slatkin, it is a fantastic book. 
 
+
+# Chapter 1 Pythonic Thinking
+
 # Using Standard Slice
 
 Slicing deals properly with `start` and `end` indexes. That are beyond the boundaries of a list. 
@@ -123,15 +126,100 @@ print(next(roots))
 (15, 3.872983346207417)
 ```
 
-# Prefer Enumerate Over Range p. 20
+# Prefer Enumerate Over Range
+
+Often, you'll want to iterate over a list and also know the index of the current item in the list. For example, say you want to print the ranking of your favourite ice cream flavors. One way to do it using range. 
 
 ```
+flavor_list = ['vanilla', 'chocolate', 'pecan', 'strawberry']
 
+for i in range(len(flavor_list)):
+  flavor = flavor_list[i]
+  print('%d: %s' % (i + 1, flavor))
 
+# OR
 
+for i, flavor in enumerate(flavor_list):
+  print('%d: %s' % (i + 1, flavor))
 
+for i, flavor in enumerate(flavor_list, 1):
+  print('%d: %s' % (i, flavor))
+```
 
+`enumerate` provides concise syntax for looping over an interator and getting the index of each item from the iterator as you go. You can supply a second parameter to `enumerate` to specify the number from which to being counting from (zero is the default).
 
+```
+>>> for i in enumerate(flavor_list):
+...     print(i)
+...
+(0, 'vanilla')
+(1, 'chocolate')
+(2, 'pecan')
+(3, 'strawberry')
+
+>>> for i in enumerate(flavor_list, 1):
+...     print(i)
+...
+(1, 'vanilla')
+(2, 'chocolate')
+(3, 'pecan')
+(4, 'strawberry')
+```
+
+# Use Zip To Process Iterators In Parallel
+
+To iterate over multiple lists in parallel, `zip` is preferred. In Python 3, `zip` is a lazy generator that produces tuples. In Python 2, `zip` returns the full result as a list of tuples. `zip` truncates the output silently if you supply it with iterators of different lengths. 
+
+```
+>>> names = ['Celia', 'Lise', 'Marie']
+>>> letters = [len(n) for n in names]
+>>>
+>>> longest_name = None
+>>> max_letters = 0
+>>>
+>>> for i, name in enumerate(names):
+...     count = letters[i]
+...     longest_name = name
+...     max_letters = count
+...
+>>> for name, count in zip(names, letters):
+...     print(name)
+...     print(count)
+...
+Celia
+5
+Lise
+4
+Marie
+5
+```
+
+# Fail Upwards In `try` `except` `finally` Blocks
+
+There are four distinct times that you may want to take action during exception handling in Python. These are captured in the functionality of `try` `except` `else` and `finally` blocks.
+
+**Use try/finally when you want exceptions to propagate up but you also want to run cleanup code**
+```
+handle = open('random_data.txt') # May raise IOError
+try:
+  data = handle.read() # May raise UnicodeDecodeError
+finally:
+  handle.close()       # Always runs after try
+```
+
+**Use try/except/else to make it clear which exceptions will be handled by your code and which will propagate up**
+When the `try` block doesn't raise an exception the `else` block will run. The `else` block helps you minimize the amount of code in the `try` block and improves readability. 
+```
+def load_json_key(data, key):
+  try:
+     result_dict = json.loads(data) # May raise ValueError
+  except ValueError as e:
+     raise KeyError from e
+  else:
+    return result_dict[key]         # May raise KeyError
+```
+
+The `else` block helps you minimize the amount of code in `try` blocks and visually distinguish the success case from the `try` `except` blocks. An `else` block can be used to perform additional actions after a successful `try` block but before common cleanup in a `finally` block.
 
 
 ---
