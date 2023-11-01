@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Latency Numbers"
-categories: solutions
+categories: latency
 ---
 
 # Latency Numbers, L1 Cache To Retry

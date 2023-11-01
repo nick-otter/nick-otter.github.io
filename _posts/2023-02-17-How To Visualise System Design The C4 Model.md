@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to diagram Systems"
-categories: solutions
+title:  "How To Diagram Systems"
+categories: diagramming
 ---
 
-# How to diagram Systems
+# How To Diagram Systems
 {: style="text-align: center"}
 
 [Dr Milan Milovic](https://www.linkedin.com/in/milanmilanovic/) provides a brilliant description for The C4 Model. Let's take a look.
