@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "Kubernetes POD Troubleshooting Techniques"
-categories: k8s_troubleshoot
+title:  "Kubernetes Pod Troubleshooting Techniques"
+tags: kubernetes
 ---
-
-# Kubernetes POD Troubleshooting Techniques
-{: style="text-align: center"}
 
 From [Mumshad Mannambeth](https://www.linkedin.com/posts/mmumshad_kodekloud-devops-kubernetes-activity-7099367045506494464-tKho/?utm_source=share&utm_medium=member_android)
 

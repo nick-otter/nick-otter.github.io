@@ -1,17 +1,12 @@
 ---
 layout: post
 title:  "How To Be Successful"
-categories: misc
+tags: personal
 ---
 
-# How To Be Successful
-{: style="text-align: center"}
 
-Written by Sam Altman.
+Sam Altman | ["How To Be Successful"](https://blog.samaltman.com/how-to-be-successful)
 
-OpenAI's [Sam Altman](https://blog.samaltman.com/) recently discussed ["How To Be Successful"](https://blog.samaltman.com/how-to-be-successful), let's take a look.
-
-# How To Be Successful
 I’ve observed thousands of founders and thought a lot about what it takes to make a huge amount of money or to create something important. Usually, people start off wanting the former and end up wanting the latter.
 
 Here are 13 thoughts about how to achieve such outlier success. Everything here is easier to do once you’ve already reached a baseline degree of success (through privilege or effort) and want to put in the work to turn that into outlier success. [1] But much of it applies to anyone.

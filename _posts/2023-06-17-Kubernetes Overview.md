@@ -1,11 +1,8 @@
 ---
 layout: post
 title:  "An Overview of Kubernetes Architecture"
-categories: k8s_overviews
+tags: kubernetes
 ---
-
-# Kubernetes Overview
-{: style="text-align: center"}
 
 From [Alex Xu](https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7078759302592634880-Zfb-/?utm_source=share&utm_medium=member_android).
 

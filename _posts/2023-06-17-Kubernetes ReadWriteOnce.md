@@ -1,11 +1,8 @@
 ---
 layout: post
 title:  "Kubernetes ReadWriteOnce Explained"
-categories: k8s_volume
+tags: kubernetes
 ---
-
-# Kubernetes ReadWriteOnce Explained
-{: style="text-align: center"}
 
 From [Mutha Nagavamsi](https://www.linkedin.com/in/nagavamsi?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAFslY8Bj46ZzxqLHqETxgkOyeo1Jbn7hX4&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3B4pe2aardQrWCaKNZ0PPfyA%3D%3D).
 

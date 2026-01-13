@@ -1,22 +1,10 @@
 ---
 layout: post
-title:  "First Principles"
-categories: holistic
+title:  "Simplifying Down To First Principles"
+tags: personal
 ---
 
-# Simplifying Down To First Principles
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents 
-
-- [**Introduction**](#introduction)<br>
-- [**Piotr Kruckwoski**](#piotr-kruckowski)<br>
-
-# Introduction
-
-Identifying a resilient debugging strategy is endlessly useful. [This post](https://www.linkedin.com/pulse/simplify-down-first-principles-piotr-kruczkowski-/?trackingId=yT%2FvPodOT%2F2K88mMHkGhJA%3D%3D) from [Piotr Kruckowski](https://www.linkedin.com/in/piotr-kruczkowski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B1a3smCl9Qv6%2Ftp3RkOmkTg%3D%3D) was found interesting. I will be hoping to expand on that. 
+Identifying a resilient debugging strategy is endlessly useful. [This post](https://www.linkedin.com/pulse/simplify-down-first-principles-piotr-kruczkowski-/?trackingId=yT%2FvPodOT%2F2K88mMHkGhJA%3D%3D) from [Piotr Kruckowski](https://www.linkedin.com/in/piotr-kruczkowski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B1a3smCl9Qv6%2Ftp3RkOmkTg%3D%3D) was found interesting.
 
 # Piotr Kruckowski
 
@@ -102,6 +90,3 @@ It enables us to understand what the system really needs to do to process data f
 
 A side benefit of asking deep questions to get to common understanding is that you are helping everyone around you, not just yourself. Many people might be as confused as you, but too shy, or scared, or vulnerable, or they might be accepting confusion as "standard ways of working". Do not accept artificial complexity, ask and clarify, and minimise noise.
 
----
-
-Thanks. This was written by Nick Otter.

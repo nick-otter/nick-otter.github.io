@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "Asking Questions"
-categories: holistic
+title:  "How To Ask Questions As A Developer"
+tags: personal
 ---
-
-# How To Ask Questions As A Developer
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 [Jon Crickett](https://www.linkedin.com/in/johncrickett?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAAADOIB1jesEqZdnwQE5csLme2tAbpHuMg&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BF%2FaYXVHZSOWpeyoHt5CzmQ%3D%3D) recently discussed "How To Ask Questions As A Developer", let's take a look.
 
@@ -37,9 +32,8 @@ Here are six tips to developing your questioning skills:
 
 Remember personal growth, creativity and organisational innovation rely on a willingness to seek out new information. Asking questions and providing thoughtful, considered answers can lead to more-effective interactions, strengthening rapport and building trust.
 
----
 
-Additional comments:
+**Additional comments:**
 ```
 A great place to start is my summarising what you heard the presenter say, and asking "Is that correct?", before leading into another question.
 ```
