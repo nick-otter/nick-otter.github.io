@@ -1,15 +1,8 @@
 ---
 layout: post
 title:  "How To Debug An Emergency Boot"
-categories: boot
+tag: linux
 ---
-
-# How To Debug An Emergency Boot
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents
 
 - [**Introduction**](#introduction)<br>
   - [Boot procedure explained](#boot-procedure-explained)<br>
@@ -125,6 +118,3 @@ To continue to the default boot target, run command `^ d`, `systemctl default` o
 
 ![image-boot-continue](https://user-images.githubusercontent.com/26765027/81930932-2d651180-95e1-11ea-82a2-f5eb56fe3dbf.png)
 
----
-
-Thanks. This was written by Nick Otter.

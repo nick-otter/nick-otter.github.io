@@ -8,4 +8,4 @@ Welcome to my Blog, where all posts meet [AI Influence Level (AIL)](https://dani
 
 **Why Anni Albers?**
 
-Anni Albers was a German-Jewish visual artist and printmaker. A leading textile artist of the 20th century, she is credited with blurring the lines between traditional craft and art - which is also a communal aim of many pretentious engineers. 
+Anni Albers was a German-Jewish visual artist and printmaker. A leading textile artist of the 20th century, she is credited with blurring the lines between traditional craft and art - which is also a communal aim for many pretentious engineers. 
