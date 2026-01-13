@@ -1,24 +1,9 @@
 ---
 layout: post
-title:  "How To Debug Crashes And Segfaults"
-categories: kernel
+title:  "How To Debug Crashes And Segfaults in Linux"
+tags: linux
 ---
 
-# How To Debug Crashes And Segfaults
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents
-
-- [**Introduction**](#introduction)<br>
-- [**Ulimit**](#ulimit)<br>
-     - [How to configure ulimit](#configure-ulimit)<br>
-     - [How to test core dump file creation](#how-to-test-core-dump-file-creation)<br>
-- [**How to read the core dump file**](#how-to-read-the-core-dump-file)
-     - [backtrace](#backtrace)
-
-# Introduction
 
 When an application crashes or a segfault occurs, how can this be investigated? The answer is by core dump.
 
@@ -245,7 +230,3 @@ $ (gdb) disas/s nsProfileLock::FatalSignalHandler
 141	      break;
    0x00007f36564b51e6 <+182>:	lea    0x36af553(%rip),%rsi        # 0x7f3659b64740 <_ZL14SIGSEGV_oldact>
    0x00007f36564b51ed <+189>:	jmp    0x7f36564b51a0 <nsProfileLock::FatalSignalHandler(int, siginfo_t*, void*)+112>
-```
----
-
-Thanks. [Example of using gdb and strace to find the cause of a segmentation fault](http://bl0rg.krunch.be/segfault-gdb-strace.html), [GDB Debugging: ncurses](http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html) and other articles were useful to write this. This was written by Nick Otter.
