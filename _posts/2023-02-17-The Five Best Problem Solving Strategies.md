@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "Problem Solving"
-categories: holistic
+title:  "The Five Best Problem Solving Strategies"
+tags: personal
 ---
-
-# The Five Best Problem Solving Strategies
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents 
 
@@ -21,7 +16,7 @@ Written by Nick Otter.
 
 # Introduction
 
-Fundamental to DevOps or any other practise. Here are some problem solving strategies from [Alex Brogan](https://www.linkedin.com/in/alex-brogan?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABy3JRkBZiQl71f7RJ7FuE7Xo0JOVgI2zME&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BJ3Kzuc6UTfyAH66A57pjvg%3D%3D).
+Fundamental to life or any other practise. Here are some problem solving strategies from [Alex Brogan](https://www.linkedin.com/in/alex-brogan?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABy3JRkBZiQl71f7RJ7FuE7Xo0JOVgI2zME&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BJ3Kzuc6UTfyAH66A57pjvg%3D%3D).
 
 # The Five Whys Method
 
