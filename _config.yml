@@ -9,3 +9,6 @@ minima:
   social_links:
     github: nick-otter
     linkedin: nick-otter
+
+header_pages:
+  - about.md
