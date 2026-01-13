@@ -52,8 +52,3 @@ Format your paper like this:
 ![](/assets/cornell_method.png)
 
 
-
----
-
-Thanks. This was written by Nick Otter. 
-
