@@ -1,11 +1,8 @@
 ---
 layout: post
 title:  "The Story of an Atlassian 13-Day Outage"
-categories: incidents
+tags: incident-management
 ---
-
-# The Story of Atlassian's 13-Day Outage
-{: style="text-align: center"}
 
 From [Stanislav Kozlovski](https://www.linkedin.com/in/stanislavkozlovski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BFTAYtv0gRrWx9zMyM49YyA%3D%3D).
 
