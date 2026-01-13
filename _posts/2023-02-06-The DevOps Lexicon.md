@@ -1,25 +1,10 @@
 ---
 layout: post
-title:  "The DevOps Lexicon"
-categories: devops
+title:  "The Engineering Lexicon"
+categories: development
 ---
 
-# The DevOps Lexicon
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents 
-
-- [**Introduction**](#introduction)<br>
-- [**Describing patterns**](#describing-patterns)<br>
-- [**Isolating individuals**](#isolating-individuals)
-- [**Describing inrastructure**](#describing-infrastructure)<br>
-- [**Project oriented**](#project-oriented)<br>
-
-# Introduction
-
-This is a DevOps lexicon. It is filled with words for things that are hard to describe without them. 
+This is a lexicon. It is filled with words for things that are hard to describe without them. 
 
 # Describing patterns
 
@@ -94,7 +79,4 @@ This is a DevOps lexicon. It is filled with words for things that are hard to de
 | Dunning-Kruger effect | Occurs when a person's lack of knowledge and skills in a certain area cause them to overestimate their own competence. And vice versa
 | Matrix | Vectors
 
- 
----
 
-Thanks. This was written by Nick Otter.
