@@ -1,6 +1,11 @@
-name: Nick Otter 
-title: null
-markdown: kramdown
-kramdown:
-   html_to_native:  true
-permalink: pretty
+title: Nick Otter
+theme: "minima"
+
+plugins:
+  - jekyll-feed
+
+minima:
+  skin: classic
+  social_links:
+    github: nick-otter
+    linkedin: nick-otter
