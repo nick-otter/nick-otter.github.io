@@ -4,7 +4,7 @@ title:  "The Story of an Atlassian 13-Day Outage"
 tags: incident-management
 ---
 
-From [Stanislav Kozlovski](https://www.linkedin.com/in/stanislavkozlovski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BFTAYtv0gRrWx9zMyM49YyA%3D%3D).
+Stanislav Kozlovski | [The Story of an Atlassian 13-Day Outage](https://www.linkedin.com/in/stanislavkozlovski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BFTAYtv0gRrWx9zMyM49YyA%3D%3D).
 
 It’s a nice, refreshing spring day.
 You open up your laptop in the morning and go straight to that design document you started last night.
