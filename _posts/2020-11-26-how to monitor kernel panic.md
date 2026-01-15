@@ -1,30 +1,8 @@
 ---
 layout: post
 title:  "How To Monitor Kernel Panic"
-categories: kernel
+tags: linux
 ---
-
-# How To Monitor Kernel Panic
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents
-
-- [**Introduction**](#introduction)<br>
-    - [Requirements](#requirements)<br>
-- [**kdump**](#kdump)<br>
-    - [kdump cheatsheet](#kdump-cheatsheet)<br>
-    - [kdump install instructions](#kdump-install-instructions)<br>
-    - [kdump output explained](#kdump-output-explanation)<br>
-- [**crash**](#crash)<br>
-    - [crash cheatsheet](#crash-cheatsheet)<br>
-    - [crash install instructions](#crash-install-instructions)<br>
-    - [How to start a crash session](#crash-output)<br>
-    - [Use crash session command backtrace](#use-crash-session-command-backtrace)<br>
-    - [Backtrace output explained](#backtrace-output-explained)
-
-# Introduction
 
 Okay, what is Kernel panic?
 
