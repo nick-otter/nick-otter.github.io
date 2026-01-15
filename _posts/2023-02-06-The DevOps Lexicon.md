@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "The Engineering Lexicon"
-categories: development
+tag: personal
 ---
 
-This is a lexicon. It is filled with words for things that are hard to describe without them. 
+This is a lexicon, filled with words for things that are hard to describe without them. 
 
 # Describing patterns
 
