@@ -4,7 +4,7 @@ title:  "Useful Learning Techniques"
 tags: personal 
 ---
 
-Here are some learning techniques that are useful. 
+Here are some useful learning techniques. 
 
 ```
 “Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius—and a lot of courage—to move in the opposite direction.”
