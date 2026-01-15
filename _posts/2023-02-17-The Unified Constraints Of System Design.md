@@ -1,22 +1,14 @@
 ---
 layout: post
-title:  "The Constraints of System Design"
-categories: solutions
+title:  "The Unified Constraints of System Design"
+tags: system-design
 ---
 
 # The Unified Constraints Of System Design
 {: style="text-align: center"}
 
-Written by Nick Otter.
+Rocky Bhatia | [The Unified Constraints Of System Design](https://www.linkedin.com/in/rocky-bhatia-a4801010?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIjFtgB476KvCJqtfrug8LN7y82m1bV2JQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BG9eywd%2FCQxGaWRR5y30kVA%3D%3D)
 
-# Contents 
-
-- [**Introduction**](#introduction)<br>
-- [**Rocky Bhatia**](#rocky-bhatia)<br>
-
-# Introduction
-
-A unified understanding of System Design constraints is endlessly useful. [This post](https://www.linkedin.com/posts/rocky-bhatia-a4801010_data-database-architecture-activity-7030900969253023744-0Ryw/?utm_source=share&utm_medium=member_android) from [Rocky Bhatia](https://www.linkedin.com/in/rocky-bhatia-a4801010?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIjFtgB476KvCJqtfrug8LN7y82m1bV2JQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BG9eywd%2FCQxGaWRR5y30kVA%3D%3D) is a great start. 
 
 # Rocky Bhatia
 
