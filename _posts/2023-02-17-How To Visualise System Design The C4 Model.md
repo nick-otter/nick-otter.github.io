@@ -27,5 +27,3 @@ Most teams should at the very least produce and keep up-to-date 𝗰𝗼𝗻𝘁
 Image source: c4model. com.
 
 ![](/assets/c4model.jpg)
-
----
