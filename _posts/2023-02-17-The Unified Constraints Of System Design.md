@@ -4,9 +4,6 @@ title:  "The Unified Constraints of System Design"
 tags: system-design
 ---
 
-# The Unified Constraints Of System Design
-{: style="text-align: center"}
-
 Rocky Bhatia | [The Unified Constraints Of System Design](https://www.linkedin.com/in/rocky-bhatia-a4801010?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAIjFtgB476KvCJqtfrug8LN7y82m1bV2JQ&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BG9eywd%2FCQxGaWRR5y30kVA%3D%3D)
 
 
