@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How To Diagram Systems"
+title:  "The C4 Model"
 tags: system-design
 ---
 
-Dr Milan Milovic | [How To Diagram Systems](https://www.linkedin.com/in/milanmilanovic/)
+Dr Milan Milovic | [The C4 Model](https://www.linkedin.com/in/milanmilanovic/)
 
 # The C4 Model
 
