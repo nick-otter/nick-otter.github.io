@@ -6,8 +6,6 @@ tags: linux
 
 I'm not sure if these are really [**chaos monkeys**](https://en.wikipedia.org/wiki/Chaos_engineering) but I've found these commands useful for testing. Here's the (growing) list. I add to it when I remember. Collaborators, complaints and pull requests welcome. Most of these are just terminal commands, but that might change in future.
 
-# Requirements
-
 | Linux | `RHEL 8 4.18` |
 
 # Kernel
