@@ -1,33 +1,10 @@
 ---
 layout: post
 title:  "Baby Chaos Monkeys for Linux"
-categories: inactive
+tags: linux
 ---
 
-# Baby Chaos Monkeys for Linux
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents
-
-- [**Introduction**](#introduction)<br>
-   - [Requirements](#requirements)<br>
-- [**Kernel**](#kernel)<br>
-   - [How to cause a kernel panic](#how-to-cause-a-kernel-panic)<br>
-- [**Memory**](#memory)<br>
-   - [How to cause a segfault](#how-to-cause-a-segfault)<br>
-- [**CPU**](#cpu)<br>
-   - [How to max out CPU as quickly as possible](#how-to-max-out-cpu-as-quickly-as-possible)<br>
-- [**Network**](#network)<br>
-   - [How to send an incorrect TCP checksum](#how-to-send-an-incorrect-TCP-checksum)<br>
-- [**File System**](#filesystem)<br>
-   - [How to corrupt a filesystem](#how-to-corrupt-a-filesystem)<br>
-   - [How to orphan an inode](#how-to-orphan-some-inodes)<br>
-
-# Introduction
-
-I'm not sure if these are really [**chaos monkeys**](https://en.wikipedia.org/wiki/Chaos_engineering) but I've found these commands useful to test stuff. Here's the (growing) list. I add to it when I remember. Collaborators, complaints and pull requests welcome. Most of these are just terminal commands, but that might change in future.
+I'm not sure if these are really [**chaos monkeys**](https://en.wikipedia.org/wiki/Chaos_engineering) but I've found these commands useful for testing. Here's the (growing) list. I add to it when I remember. Collaborators, complaints and pull requests welcome. Most of these are just terminal commands, but that might change in future.
 
 # Requirements
 
@@ -94,8 +71,3 @@ Then...
 ```
 $ bash -c `rm home; bash`
 ```
-:'(
-
----
-
-Thanks. This was written by Nick Otter.
