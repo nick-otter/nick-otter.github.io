@@ -4,9 +4,9 @@ title:  "Language Compiler Guide"
 tags: development
 ---
 
-# Self Compiling Languages
+## Self Compiling Languages
 
-# C
+## C
 
 | Arjun4522 | [Exploring the Power of Self-Compiling C Compilers](https://medium.com/@ghosalarjun/exploring-the-power-of-self-compiling-c-compilers-c9eec42d9878) |
 
@@ -14,7 +14,7 @@ In the programming language world, C remains a popular choice for developers bec
 
 ![](/assets/c-compile-1.png)
 
-## Understanding Self-Compiling C Compilers
+# Understanding Self-Compiling C Compilers
 
 The C compiler is a software tool that translates human-readable C programming code into machine-readable instructions that can be executed by a computer. The primary function of the C compiler is to perform a series of tasks, including lexical analysis, parsing, semantic analysis, optimization, and code generation. The above figure 1.1 shows the compilation process in C.
 
@@ -28,7 +28,7 @@ This technique of compiler design is alternative to the process of “Cross Comp
 
 The concept of a bootstrap compiler is not only limited to C compilers; it can be applied to compilers for other programming languages as well. It exemplifies the power of self-compilation and demonstrates the ability to create a self-sustaining ecosystem where a compiler can continuously improve itself, leading to more robust and efficient software development tools.
 
-## Benefits and Advantages
+# Benefits and Advantages
 
 1. **Portability**: One of the significant advantages of self-compiling C compilers is their portability across different platforms. Since the compiler is written in C, it can be easily adapted to various architectures and operating systems. This portability allows developers to use the self-compiling C compiler on different machines without major modifications.<br><br>
 2. **Efficiency**: Self-compiling C compilers tend to be highly optimized for generating efficient machine code. As the compiler evolves and iteratively compiles itself, it can incorporate performance optimizations specific to the target architecture. This results in generated code that is tailored for the specific hardware, enhancing the overall execution speed of the compiled programs.<br><br>
@@ -36,7 +36,7 @@ The concept of a bootstrap compiler is not only limited to C compilers; it can b
 4. **Independence**: Self-compiling C compilers provide developers with a high degree of independence. They allow developers to bootstrap their development environment, reducing reliance on external tools or third-party compilers. Once a self-hosting compiler is available, it can be used to compile subsequent versions of itself, creating a self-sufficient ecosystem.
 Disadvantages:
 
-## Disadvantages
+# Disadvantages
 
 5. **Complexity**: Self-compiling compilers are typically more complex than simple compilers or interpreters. They require a significant amount of development effort and expertise to design and implement. The process of bootstrapping and maintaining a self-hosting compiler can be challenging, requiring deep knowledge of the language and compiler internals.<br><br>
 6. **Debugging**: When a self-compiling compiler encounters a bug or error, debugging can be more complicated. Since the compiler itself is responsible for generating the executable code, debugging issues within the compiler can be intricate and time-consuming. Debugging tools and techniques specific to self-hosting compilers may be required.
@@ -44,14 +44,14 @@ Impact on Programming:
 
 Self-compiling C compilers have had a significant impact on the programming community. They have contributed to the development and refinement of C compilers, leading to increased performance, improved language features, and enhanced support for different platforms. The evolution of self-compiling C compilers has played a vital role in shaping the programming landscape, enabling the creation of powerful software systems that have transformed various industries.
 
-## Conclusion
+# Conclusion
 
 Self-compiling C compilers exemplify the ingenuity and dedication of the programming community. They showcase the ability to create a compiler capable of compiling its own source code, resulting in portable, efficient, and continuously improving tools. As developers continue to push the boundaries of what is possible, self-compiling C compilers will likely remain an essential tool in the programmer’s arsenal, facilitating the creation of cutting-edge software solutions.
 
 
-# Compiled & Interpreted Languages
+## Compiled & Interpreted Languages
 
-# Java
+## Java
 
 | Alex Klimenko | [How Compilation Works in Java](https://medium.com/@alxkm/how-compilation-works-in-java-0ac4d1e95b99) |
 
@@ -169,9 +169,9 @@ Java compilation involves converting source code into a form that can be execute
 Inlining is a crucial optimization technique where method calls are replaced with the actual method code. This reduces the overhead associated with method calls, enables further optimizations, and improves cache performance. While inlining can increase code size and make debugging more complex, it is widely used in the HotSpot JVM to enhance the performance of Java applications by minimizing the overhead of method calls and exposing more opportunities for optimization.
 
 
-# Interpreted Languages
+## Interpreted Languages
 
-# Python
+## Python
 
 | Brij kishore Pandey | [Brij kishore Pandey](https://www.linkedin.com/posts/brijpandeyji_python-softwareengineering-programming-activity-7089929874324267008-34BG/?utm_source=share&utm_medium=member_android) |
 
