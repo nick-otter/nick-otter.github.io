@@ -1,15 +1,10 @@
 ---
 layout: post
-title:  "Oh OS, Operating System Introductions"
-categories: os
+title:  "OS Introduction"
+categories: ops
 ---
 
-# Oh OS, Operating System Introductions
-{: style="text-align: center"}
-
-From Shlomi Boutnaru at Rezilion
-
-[Shlomi Boutnaru](https://www.linkedin.com/in/shlomi-boutnaru-ba781811a/) at [Rezilion](https://www.rezilion.com/) recently published ["Operating Systems: Part 1 - Introduction"](https://www.linkedin.com/posts/shlomi-boutnaru-ba781811a_operatingsystems-kernel-kernelmode-activity-6974947995058335744-YqrQ?utm_source=share&utm_medium=member_desktop).
+| [Shlomi Boutnaru](https://www.linkedin.com/in/shlomi-boutnaru-ba781811a/) | ["Operating Systems: Part 1 - Introduction"](https://www.linkedin.com/posts/shlomi-boutnaru-ba781811a_operatingsystems-kernel-kernelmode-activity-6974947995058335744-YqrQ?utm_source=share&utm_medium=member_desktop)
 
 Let's check it out. 
 
@@ -38,7 +33,3 @@ In x86 we have 4 rings, we are going to talk mostly about “ring 0” (kernel) 
 When running kernel code, the CPU is in “ring 0” (x86) and when running user-mode code it is running in “ring 3”. “ring 0” is the highest privilege level and it is the only ring which has the ability to perform I/O and access hardware directly. So, when an application running in user-mode wants to write to a file it needs the help of the kernel, it is done by syscalls (functions exposed by the kernel, which allow kernel code to run on behalf of a user-mode application). Most of the time you won’t call the syscall directly but rather you will call a wrapper (which is part of the programming language/runtime). 
 
 Next, we are going to talk about processes and threads. See you soon. 
-
----
-
-Thanks. Unsurprisingly, this article was not written by me but [Shlomi Boutnaru](https://www.linkedin.com/in/shlomi-boutnaru-ba781811a/) at [Rezilion](https://www.rezilion.com/).
