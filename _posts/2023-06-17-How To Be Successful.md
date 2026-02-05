@@ -11,7 +11,7 @@ I’ve observed thousands of founders and thought a lot about what it takes to m
 
 Here are 13 thoughts about how to achieve such outlier success. Everything here is easier to do once you’ve already reached a baseline degree of success (through privilege or effort) and want to put in the work to turn that into outlier success. [1] But much of it applies to anyone.
 
-1. Compound yourself
+1. **Compound yourself**
 
 Compounding is magic. Look for it everywhere. Exponential curves are the key to wealth generation.
 
@@ -29,7 +29,7 @@ I think the biggest competitive advantage in business—either for a company or 
 
 Trust the exponential, be patient, and be pleasantly surprised.
 
-2. Have almost too much self-belief
+2. **Have almost too much self-belief**
 
 Self-belief is immensely powerful. The most successful people I know believe in themselves almost to the point of delusion.
 
@@ -47,7 +47,7 @@ Self-belief must be balanced with self-awareness. I used to hate criticism of an
 
 This balance also helps you avoid coming across as entitled and out of touch.
 
-3. Learn to think independently
+3. **Learn to think independently**
 
 Entrepreneurship is very difficult to teach because original thinking is very difficult to teach. School is not set up to teach this—in fact, it generally rewards the opposite. So you have to cultivate it on your own.
 
@@ -57,7 +57,7 @@ Thinking from first principles and trying to generate new ideas is fun, and find
 
 One of the most powerful lessons to learn is that you can figure out what to do in situations that seem to have no solution. The more times you do this, the more you will believe it. Grit comes from learning you can get back up after you get knocked down.
 
-4. Get good at “sales”
+4. **Get good at “sales”**
 
 Self-belief alone is not sufficient—you also have to be able to convince other people of what you believe.
 
@@ -71,7 +71,7 @@ Getting good at sales is like improving at any other skill—anyone can get bett
 
 My other big sales tip is to show up in person whenever it’s important. When I was first starting out, I was always willing to get on a plane. It was frequently unnecessary, but three times it led to career-making turning points for me that otherwise would have gone the other way.
 
-5. Make it easy to take risks
+5. **Make it easy to take risks**
 
 Most people overestimate risk and underestimate reward. Taking risks is important because it’s impossible to be right all the time—you have to try many things and adapt quickly as you learn more.
 
@@ -81,7 +81,7 @@ Don’t save up for too long, though. At YC, we’ve often noticed a problem wit
 
 But when you aren’t on the treadmill, you can follow your hunches and spend time on things that might turn out to be really interesting. Keeping your life cheap and flexible for as long as you can is a powerful way to do this, but obviously comes with tradeoffs.
 
-6. Focus
+6. **Focus**
 
 Focus is a force multiplier on work.
 
@@ -89,7 +89,7 @@ Almost everyone I’ve ever met would be well-served by spending more time think
 
 Once you have figured out what to do, be unstoppable about getting your small handful of priorities accomplished quickly. I have yet to meet a slow-moving person who is very successful.
 
-7. Work hard
+7. **Work hard**
 
 You can get to about the 90th percentile in your field by working either smart or hard, which is still a great accomplishment. But getting to the 99th percentile requires both—you will be competing with other very talented people who will have great ideas and be willing to work a lot.
 
@@ -105,7 +105,7 @@ I think people who pretend you can be super successful professionally without wo
 
 One more thought about working hard: do it at the beginning of your career. Hard work compounds like interest, and the earlier you do it, the more time you have for the benefits to pay off. It’s also easier to work hard when you have fewer other responsibilities, which is frequently but not always the case when you’re young.
 
-8. Be bold
+8. **Be bold**
 
 I believe that it’s easier to do a hard startup than an easy startup. People want to be part of something exciting and feel that their work matters.
 
@@ -115,7 +115,7 @@ If everyone else is starting meme companies, and you want to start a gene-editin
 
 Follow your curiosity. Things that seem exciting to you will often seem exciting to other people too.
 
-9. Be willful
+9. **Be willful**
 
 A big secret is that you can bend the world to your will a surprising percentage of the time—most people don’t even try, and just accept that things are the way that they are.
 
@@ -129,7 +129,7 @@ Airbnb is my benchmark for this. There are so many stories they tell that I woul
 
 To be willful, you have to be optimistic—hopefully this is a personality trait that can be improved with practice. I have never met a very successful pessimistic person.
 
-10. Be hard to compete with
+10. **Be hard to compete with**
 
 Most people understand that companies are more valuable if they are difficult to compete with. This is important, and obviously true.
 
@@ -139,7 +139,7 @@ The best way to become difficult to compete with is to build up leverage. For ex
 
 Most people do whatever most people they hang out with do. This mimetic behavior is usually a mistake—if you’re doing the same thing everyone else is doing, you will not be hard to compete with.
 
-11. Build a network
+11. **Build a network**
 
 Great work requires teams. Developing a network of talented people to work with—sometimes closely, sometimes loosely—is an essential part of a great career. The size of the network of really talented people you know often becomes the limiter for what you can accomplish.
 
@@ -157,7 +157,7 @@ A special case of developing a network is finding someone eminent to take a bet 
 
 Finally, remember to spend your time with positive people who support your ambitions.
 
-12. You get rich by owning things
+12. **You get rich by owning things**
 
 The biggest economic misunderstanding of my childhood was that people got rich from high salaries. Though there are some exceptions—entertainers for example —almost no one in the history of the Forbes list has gotten there with a salary.
 
@@ -167,7 +167,7 @@ This can be a piece of a business, real estate, natural resource, intellectual p
 
 The best way to make things that increase rapidly in value is by making things people want at scale.
 
-13. Be internally driven
+13. **Be internally driven**
 
 Most people are primarily externally driven; they do what they do because they want to impress other people. This is bad for many reasons, but here are two important ones.
 
