@@ -4,12 +4,7 @@ title:  "I Ranked My Favourite Films"
 categories: personal
 ---
 
-# I Ranked My Favourite Films
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-Ok. This year I decided to rank films I'd watched. Only caring to record those that I thought were 8 out of 10 or above; this is a completely subjective list. Mainly ranked in terms of 'rewatchability' or meaning. Click each image for information about the film or documentary via their imdb page.
+This year I decided to rank films I'd watched. Only caring to record those that I thought were 8 out of 10 or above; this is a completely subjective list. Mainly ranked in terms of 'rewatchability' or meaning. Click each image for information about the film or documentary via their imdb page.
 
 I think reading info in list form can turn into a bit of nightmare, so here's a clean sweep:
 
@@ -47,7 +42,3 @@ I think **Tekkonkinkreet** and **McCullin** are great. If you like films that ar
 [![Raised by Wolves](https://m.media-amazon.com/images/M/MV5BYWUzMGZjNjgtMzkwYS00MTdhLTlhYzItYTEzMjRjMjkzZmM3XkEyXkFqcGdeQXVyMTE5MzYzMDE5._V1_UX182_CR0,0,182,268_AL_.jpg)](https://www.imdb.com/title/tt9170108/)
 [![My Own Private Idaho](https://m.media-amazon.com/images/M/MV5BZDgxMGU3YTEtODEzOC00MGVlLTk4OWUtYmY0ODU0OTI1NmMxL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg)](https://www.imdb.com/title/tt0102494/)
 [![Elle](https://m.media-amazon.com/images/M/MV5BMTU4MTUyMzI5Nl5BMl5BanBnXkFtZTgwMDQwODY2NzE@._V1_UY268_CR7,0,182,268_AL_.jpg)](https://www.imdb.com/title/tt3716530/)
-
----
-
-Thanks. This was written by Nick Otter.
