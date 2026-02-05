@@ -1,24 +1,10 @@
 ---
 layout: post
-title:  "Predictability As A Product Team"
-categories: misc
+title:  "How To Become More Predictable As A Product Team"
+tags: product
 ---
 
-# How To Become More Predictable As A Product Team
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents 
-
-- [**Introduction**](#introduction)<br>
-- [**John Cutler**](#john-cutler)<br>
-
-# Introduction
-
-[This post](https://www.linkedin.com/posts/johnpcutler_how-to-become-more-predictable-as-a-product-activity-7026095154667130880-Fi4_?utm_source=share&utm_medium=member_desktop) from [John Cutler](https://www.linkedin.com/in/johnpcutler?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABkgVcByXwZ4Zke2hKjaekv4qJxDWQeqsY&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BLYHz%2FNuUQVK3WrLYwd40VA%3D%3D) was found interesting.
-
-# John Cutler
+| John Cutler | [John Cutler](https://www.linkedin.com/in/johnpcutler?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAABkgVcByXwZ4Zke2hKjaekv4qJxDWQeqsY&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BLYHz%2FNuUQVK3WrLYwd40VA%3D%3D) | 
 
 How to become "more predictable" as a product team:
 
@@ -53,8 +39,3 @@ How NOT to become "more predictable" as a product team:
 * Ship and move on
 * Visualize work against a calendar
 * Worry about predictability. Make predictability the goal
-
-
----
-
-Thanks. This was written by Nick Otter.
