@@ -1,13 +1,10 @@
 ---
 layout: post
 title:  "How To Reduce Latency"
-categories: latency
+tags: system-design
 ---
 
-# How To Reduce Latency 
-{: style="text-align: center"}
-
-From [John Crickett](https://www.linkedin.com/posts/johncrickett_what-to-know-the-secret-to-reducing-latency-activity-7120310703164399616-qdFL/?utm_source=share&utm_medium=member_android).
+| John Crikett | [John Crickett](https://www.linkedin.com/posts/johncrickett_what-to-know-the-secret-to-reducing-latency-activity-7120310703164399616-qdFL/?utm_source=share&utm_medium=member_android)|
 
 What to know the secret to reducing latency in any software system?
 

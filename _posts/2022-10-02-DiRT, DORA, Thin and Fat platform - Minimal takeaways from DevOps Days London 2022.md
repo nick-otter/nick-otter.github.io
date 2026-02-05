@@ -1,15 +1,8 @@
 ---
 layout: post
 title:  "DevOps Days London 2022"
-categories: devops
+tags: devops
 ---
-
-# DevOps Days London 2022
-{: style="text-align: center"}
-
-Written by Nick Otter. 
-
-# Intro
 
 We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaways. For fun and laziness - I am only listing each takeaway as a one liner, to be explored in more depth outside of this post.
 
@@ -63,7 +56,3 @@ We (8x8) attended DevOps Days London 2022 this week. Here are my personal takeaw
 * Flow aligned, complex subsystems.
 * Keep deployment configuration in Dev codebase as much as possible
 * 'Open source license auditor, audits most dependended upon open source projects'
-
----
-
-Thanks. This was written by Nick Otter.
