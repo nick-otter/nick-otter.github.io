@@ -1,18 +1,10 @@
 ---
 layout: post
 title:  "How To Write Effective Python"
-categories: python
+tags: development
 ---
 
-# How To Write Effective Python
-{: style="text-align: center"}
-
-# Introduction
-
 I recently read "Effective Python: 50 Specific Ways To Write Better Python" by Brett Slatkin. Here are my personal takeaways abbreviated in a doc. I highly recommend reading Slatkin, it is a fantastic book. 
-
-
-# Chapter 1 Pythonic Thinking
 
 ### Using Standard Slice
 
@@ -220,6 +212,3 @@ def load_json_key(data, key):
 ```
 
 The `else` block helps you minimize the amount of code in `try` blocks and visually distinguish the success case from the `try` `except` blocks. An `else` block can be used to perform additional actions after a successful `try` block but before common cleanup in a `finally` block.
-
-
----
