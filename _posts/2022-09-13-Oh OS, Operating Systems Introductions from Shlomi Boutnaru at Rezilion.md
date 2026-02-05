@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "OS Introduction"
-categories: ops
+tags: ops
 ---
 
 | [Shlomi Boutnaru](https://www.linkedin.com/in/shlomi-boutnaru-ba781811a/) | ["Operating Systems: Part 1 - Introduction"](https://www.linkedin.com/posts/shlomi-boutnaru-ba781811a_operatingsystems-kernel-kernelmode-activity-6974947995058335744-YqrQ?utm_source=share&utm_medium=member_desktop)
