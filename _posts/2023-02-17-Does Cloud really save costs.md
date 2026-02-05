@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ops: Does Cloud really save costs"
-categories: ops:
+categories: ops
 ---
 
 # Ops: Does Cloud really save costs?
