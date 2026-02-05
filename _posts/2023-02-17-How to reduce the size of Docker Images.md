@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mircoservices: Size reduce Docker Images"
-tags: microsoervices
+tags: microservices
 ---
 
 | Raghav Dua |  [Raghav Dua](https://www.linkedin.com/posts/raghavdua_docker-optimization-devops-activity-7085445301917872128-oDxa/?utm_source=share&utm_medium=member_android)|

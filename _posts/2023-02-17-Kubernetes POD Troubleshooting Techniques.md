@@ -4,7 +4,7 @@ title:  "Kubernetes Pod Troubleshooting Techniques"
 tags: kubernetes
 ---
 
-From [Mumshad Mannambeth](https://www.linkedin.com/posts/mmumshad_kodekloud-devops-kubernetes-activity-7099367045506494464-tKho/?utm_source=share&utm_medium=member_android)
+| Mushad Mannambeth | [Mumshad Mannambeth](https://www.linkedin.com/posts/mmumshad_kodekloud-devops-kubernetes-activity-7099367045506494464-tKho/?utm_source=share&utm_medium=member_android)|
 
 1. Check logs:
 Use ‘kubectl logs <pod_name>’

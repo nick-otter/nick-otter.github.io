@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ops: Identity Access Management"
-categories: ops
+tags: ops
 ---
 
 | Govardhana Miriyala Kannaiah | [Govardhana Miriyala Kannaiah](https://www.linkedin.com/in/govardhana-miriyala-kannaiah/D)|
