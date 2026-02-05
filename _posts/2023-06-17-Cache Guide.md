@@ -228,8 +228,7 @@ The diagram below illustrates the process.
 
 ![](/assets/cache_stampede.jpeg)
 
-## Invalidation
-{: style="text-align: center"}
+# Invalidation
 
 | Arsan Ahmad | [Arslan Ahmad](https://www.linkedin.com/in/arslanahmad/)|
 
@@ -248,5 +247,3 @@ Cache invalidation is the process of removing or updating cached data when it be
 🔹𝗦𝘁𝗮𝗹𝗲-𝘄𝗵𝗶𝗹𝗲-𝗿𝗲𝘃𝗮𝗹𝗶𝗱𝗮𝘁𝗲: This method is used in web browsers and CDNs to serve stale content from the cache while the content is being updated in the background. When a request is received for a piece of content, the cached version is immediately served to the user, and an asynchronous request is made to the origin server to fetch the latest version of the content. Once the latest version is available, the cached version is updated. This method ensures that the user is always served content quickly, even if the cached version is slightly outdated.
 
 ![](/assets/cache_invalidation.jpeg)
-
----
