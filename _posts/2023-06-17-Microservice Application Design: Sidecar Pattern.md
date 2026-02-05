@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Microservice Application Design: Sidecar Pattern"
-categories: microservices
+title:  "Microservices: Sidecar Pattern"
+tags: microservices kubernetes
 ---
 
-# Microservice Application Design: Sidecar Pattern
-{: style="text-align: center"}
-
-From [Emre Savci](https://itnext.io/application-architecture-for-microservices-sidecar-pattern-c5c0074e8f1d).
+| Emre Savci | [Emre Savci](https://itnext.io/application-architecture-for-microservices-sidecar-pattern-c5c0074e8f1d)|
 
 Let’s examine together how we use sidecar to solve cross-cutting concerns such as authorization, caching, configuration secret management, and observability.
 

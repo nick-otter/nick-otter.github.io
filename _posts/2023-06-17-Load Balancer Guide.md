@@ -28,6 +28,10 @@ Ensures session continuity and personalized experiences by connecting users to s
 
 ![](/assets/lb_usecase.png)
 
+---
+
+<br>
+
 # Strategies
 
 | Leo Coelho | [Leo Coelho](https://www.linkedin.com/in/leo-coelho/)
