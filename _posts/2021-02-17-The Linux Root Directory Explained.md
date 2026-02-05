@@ -1,15 +1,8 @@
 ---
 layout: post
-title:  "The Linux Root Directory"
+title:  "Linux: Root Directory"
 categories: linux
 ---
-
-# The Linux Root Directory Explained
-{: style="text-align: center"}
-
-Written by Nick Otter. 
-
-# Contents
 
 - [**Introduction**](#introduction)<br>
 - [**The Contents Of /**](#the-contents-of-/)<br>
@@ -83,5 +76,3 @@ Here lies a description of all the subdirectories in the root directory, and any
 
 ![](/assets/linux_fs.jpeg)
 ![](/assets/linux_dir_cheat.jpg)
----
-Thanks. This article was written by Nick Otter.

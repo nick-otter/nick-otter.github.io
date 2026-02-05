@@ -1,15 +1,10 @@
 ---
 layout: post
 title:  "An Introduction to API Gateway"
-categories: api
+tags: system-design
 ---
 
-# An Introduction to API Gateway
-{: style="text-align: center"}
-
-From Alex Xu at ByteByteGo.
-
-[Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) recently published an ["API gateway introduction"](https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database).
+| [Alex Xu](https://www.linkedin.com/in/alexxubyte/) | ["API gateway introduction"](https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database) |
 
 Here is the full post. 
 
@@ -32,7 +27,3 @@ Step 8 - The API gateway transforms the request into the appropriate protocol an
 
 Steps 9-12: The API gateway can handle errors properly, and deals with faults if the error takes a longer time to recover (circuit break). It can also leverage ELK (Elastic-Logstash-Kibana) stack for logging and monitoring. We sometimes cache data in the API gateway.
 ```
-
----
-
-Thanks. Unsurprisingly, this article was not written by me but [Alex Xu](https://www.linkedin.com/in/alexxubyte/) at [ByteByteGo](https://bytebytego.com/) .

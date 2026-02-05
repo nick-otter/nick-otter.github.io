@@ -1,13 +1,10 @@
 ---
 layout: post
 title:  "How To Boost API Performance"
-categories: api
+tags: system-design
 ---
 
-# How To Boost API Performance
-{: style="text-align: center"}
-
-From [Saurabh Dashora](https://www.linkedin.com/posts/saurabh-dashora_building-apis-is-fun-until-you-run-into-performance-activity-7119928709612003329-pnku/?utm_source=share&utm_medium=member_android).
+| Sayrabh Dashhora | [Saurabh Dashora](https://www.linkedin.com/posts/saurabh-dashora_building-apis-is-fun-until-you-run-into-performance-activity-7119928709612003329-pnku/?utm_source=share&utm_medium=member_android)|
 
 Building APIs is fun until you run into performance issues.
 
@@ -52,4 +49,3 @@ An API needs to connect to the database to fetch data.
 Creating a new connection for each request can degrade performance.
 
 Therefore, use connection pooling to set up a pool of database connections that can be reused across requests.
----
