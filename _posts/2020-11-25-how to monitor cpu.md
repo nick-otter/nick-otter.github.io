@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "How To Monitor CPU"
-categories: cpu
+title:  "Linux: How To Monitor CPU"
+tags: linux
 ---
-
-# How To Monitor CPU
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents
 

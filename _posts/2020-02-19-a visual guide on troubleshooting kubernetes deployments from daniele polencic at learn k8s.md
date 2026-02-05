@@ -1,16 +1,11 @@
 ---
 layout: post
 title:  "How to Troubleshoot Kubernetes Deployments"
-categories: k8s_troubleshoot
+tags: kubernetes
 ---
 
-# How to Troubleshoot Kubernetes Deployments
-{: style="text-align: center"}
 
-From Daniele Polencic at Learn k8s.
-
-[Daniele Polencic](https://www.linkedin.com/in/danielepolencic/) at [Learn k8s](https://learnk8s.io/) recently published ["A visual guide on troubleshooting Kubernetes deployments"](https://learnk8s.io/troubleshooting-deployments).
-It's the most concise breakdown for troubleshooting k8s I've seen. I recommend reading it. 
+| [Daniele Polencic](https://www.linkedin.com/in/danielepolencic/) | [A visual guide on troubleshooting Kubernetes deployments](https://learnk8s.io/troubleshooting-deployments) |
 
 The main piece is this flow chart. It's well worth reading through too [here](https://learnk8s.io/troubleshooting-deployments).
 ![](https://learnk8s.io/a/fae60444184ca7bd8c3698d866c24617.png)

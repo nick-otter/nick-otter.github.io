@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How To Manage Log Files"
-categories: disk
+title:  "Linux: How To Manage Log Files"
+tags: linux
 ---
 
 # How To Manage Log Files

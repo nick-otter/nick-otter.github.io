@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "How To Monitor Disk Activity"
-categories: disk
+title:  "Linux: How To Monitor Disk Activity"
+tags: linux
 ---
-
-# How To Monitor Disk Activity
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents
 

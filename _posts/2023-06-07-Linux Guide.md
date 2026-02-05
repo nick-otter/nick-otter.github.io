@@ -8,3 +8,7 @@ categories: linux
 # Diagram: Linux Storage Stack
 
 ![](/assets/Linux-storage-stack-diagram_v6.2.png)
+
+# Diagram: Linux Performance Observability Tools
+
+![](/assets/linux_perf_tools.jpg)

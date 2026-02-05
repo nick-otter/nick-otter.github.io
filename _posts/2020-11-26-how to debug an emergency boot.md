@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How To Debug An Emergency Boot"
-tag: linux
+title:  "Linux: How To Debug An Emergency Boot"
+tag: linux ops
 ---
 
 - [**Introduction**](#introduction)<br>

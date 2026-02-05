@@ -1,15 +1,8 @@
 ---
 layout: post
-title:  "How To Debug A Syscall"
-categories: kernel
+title:  "Linux: How To Debug A Syscall"
+tags: linux
 ---
-
-# How To Debug A Syscall
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents
 
 - [**Introduction**](#introduction)<br>
      - [Requirements](#equirements)<br>

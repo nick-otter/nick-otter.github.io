@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Debug Crashes And Segfaults in Linux"
+title:  "Linux: How To Debug Crashes And Segfaults in Linux"
 tags: linux
 ---
 

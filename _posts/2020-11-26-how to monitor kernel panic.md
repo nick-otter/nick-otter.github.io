@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How To Monitor Kernel Panic"
+title:  "Linux: How To Monitor Kernel Panic"
 tags: linux
 ---
 

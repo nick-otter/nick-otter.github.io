@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "How To Monitor Page Cache"
-categories: memory
+title:  "Linux: How To Monitor Page Cache"
+tags: linux
 ---
-
-# How To Monitor Page Cache
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents
 

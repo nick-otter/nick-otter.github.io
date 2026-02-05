@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "How To Monitor UDP"
-categories: network
+title:  "Linux: How To Monitor UDP"
+tags: linux
 ---
-
-# How To Monitor UDP
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents
 

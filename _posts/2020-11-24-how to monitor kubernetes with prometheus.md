@@ -1,13 +1,8 @@
 ---
 layout: post
 title:  "How to Monitor Kubernetes with Prometheus"
-categories: k8s_observability
+tags: kubernetes
 ---
-
-# How To Monitor Kubernetes With Prometheus
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents 
 

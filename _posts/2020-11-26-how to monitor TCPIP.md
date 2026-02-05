@@ -1,15 +1,8 @@
 ---
 layout: post
-title:  "How To Monitor TCPIP"
-categories: network 
+title:  "Linux: How To Monitor TCPIP"
+tags: linux
 ---
-
-# How To Monitor TCP/IP
-{: style="text-align: center"}
-
-Written by Nick Otter.
-
-# Contents
 
 - [**Introduction**](#introduction)<br>
      - [TCP/IP overview](#tcp/ip-overview)<br>

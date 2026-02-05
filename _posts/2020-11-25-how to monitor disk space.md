@@ -1,13 +1,8 @@
 ---
 layout: post
-title:  "How To Monitor Disk Space"
-categories: disk
+title:  "Linux: How To Monitor Disk Space"
+tags: linux
 ---
-
-# How To Monitor Disk Space
-{: style="text-align: center"}
-
-Written by Nick Otter.
 
 # Contents: 
 
