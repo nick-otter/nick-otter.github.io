@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kubernetes ReadWriteOnce Explained"
+title:  "Kubernetes: ReadWriteOnce Explained"
 tags: kubernetes
 ---
 

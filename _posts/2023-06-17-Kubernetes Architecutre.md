@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kubernetes Architecture"
+title:  "Kubernetes: Architecture"
 tags: kubernetes
 ---
 
