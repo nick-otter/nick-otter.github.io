@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Does Cloud really save costs"
-categories: cloud_native
+title:  "Ops: Does Cloud really save costs"
+categories: ops:
 ---
 
-# Does Cloud really save costs?
+# Ops: Does Cloud really save costs?
 {: style="text-align: center"}
 
-From [Alex Xu](https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7025866484350373891-B6LQ/?utm_source=share&utm_medium=member_android)
+| Alex Xu | [Alex Xu](https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7025866484350373891-B6LQ/?utm_source=share&utm_medium=member_android) |
 
 Let’s look at this question 𝐢𝐧 𝐚 𝐥𝐨𝐧𝐠𝐞𝐫 𝐭𝐢𝐦𝐞 𝐫𝐚𝐧𝐠𝐞 to see what the cloud really brings us.
 

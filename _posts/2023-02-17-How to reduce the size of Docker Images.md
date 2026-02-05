@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "How to reduce the size of Docker Images"
-categories: docker
+title:  "Mircoservices: Size reduce Docker Images"
+tags: microsoervices
 ---
 
-# How to reduce the size of Docker Images
-{: style="text-align: center"}
-
-From [Raghav Dua](https://www.linkedin.com/posts/raghavdua_docker-optimization-devops-activity-7085445301917872128-oDxa/?utm_source=share&utm_medium=member_android).
+| Raghav Dua |  [Raghav Dua](https://www.linkedin.com/posts/raghavdua_docker-optimization-devops-activity-7085445301917872128-oDxa/?utm_source=share&utm_medium=member_android)|
 
 If you’re reading this, chances are you’re running very large Docker containers in production.
 A Container that’s several gigabytes in size slows deployments, increases bandwidth & storage costs and consumes valuable time of developers.
@@ -55,4 +52,3 @@ DockerSquash (https://github.com/goldmann/docker-squash)
 
 ![](/assets/docker.jpeg)
 
----
