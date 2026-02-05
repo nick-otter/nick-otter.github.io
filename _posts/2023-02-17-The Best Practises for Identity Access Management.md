@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "The Best Practises for Identity Access Management"
-categories: aws_iam
+title:  "Ops: Identity Access Management"
+categories: ops
 ---
 
-# The Best Practises for Identity Access Management
-{: style="text-align: center"}
-
-From [Govardhana Miriyala Kannaiah](https://www.linkedin.com/in/govardhana-miriyala-kannaiah/D).
+| Govardhana Miriyala Kannaiah | [Govardhana Miriyala Kannaiah](https://www.linkedin.com/in/govardhana-miriyala-kannaiah/D)|
 
 Each practice enhances cloud access control and security framework
 
