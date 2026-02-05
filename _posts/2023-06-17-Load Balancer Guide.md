@@ -4,7 +4,7 @@ title:  "Load Balancer Guide"
 tags: networking
 ---
 
-# Load Balancer Features
+# Features
 
 | Govardhana Miriyala Kannaiah| [Govardhana Miriyala Kannaiah](https://www.linkedin.com/in/govardhana-miriyala-kannaiah?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAewlu4B9UDPJO4tgKaMPfpB5vXdHtKaTBE&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3Bdy6%2BrQaoTSaaHQozwhrFBA%3D%3D)
 
@@ -28,7 +28,7 @@ Ensures session continuity and personalized experiences by connecting users to s
 
 ![](/assets/lb_usecase.png)
 
-# Load Balancer Strategies
+# Strategies
 
 | Leo Coelho | [Leo Coelho](https://www.linkedin.com/in/leo-coelho/)
 
