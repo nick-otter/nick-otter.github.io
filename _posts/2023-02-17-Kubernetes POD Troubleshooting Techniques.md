@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kubernetes Pod Troubleshooting Techniques"
+title:  "Kubernetes: Pod Troubleshooting Techniques"
 tags: kubernetes
 ---
 

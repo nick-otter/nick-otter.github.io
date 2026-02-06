@@ -1,15 +1,8 @@
 ---
 layout: post
-title:  "How I Stay Up To Date With Amazon Web Services"
-categories: aws
+title:  "AWS: How I Stay Up To Date With Amazon Web Services"
+tags: aws
 ---
-
-# How I Stay Up To Date With Amazon Web Services
-{: style="text-align: center"}
-
-Written by Nick Otter. 
-
-# Contents
 
 - [**Introduction**](#introduction)<br>
 - [**Last Week in AWS**](#last-week-in-aws)<br>

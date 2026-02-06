@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to Troubleshoot Kubernetes Deployments"
+title:  "Kubernetes: How to Troubleshoot Deployments"
 tags: kubernetes
 ---
 

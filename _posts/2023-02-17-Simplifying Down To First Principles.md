@@ -4,9 +4,7 @@ title:  "Simplifying Down To First Principles"
 tags: personal
 ---
 
-Identifying a resilient debugging strategy is endlessly useful. [This post](https://www.linkedin.com/pulse/simplify-down-first-principles-piotr-kruczkowski-/?trackingId=yT%2FvPodOT%2F2K88mMHkGhJA%3D%3D) from [Piotr Kruckowski](https://www.linkedin.com/in/piotr-kruczkowski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B1a3smCl9Qv6%2Ftp3RkOmkTg%3D%3D) was found interesting.
-
-# Piotr Kruckowski
+| Piotr Kruckowski | [Piotr Kruckowski](https://www.linkedin.com/in/piotr-kruczkowski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3B1a3smCl9Qv6%2Ftp3RkOmkTg%3D%3D)|
 
 The first thing I do whenever faced with a problem or a complex system I do not understand, is simplifying it down to those things I understand well. I was in countless interactions where the person I was talking to, assumed that the topic of conversation is known and obvious to everyone involved. It was not obvious to me so I started asking questions.
 
