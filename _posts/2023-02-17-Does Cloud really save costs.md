@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ops: Does Cloud really save costs"
-categories: ops
+tags: ops
 ---
 
 | Alex Xu | [Alex Xu](https://www.linkedin.com/posts/alexxubyte_systemdesign-coding-interviewtips-activity-7025866484350373891-B6LQ/?utm_source=share&utm_medium=member_android) |

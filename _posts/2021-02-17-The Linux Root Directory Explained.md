@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux: Root Directory"
-categories: linux
+tags: linux
 ---
 
 - [**Introduction**](#introduction)<br>

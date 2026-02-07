@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "I Ranked My Favourite Films"
-categories: personal
+tags: personal
 ---
 
 This year I decided to rank films I'd watched. Only caring to record those that I thought were 8 out of 10 or above; this is a completely subjective list. Mainly ranked in terms of 'rewatchability' or meaning. Click each image for information about the film or documentary via their imdb page.

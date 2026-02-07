@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Engineering Lexicon"
-tag: personal
+tags: personal
 ---
 
 This is a lexicon, filled with words for things that are hard to describe without them. 
