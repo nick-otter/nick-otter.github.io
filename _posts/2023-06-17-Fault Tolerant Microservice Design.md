@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Microservices: Fault Tolerant Design"
-categories: microservices
+tags: microservices
 ---
 
 | Leo Coelho | [Leo Coelho](https://www.linkedin.com/in/leo-coelho/) |
