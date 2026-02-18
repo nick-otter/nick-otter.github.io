@@ -8,7 +8,7 @@ Welcome to my personal blog, where all posts meet [AI Influence Level (AIL)](htt
 
 **whoami?**
 
-I am interested in the dull side of technology: hardware, servers, switches, uptime, the OSI model. I think it's great to empower individuals to enjoy working on these things and I believe in the [Dead Internet Theory (DIT)](https://en.wikipedia.org/wiki/Dead_Internet_theory).
+I am interested in the dull side of technology: servers, switches, uptime, the OSI model. I think it's great to empower individuals to enjoy working on these things and I believe in the [Dead Internet Theory (DIT)](https://en.wikipedia.org/wiki/Dead_Internet_theory).
 
 **Why Anni Albers?**
 
