@@ -12,5 +12,5 @@ I am interested in the dull side of technology: servers, switches, uptime, the O
 
 **Why Anni Albers?**
 
-Anni Albers was a German-Jewish visual artist and printmaker. A leading textile artist of the 20th century, she is credited with blurring the lines between traditional craft and art - which is also a communal aim for many pretentious engineers. 
+Anni Albers was a German-Jewish visual artist and printmaker. A leading textile artist of the 20th century, she is credited with blurring the lines between traditional craft and art - a communal aim for many engineers. 
 
