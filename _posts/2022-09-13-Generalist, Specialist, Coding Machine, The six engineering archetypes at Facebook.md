@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Six Staff Engineering Archetypes Of Facebook"
-tags: organisation
+tags: org
 ---
 
 Recently "leaked" from their employee handbook, Facebook's characterisation pillars for their Staff engineering responsibilities. Put in place by Kent Beck.

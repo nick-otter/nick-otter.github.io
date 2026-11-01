@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cache Guide"
-tags: system-design
+tags: sys-design
 ---
 
 # An Introduction to Cache

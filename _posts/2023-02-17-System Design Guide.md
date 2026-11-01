@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "System Design Guide"
-tags: system-design
+tags: sys-design
 ---
 
 # CAP Theorem 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How To Boost API Performance"
-tags: system-design
+tags: sys-design
 ---
 
 | Sayrabh Dashhora | [Saurabh Dashora](https://www.linkedin.com/posts/saurabh-dashora_building-apis-is-fun-until-you-run-into-performance-activity-7119928709612003329-pnku/?utm_source=share&utm_medium=member_android)|
