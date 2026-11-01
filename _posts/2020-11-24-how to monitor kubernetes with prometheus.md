@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to Monitor Kubernetes with Prometheus"
-tags: kubernetes
+title:  "K8s: How to Monitor Kubernetes with Prometheus"
+tags: k8s
 ---
 
 # Contents 

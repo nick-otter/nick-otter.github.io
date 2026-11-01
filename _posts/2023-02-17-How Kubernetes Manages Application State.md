@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Kubernetes: StateLess & Stateful Applications"
-tags: kubernetes
+title:  "K8s: StateLess & Stateful Applications"
+tags: k8s
 ---
 
 | Syed Nadeem | [Syed Nadeem](https://www.linkedin.com/posts/devops-with-syed_how-does-k8s-manage-stateless-stateful-activity-7099361836621266944-uq5V/?utm_source=share&utm_medium=member_android) |
