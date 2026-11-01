@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Load Balancer Guide"
-tags: sys-design
+tags: system-design
 ---
 
 # Features

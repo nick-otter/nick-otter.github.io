@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "An Introduction to API Gateway"
-tags: sys-design
+tags: system-design
 ---
 
 | [Alex Xu](https://www.linkedin.com/in/alexxubyte/) | ["API gateway introduction"](https://blog.bytebytego.com/p/ep23-how-to-choose-the-right-database) |
