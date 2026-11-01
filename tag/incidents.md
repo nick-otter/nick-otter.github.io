@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: incidents"
+title: "incidents"
 tag: incidents
 ---

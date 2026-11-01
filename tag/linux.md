@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: linux"
+title: "linux"
 tag: linux
 ---
 

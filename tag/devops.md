@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: devops"
+title: "devops"
 tag: devops
 ---

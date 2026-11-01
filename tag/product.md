@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: product"
+title: "product"
 tag: product
 ---
 

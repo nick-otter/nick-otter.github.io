@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: system-design"
+title: "system-design"
 tag: system-design
 ---
 

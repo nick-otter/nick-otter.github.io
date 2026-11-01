@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: personal"
+title: "personal"
 tag: personal
 nav_exclude: true
 ---

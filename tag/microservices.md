@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: microservices"
+title: "microservices"
 tag: microservices
 ---

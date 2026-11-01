@@ -1,5 +1,5 @@
 ---
 layout: tagpage
-title: "Tag: aws"
+title: "aws"
 tag: aws
 ---
