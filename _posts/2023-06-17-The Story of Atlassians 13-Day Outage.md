@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Story of an Atlassian 13-Day Outage"
-tags: incident
+tags: incidents
 ---
 
 Stanislav Kozlovski | [The Story of an Atlassian 13-Day Outage](https://www.linkedin.com/in/stanislavkozlovski/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BFTAYtv0gRrWx9zMyM49YyA%3D%3D).
