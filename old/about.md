@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
 Welcome to my personal blog, where all posts meet [AI Influence Level (AIL)](https://danielmiessler.com/blog/ai-influence-level-ail) scores **0** or **1**. To get in touch, feel free to reach out on [Lin](https://www.linkedin.com/in/nick-otter/).
